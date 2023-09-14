@@ -41,9 +41,10 @@ def compute_win_loss_ratios(teams_file, tournaments_file):
 
     rankings.sort(key=lambda x: x["win_percentage"], reverse=True)
 
+    return rankings
+
+if __name__ == "__main__":
+    rankings = compute_win_loss_ratios('esports-data/teams.json', 'esports-data/tournaments.json')
     print("Top 10 Global Rankings:")
     for i, rank in enumerate(rankings[:10], 1):
         print(f"{i}. {rank['team']['name']} ({rank['team']['acronym']}) {rank['win_percentage']:.2f}% ({rank['wins']} wins, {rank['losses']} losses)")
-
-if __name__ == "__main__":
-    compute_win_loss_ratios('esports-data/teams.json', 'esports-data/tournaments.json')

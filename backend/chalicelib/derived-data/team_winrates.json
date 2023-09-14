@@ -1,0 +1,6732 @@
+[
+  [
+    "107582618156093368",
+    {
+      "teamname": "Incubus",
+      "wins": 203,
+      "losses": 36,
+      "winrate": "84.94%",
+      "bayesianPercentage": "80.48%"
+    }
+  ],
+  [
+    "100205573495116443",
+    {
+      "teamname": "Gen.G",
+      "wins": 2472,
+      "losses": 679,
+      "winrate": "78.45%",
+      "bayesianPercentage": "78.14%"
+    }
+  ],
+  [
+    "104367068120825486",
+    {
+      "teamname": "PSG Talon",
+      "wins": 1937,
+      "losses": 509,
+      "winrate": "79.19%",
+      "bayesianPercentage": "78.12%"
+    }
+  ],
+  [
+    "107598788926820994",
+    {
+      "teamname": "Macro Pampas",
+      "wins": 895,
+      "losses": 190,
+      "winrate": "82.49%",
+      "bayesianPercentage": "77.05%"
+    }
+  ],
+  [
+    "99566404853854212",
+    {
+      "teamname": "Bilibili Gaming Pingan Bank",
+      "wins": 271,
+      "losses": 34,
+      "winrate": "88.85%",
+      "bayesianPercentage": "76.36%"
+    }
+  ],
+  [
+    "100285330168091787",
+    {
+      "teamname": "DetonatioN FocusMe",
+      "wins": 2031,
+      "losses": 580,
+      "winrate": "77.79%",
+      "bayesianPercentage": "76.16%"
+    }
+  ],
+  [
+    "98767991871709842",
+    {
+      "teamname": "Gambit Esports",
+      "wins": 154,
+      "losses": 43,
+      "winrate": "78.17%",
+      "bayesianPercentage": "73.50%"
+    }
+  ],
+  [
+    "98767991853197861",
+    {
+      "teamname": "T1",
+      "wins": 2407,
+      "losses": 824,
+      "winrate": "74.50%",
+      "bayesianPercentage": "72.21%"
+    }
+  ],
+  [
+    "103535282158162659",
+    {
+      "teamname": "DenizBank \u00c4\u00b0stanbul Wildcats Akademi",
+      "wins": 2008,
+      "losses": 538,
+      "winrate": "78.87%",
+      "bayesianPercentage": "71.80%"
+    }
+  ],
+  [
+    "98767991954244555",
+    {
+      "teamname": "GAM Esports",
+      "wins": 527,
+      "losses": 120,
+      "winrate": "81.45%",
+      "bayesianPercentage": "71.45%"
+    }
+  ],
+  [
+    "107575082591536093",
+    {
+      "teamname": "Entropiq",
+      "wins": 748,
+      "losses": 198,
+      "winrate": "79.07%",
+      "bayesianPercentage": "71.41%"
+    }
+  ],
+  [
+    "105594135137147298",
+    {
+      "teamname": "White Dragons",
+      "wins": 1043,
+      "losses": 382,
+      "winrate": "73.19%",
+      "bayesianPercentage": "71.09%"
+    }
+  ],
+  [
+    "99566406332987990",
+    {
+      "teamname": "The Chiefs",
+      "wins": 2108,
+      "losses": 736,
+      "winrate": "74.12%",
+      "bayesianPercentage": "70.24%"
+    }
+  ],
+  [
+    "107251374793416561",
+    {
+      "teamname": "CERBERUS ESPORTS",
+      "wins": 427,
+      "losses": 178,
+      "winrate": "70.58%",
+      "bayesianPercentage": "70.18%"
+    }
+  ],
+  [
+    "105536918475957734",
+    {
+      "teamname": "Macko Esports",
+      "wins": 1111,
+      "losses": 353,
+      "winrate": "75.89%",
+      "bayesianPercentage": "70.13%"
+    }
+  ],
+  [
+    "107598683861013570",
+    {
+      "teamname": "Boca Juniors Gaming",
+      "wins": 816,
+      "losses": 266,
+      "winrate": "75.42%",
+      "bayesianPercentage": "69.71%"
+    }
+  ],
+  [
+    "107581759470356115",
+    {
+      "teamname": "Saprissa Esports",
+      "wins": 701,
+      "losses": 136,
+      "winrate": "83.75%",
+      "bayesianPercentage": "69.50%"
+    }
+  ],
+  [
+    "101428372605353526",
+    {
+      "teamname": "Sengoku Gaming",
+      "wins": 1692,
+      "losses": 690,
+      "winrate": "71.03%",
+      "bayesianPercentage": "69.49%"
+    }
+  ],
+  [
+    "107598699275015260",
+    {
+      "teamname": "Leviat\u00c3\u00a1n Esports",
+      "wins": 875,
+      "losses": 360,
+      "winrate": "70.85%",
+      "bayesianPercentage": "69.32%"
+    }
+  ],
+  [
+    "109696126554266494",
+    {
+      "teamname": "Geekay Esports",
+      "wins": 353,
+      "losses": 130,
+      "winrate": "73.08%",
+      "bayesianPercentage": "69.13%"
+    }
+  ],
+  [
+    "105521706535388095",
+    {
+      "teamname": "Anorthosis Famagusta Esports",
+      "wins": 1103,
+      "losses": 484,
+      "winrate": "69.50%",
+      "bayesianPercentage": "69.05%"
+    }
+  ],
+  [
+    "98767991926151025",
+    {
+      "teamname": "G2 Esports",
+      "wins": 2232,
+      "losses": 977,
+      "winrate": "69.55%",
+      "bayesianPercentage": "68.70%"
+    }
+  ],
+  [
+    "108121047955658273",
+    {
+      "teamname": "Aurelius Esports",
+      "wins": 170,
+      "losses": 30,
+      "winrate": "85.00%",
+      "bayesianPercentage": "68.57%"
+    }
+  ],
+  [
+    "100725845018863243",
+    {
+      "teamname": "Dplus Kia",
+      "wins": 2281,
+      "losses": 948,
+      "winrate": "70.64%",
+      "bayesianPercentage": "68.53%"
+    }
+  ],
+  [
+    "102235771678061291",
+    {
+      "teamname": "DenizBank \u00c4\u00b0stanbul Wildcats",
+      "wins": 2298,
+      "losses": 876,
+      "winrate": "72.40%",
+      "bayesianPercentage": "67.96%"
+    }
+  ],
+  [
+    "109675484017801229",
+    {
+      "teamname": "Team Bliss",
+      "wins": 107,
+      "losses": 32,
+      "winrate": "76.98%",
+      "bayesianPercentage": "67.92%"
+    }
+  ],
+  [
+    "109674814051390025",
+    {
+      "teamname": "Primate",
+      "wins": 352,
+      "losses": 90,
+      "winrate": "79.64%",
+      "bayesianPercentage": "67.72%"
+    }
+  ],
+  [
+    "105553606349477427",
+    {
+      "teamname": "Zero Tenacity",
+      "wins": 1452,
+      "losses": 553,
+      "winrate": "72.42%",
+      "bayesianPercentage": "67.51%"
+    }
+  ],
+  [
+    "104270958001747936",
+    {
+      "teamname": "One Breath Gaming",
+      "wins": 367,
+      "losses": 91,
+      "winrate": "80.13%",
+      "bayesianPercentage": "67.44%"
+    }
+  ],
+  [
+    "99566406490127625",
+    {
+      "teamname": "J Team",
+      "wins": 1426,
+      "losses": 662,
+      "winrate": "68.30%",
+      "bayesianPercentage": "67.43%"
+    }
+  ],
+  [
+    "99566406334639907",
+    {
+      "teamname": "Legacy Esports",
+      "wins": 1262,
+      "losses": 536,
+      "winrate": "70.19%",
+      "bayesianPercentage": "67.31%"
+    }
+  ],
+  [
+    "109485335453835911",
+    {
+      "teamname": "Vivo Keyd Stars Academy",
+      "wins": 480,
+      "losses": 186,
+      "winrate": "72.07%",
+      "bayesianPercentage": "67.26%"
+    }
+  ],
+  [
+    "99566405130451785",
+    {
+      "teamname": "Cloud9 Challengers",
+      "wins": 2864,
+      "losses": 1240,
+      "winrate": "69.79%",
+      "bayesianPercentage": "67.23%"
+    }
+  ],
+  [
+    "103935530333072898",
+    {
+      "teamname": "AGO Rogue",
+      "wins": 1063,
+      "losses": 302,
+      "winrate": "77.88%",
+      "bayesianPercentage": "67.12%"
+    }
+  ],
+  [
+    "102787200149928963",
+    {
+      "teamname": "WLGaming Esports",
+      "wins": 1081,
+      "losses": 375,
+      "winrate": "74.24%",
+      "bayesianPercentage": "66.95%"
+    }
+  ],
+  [
+    "98767991877340524",
+    {
+      "teamname": "Cloud9",
+      "wins": 3536,
+      "losses": 1589,
+      "winrate": "69.00%",
+      "bayesianPercentage": "66.73%"
+    }
+  ],
+  [
+    "103877756742242918",
+    {
+      "teamname": "Racoon",
+      "wins": 60,
+      "losses": 14,
+      "winrate": "81.08%",
+      "bayesianPercentage": "66.72%"
+    }
+  ],
+  [
+    "99566406493155041",
+    {
+      "teamname": "Machi Esports",
+      "wins": 534,
+      "losses": 228,
+      "winrate": "70.08%",
+      "bayesianPercentage": "66.15%"
+    }
+  ],
+  [
+    "105515219038427019",
+    {
+      "teamname": "Karmine Corp",
+      "wins": 1475,
+      "losses": 747,
+      "winrate": "66.38%",
+      "bayesianPercentage": "66.04%"
+    }
+  ],
+  [
+    "99566404850008779",
+    {
+      "teamname": "Suzhou LNG Esports",
+      "wins": 245,
+      "losses": 102,
+      "winrate": "70.61%",
+      "bayesianPercentage": "65.93%"
+    }
+  ],
+  [
+    "105536643047197642",
+    {
+      "teamname": "NASR ESPORTS",
+      "wins": 1191,
+      "losses": 550,
+      "winrate": "68.41%",
+      "bayesianPercentage": "65.38%"
+    }
+  ],
+  [
+    "108203154514683518",
+    {
+      "teamname": "T1 Rookies",
+      "wins": 458,
+      "losses": 122,
+      "winrate": "78.97%",
+      "bayesianPercentage": "65.33%"
+    }
+  ],
+  [
+    "108404211655217274",
+    {
+      "teamname": "Partizan Esports",
+      "wins": 514,
+      "losses": 156,
+      "winrate": "76.72%",
+      "bayesianPercentage": "64.81%"
+    }
+  ],
+  [
+    "106827844148688268",
+    {
+      "teamname": "SG Academy",
+      "wins": 403,
+      "losses": 142,
+      "winrate": "73.94%",
+      "bayesianPercentage": "64.77%"
+    }
+  ],
+  [
+    "99566408221961358",
+    {
+      "teamname": "RED Kalunga",
+      "wins": 1331,
+      "losses": 726,
+      "winrate": "64.71%",
+      "bayesianPercentage": "64.02%"
+    }
+  ],
+  [
+    "105504044166670507",
+    {
+      "teamname": "Unicorns of Love Sexy Edition",
+      "wins": 1427,
+      "losses": 759,
+      "winrate": "65.28%",
+      "bayesianPercentage": "63.44%"
+    }
+  ],
+  [
+    "107700199633958891",
+    {
+      "teamname": "CTBC Flying Oyster",
+      "wins": 993,
+      "losses": 555,
+      "winrate": "64.15%",
+      "bayesianPercentage": "63.25%"
+    }
+  ],
+  [
+    "106827827857159558",
+    {
+      "teamname": "V3 Academy",
+      "wins": 360,
+      "losses": 208,
+      "winrate": "63.38%",
+      "bayesianPercentage": "63.04%"
+    }
+  ],
+  [
+    "107416483509696259",
+    {
+      "teamname": "Eintracht Spandau",
+      "wins": 902,
+      "losses": 440,
+      "winrate": "67.21%",
+      "bayesianPercentage": "62.90%"
+    }
+  ],
+  [
+    "107581284487120142",
+    {
+      "teamname": "Six Karma",
+      "wins": 382,
+      "losses": 178,
+      "winrate": "68.21%",
+      "bayesianPercentage": "62.88%"
+    }
+  ],
+  [
+    "99566404852189289",
+    {
+      "teamname": "Beijing JDG Intel Esports Club",
+      "wins": 329,
+      "losses": 59,
+      "winrate": "84.79%",
+      "bayesianPercentage": "62.81%"
+    }
+  ],
+  [
+    "99566408217955692",
+    {
+      "teamname": "paiN Gaming",
+      "wins": 2163,
+      "losses": 1200,
+      "winrate": "64.32%",
+      "bayesianPercentage": "62.78%"
+    }
+  ],
+  [
+    "102787200155434012",
+    {
+      "teamname": "JD|XL",
+      "wins": 709,
+      "losses": 327,
+      "winrate": "68.44%",
+      "bayesianPercentage": "62.37%"
+    }
+  ],
+  [
+    "106827832203113865",
+    {
+      "teamname": "SHG Academy",
+      "wins": 433,
+      "losses": 114,
+      "winrate": "79.16%",
+      "bayesianPercentage": "62.35%"
+    }
+  ],
+  [
+    "104710369093939895",
+    {
+      "teamname": "SuppUp eSports",
+      "wins": 190,
+      "losses": 83,
+      "winrate": "69.60%",
+      "bayesianPercentage": "62.28%"
+    }
+  ],
+  [
+    "106269804045322803",
+    {
+      "teamname": "Beyond Gaming",
+      "wins": 1198,
+      "losses": 613,
+      "winrate": "66.15%",
+      "bayesianPercentage": "62.17%"
+    }
+  ],
+  [
+    "105549988405523871",
+    {
+      "teamname": "Flamengo Academy",
+      "wins": 627,
+      "losses": 362,
+      "winrate": "63.40%",
+      "bayesianPercentage": "62.15%"
+    }
+  ],
+  [
+    "99566405124618295",
+    {
+      "teamname": "Team Liquid Honda Challengers",
+      "wins": 3436,
+      "losses": 2067,
+      "winrate": "62.44%",
+      "bayesianPercentage": "62.08%"
+    }
+  ],
+  [
+    "99566406338282437",
+    {
+      "teamname": "ORDER",
+      "wins": 1730,
+      "losses": 1029,
+      "winrate": "62.70%",
+      "bayesianPercentage": "61.87%"
+    }
+  ],
+  [
+    "107423075317119707",
+    {
+      "teamname": "X7",
+      "wins": 554,
+      "losses": 214,
+      "winrate": "72.14%",
+      "bayesianPercentage": "61.66%"
+    }
+  ],
+  [
+    "105550033967461806",
+    {
+      "teamname": "DRX Challengers",
+      "wins": 2520,
+      "losses": 1403,
+      "winrate": "64.24%",
+      "bayesianPercentage": "61.65%"
+    }
+  ],
+  [
+    "98767991892579754",
+    {
+      "teamname": "Royal Never Give Up",
+      "wins": 477,
+      "losses": 214,
+      "winrate": "69.03%",
+      "bayesianPercentage": "61.62%"
+    }
+  ],
+  [
+    "103935446548920777",
+    {
+      "teamname": "Misfits Premier",
+      "wins": 902,
+      "losses": 560,
+      "winrate": "61.70%",
+      "bayesianPercentage": "61.61%"
+    }
+  ],
+  [
+    "102787200129022886",
+    {
+      "teamname": "eSuba",
+      "wins": 1001,
+      "losses": 600,
+      "winrate": "62.52%",
+      "bayesianPercentage": "61.32%"
+    }
+  ],
+  [
+    "108352305932141947",
+    {
+      "teamname": "DSYRE",
+      "wins": 340,
+      "losses": 151,
+      "winrate": "69.25%",
+      "bayesianPercentage": "61.30%"
+    }
+  ],
+  [
+    "105397404796640412",
+    {
+      "teamname": "LOUD",
+      "wins": 1272,
+      "losses": 751,
+      "winrate": "62.88%",
+      "bayesianPercentage": "61.27%"
+    }
+  ],
+  [
+    "102787200136756173",
+    {
+      "teamname": "Berlin International Gaming",
+      "wins": 1333,
+      "losses": 808,
+      "winrate": "62.26%",
+      "bayesianPercentage": "61.23%"
+    }
+  ],
+  [
+    "109631326144414089",
+    {
+      "teamname": "19 Esports",
+      "wins": 157,
+      "losses": 48,
+      "winrate": "76.59%",
+      "bayesianPercentage": "61.23%"
+    }
+  ],
+  [
+    "105593951536470384",
+    {
+      "teamname": "GTZ Esports",
+      "wins": 811,
+      "losses": 513,
+      "winrate": "61.25%",
+      "bayesianPercentage": "61.16%"
+    }
+  ],
+  [
+    "107581300297680248",
+    {
+      "teamname": "Zylant Esports",
+      "wins": 446,
+      "losses": 203,
+      "winrate": "68.72%",
+      "bayesianPercentage": "61.09%"
+    }
+  ],
+  [
+    "101383793574360315",
+    {
+      "teamname": "KOI",
+      "wins": 1935,
+      "losses": 1134,
+      "winrate": "63.05%",
+      "bayesianPercentage": "61.03%"
+    }
+  ],
+  [
+    "99566405128626825",
+    {
+      "teamname": "100 Thieves Challengers",
+      "wins": 2509,
+      "losses": 1619,
+      "winrate": "60.78%",
+      "bayesianPercentage": "60.55%"
+    }
+  ],
+  [
+    "98767991935149427",
+    {
+      "teamname": "Movistar R7",
+      "wins": 955,
+      "losses": 487,
+      "winrate": "66.23%",
+      "bayesianPercentage": "60.46%"
+    }
+  ],
+  [
+    "102787200132955066",
+    {
+      "teamname": "FTW Esports",
+      "wins": 895,
+      "losses": 473,
+      "winrate": "65.42%",
+      "bayesianPercentage": "60.35%"
+    }
+  ],
+  [
+    "105559480124455983",
+    {
+      "teamname": "SK Gaming Prime",
+      "wins": 1393,
+      "losses": 772,
+      "winrate": "64.34%",
+      "bayesianPercentage": "60.19%"
+    }
+  ],
+  [
+    "104710316579222193",
+    {
+      "teamname": "G2 Arctic",
+      "wins": 857,
+      "losses": 566,
+      "winrate": "60.22%",
+      "bayesianPercentage": "60.03%"
+    }
+  ],
+  [
+    "107467803833323099",
+    {
+      "teamname": "Los Heretics",
+      "wins": 887,
+      "losses": 540,
+      "winrate": "62.16%",
+      "bayesianPercentage": "59.97%"
+    }
+  ],
+  [
+    "107603600826620492",
+    {
+      "teamname": "Zeus Kralik",
+      "wins": 238,
+      "losses": 18,
+      "winrate": "92.97%",
+      "bayesianPercentage": "59.95%"
+    }
+  ],
+  [
+    "103963753080578719",
+    {
+      "teamname": "CrowCrowd Moscow",
+      "wins": 327,
+      "losses": 163,
+      "winrate": "66.73%",
+      "bayesianPercentage": "59.91%"
+    }
+  ],
+  [
+    "109800832177252614",
+    {
+      "teamname": "Orbit Anonymo",
+      "wins": 520,
+      "losses": 220,
+      "winrate": "70.27%",
+      "bayesianPercentage": "59.76%"
+    }
+  ],
+  [
+    "105550059790656435",
+    {
+      "teamname": "T1 Esports Academy",
+      "wins": 2329,
+      "losses": 1574,
+      "winrate": "59.67%",
+      "bayesianPercentage": "59.67%"
+    }
+  ],
+  [
+    "104841890701948065",
+    {
+      "teamname": "Estral Esports",
+      "wins": 627,
+      "losses": 341,
+      "winrate": "64.77%",
+      "bayesianPercentage": "59.65%"
+    }
+  ],
+  [
+    "107597875833524424",
+    {
+      "teamname": "Diamant Esports",
+      "wins": 594,
+      "losses": 292,
+      "winrate": "67.04%",
+      "bayesianPercentage": "59.65%"
+    }
+  ],
+  [
+    "107423109717243380",
+    {
+      "teamname": "Bifrost",
+      "wins": 490,
+      "losses": 242,
+      "winrate": "66.94%",
+      "bayesianPercentage": "59.64%"
+    }
+  ],
+  [
+    "98926509885559666",
+    {
+      "teamname": "Team Liquid Honda",
+      "wins": 2949,
+      "losses": 1919,
+      "winrate": "60.58%",
+      "bayesianPercentage": "59.46%"
+    }
+  ],
+  [
+    "106382545123328648",
+    {
+      "teamname": "Dynamo Eclot",
+      "wins": 679,
+      "losses": 359,
+      "winrate": "65.41%",
+      "bayesianPercentage": "59.46%"
+    }
+  ],
+  [
+    "103461966965149786",
+    {
+      "teamname": "MAD Lions",
+      "wins": 1915,
+      "losses": 1282,
+      "winrate": "59.90%",
+      "bayesianPercentage": "59.45%"
+    }
+  ],
+  [
+    "105550026570060790",
+    {
+      "teamname": "DK Challengers",
+      "wins": 2356,
+      "losses": 1581,
+      "winrate": "59.84%",
+      "bayesianPercentage": "59.40%"
+    }
+  ],
+  [
+    "102787200134790084",
+    {
+      "teamname": "HMA Fnatic Rising",
+      "wins": 354,
+      "losses": 135,
+      "winrate": "72.39%",
+      "bayesianPercentage": "59.40%"
+    }
+  ],
+  [
+    "110428362822825796",
+    {
+      "teamname": "Disguised",
+      "wins": 844,
+      "losses": 468,
+      "winrate": "64.33%",
+      "bayesianPercentage": "59.28%"
+    }
+  ],
+  [
+    "103877675241047720",
+    {
+      "teamname": "LDLC OL",
+      "wins": 1389,
+      "losses": 871,
+      "winrate": "61.46%",
+      "bayesianPercentage": "59.22%"
+    }
+  ],
+  [
+    "107581206998502078",
+    {
+      "teamname": "Atheris Esports",
+      "wins": 410,
+      "losses": 240,
+      "winrate": "63.08%",
+      "bayesianPercentage": "59.11%"
+    }
+  ],
+  [
+    "107582157086477662",
+    {
+      "teamname": "Descuydado Aucas Esports",
+      "wins": 371,
+      "losses": 197,
+      "winrate": "65.32%",
+      "bayesianPercentage": "59.08%"
+    }
+  ],
+  [
+    "106302593752767294",
+    {
+      "teamname": "Miners Academy",
+      "wins": 396,
+      "losses": 254,
+      "winrate": "60.92%",
+      "bayesianPercentage": "58.99%"
+    }
+  ],
+  [
+    "107581287168722290",
+    {
+      "teamname": "The Kings",
+      "wins": 334,
+      "losses": 166,
+      "winrate": "66.80%",
+      "bayesianPercentage": "58.97%"
+    }
+  ],
+  [
+    "109642680932009857",
+    {
+      "teamname": "Nord Esports",
+      "wins": 293,
+      "losses": 161,
+      "winrate": "64.54%",
+      "bayesianPercentage": "58.96%"
+    }
+  ],
+  [
+    "107422385694193066",
+    {
+      "teamname": "Bar\u00c3\u00a7a Esports",
+      "wins": 840,
+      "losses": 500,
+      "winrate": "62.69%",
+      "bayesianPercentage": "58.69%"
+    }
+  ],
+  [
+    "107599156601411192",
+    {
+      "teamname": "Movistar Optix",
+      "wins": 517,
+      "losses": 246,
+      "winrate": "67.76%",
+      "bayesianPercentage": "58.66%"
+    }
+  ],
+  [
+    "99566404854685458",
+    {
+      "teamname": "TOP ESPORTS",
+      "wins": 255,
+      "losses": 100,
+      "winrate": "71.83%",
+      "bayesianPercentage": "58.56%"
+    }
+  ],
+  [
+    "107700204561086446",
+    {
+      "teamname": "Deep Cross Gaming",
+      "wins": 899,
+      "losses": 546,
+      "winrate": "62.21%",
+      "bayesianPercentage": "58.56%"
+    }
+  ],
+  [
+    "98767991866488695",
+    {
+      "teamname": "Fnatic",
+      "wins": 1814,
+      "losses": 1283,
+      "winrate": "58.57%",
+      "bayesianPercentage": "58.48%"
+    }
+  ],
+  [
+    "99566408356697119",
+    {
+      "teamname": "Furious Gaming",
+      "wins": 1180,
+      "losses": 716,
+      "winrate": "62.24%",
+      "bayesianPercentage": "58.48%"
+    }
+  ],
+  [
+    "108361552741927561",
+    {
+      "teamname": "Cincinnati Fear",
+      "wins": 1415,
+      "losses": 910,
+      "winrate": "60.86%",
+      "bayesianPercentage": "58.45%"
+    }
+  ],
+  [
+    "107582169874155554",
+    {
+      "teamname": "God's Plan",
+      "wins": 104,
+      "losses": 74,
+      "winrate": "58.43%",
+      "bayesianPercentage": "58.43%"
+    }
+  ],
+  [
+    "106301891501674861",
+    {
+      "teamname": "PDW",
+      "wins": 156,
+      "losses": 99,
+      "winrate": "61.18%",
+      "bayesianPercentage": "58.38%"
+    }
+  ],
+  [
+    "103461966951059521",
+    {
+      "teamname": "Evil Geniuses LG",
+      "wins": 3023,
+      "losses": 2101,
+      "winrate": "59.00%",
+      "bayesianPercentage": "58.37%"
+    }
+  ],
+  [
+    "109642690191894407",
+    {
+      "teamname": "Ruddy Esports",
+      "wins": 266,
+      "losses": 128,
+      "winrate": "67.51%",
+      "bayesianPercentage": "58.37%"
+    }
+  ],
+  [
+    "98767991846127102",
+    {
+      "teamname": "ahq eSports Club",
+      "wins": 288,
+      "losses": 82,
+      "winrate": "77.84%",
+      "bayesianPercentage": "58.35%"
+    }
+  ],
+  [
+    "108573042084687884",
+    {
+      "teamname": "TEAM WHALES",
+      "wins": 293,
+      "losses": 138,
+      "winrate": "67.98%",
+      "bayesianPercentage": "58.27%"
+    }
+  ],
+  [
+    "104710354840711661",
+    {
+      "teamname": "Riddle Esports",
+      "wins": 734,
+      "losses": 455,
+      "winrate": "61.73%",
+      "bayesianPercentage": "58.26%"
+    }
+  ],
+  [
+    "106295024192678387",
+    {
+      "teamname": "Gaia Esports",
+      "wins": 126,
+      "losses": 74,
+      "winrate": "63.00%",
+      "bayesianPercentage": "58.22%"
+    }
+  ],
+  [
+    "99566408562477641",
+    {
+      "teamname": "INFINITY",
+      "wins": 907,
+      "losses": 539,
+      "winrate": "62.72%",
+      "bayesianPercentage": "58.07%"
+    }
+  ],
+  [
+    "102787200120306562",
+    {
+      "teamname": "Mousesports",
+      "wins": 1343,
+      "losses": 864,
+      "winrate": "60.85%",
+      "bayesianPercentage": "58.00%"
+    }
+  ],
+  [
+    "102787200151698443",
+    {
+      "teamname": "Vitality.Bee",
+      "wins": 1327,
+      "losses": 881,
+      "winrate": "60.10%",
+      "bayesianPercentage": "57.66%"
+    }
+  ],
+  [
+    "103535282124208038",
+    {
+      "teamname": "Pentanet.GG",
+      "wins": 1701,
+      "losses": 1243,
+      "winrate": "57.78%",
+      "bayesianPercentage": "57.56%"
+    }
+  ],
+  [
+    "99294153828264740",
+    {
+      "teamname": "100 Thieves",
+      "wins": 2895,
+      "losses": 2116,
+      "winrate": "57.77%",
+      "bayesianPercentage": "57.52%"
+    }
+  ],
+  [
+    "107564167676290839",
+    {
+      "teamname": "Rebels",
+      "wins": 396,
+      "losses": 256,
+      "winrate": "60.74%",
+      "bayesianPercentage": "57.51%"
+    }
+  ],
+  [
+    "107581689894520368",
+    {
+      "teamname": "Bandits Gaming",
+      "wins": 499,
+      "losses": 330,
+      "winrate": "60.19%",
+      "bayesianPercentage": "57.48%"
+    }
+  ],
+  [
+    "107456994699991548",
+    {
+      "teamname": "Atleta Esport",
+      "wins": 392,
+      "losses": 246,
+      "winrate": "61.44%",
+      "bayesianPercentage": "57.42%"
+    }
+  ],
+  [
+    "99566406064558732",
+    {
+      "teamname": "Papara SuperMassive ",
+      "wins": 1723,
+      "losses": 1208,
+      "winrate": "58.79%",
+      "bayesianPercentage": "57.40%"
+    }
+  ],
+  [
+    "107581738783262346",
+    {
+      "teamname": "Gravity Elite",
+      "wins": 238,
+      "losses": 156,
+      "winrate": "60.41%",
+      "bayesianPercentage": "57.33%"
+    }
+  ],
+  [
+    "105520786527322647",
+    {
+      "teamname": "KRC Genk Esports",
+      "wins": 702,
+      "losses": 462,
+      "winrate": "60.31%",
+      "bayesianPercentage": "57.31%"
+    }
+  ],
+  [
+    "101422616509070746",
+    {
+      "teamname": "Galatasaray Espor",
+      "wins": 1150,
+      "losses": 824,
+      "winrate": "58.26%",
+      "bayesianPercentage": "57.27%"
+    }
+  ],
+  [
+    "103461966981927044",
+    {
+      "teamname": "Dignitas Challengers",
+      "wins": 2312,
+      "losses": 1659,
+      "winrate": "58.22%",
+      "bayesianPercentage": "57.08%"
+    }
+  ],
+  [
+    "105549998884468136",
+    {
+      "teamname": "paiN Academy",
+      "wins": 952,
+      "losses": 687,
+      "winrate": "58.08%",
+      "bayesianPercentage": "57.04%"
+    }
+  ],
+  [
+    "107565477822627354",
+    {
+      "teamname": "Verdant",
+      "wins": 290,
+      "losses": 152,
+      "winrate": "65.61%",
+      "bayesianPercentage": "56.91%"
+    }
+  ],
+  [
+    "107467794614674479",
+    {
+      "teamname": "FnaticTQ",
+      "wins": 768,
+      "losses": 573,
+      "winrate": "57.27%",
+      "bayesianPercentage": "56.89%"
+    }
+  ],
+  [
+    "103877625775457850",
+    {
+      "teamname": "Movistar Riders",
+      "wins": 1334,
+      "losses": 967,
+      "winrate": "57.97%",
+      "bayesianPercentage": "56.85%"
+    }
+  ],
+  [
+    "108203164850614211",
+    {
+      "teamname": "NS REDFORCE Academy",
+      "wins": 364,
+      "losses": 216,
+      "winrate": "62.76%",
+      "bayesianPercentage": "56.76%"
+    }
+  ],
+  [
+    "109480056092207899",
+    {
+      "teamname": "FLUXO",
+      "wins": 378,
+      "losses": 272,
+      "winrate": "58.15%",
+      "bayesianPercentage": "56.73%"
+    }
+  ],
+  [
+    "101157821387445307",
+    {
+      "teamname": "Caps",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "56.53%"
+    }
+  ],
+  [
+    "105550049871017396",
+    {
+      "teamname": "kt Challengers",
+      "wins": 2278,
+      "losses": 1703,
+      "winrate": "57.22%",
+      "bayesianPercentage": "56.33%"
+    }
+  ],
+  [
+    "106421708401759879",
+    {
+      "teamname": "Black Star Gaming",
+      "wins": 168,
+      "losses": 85,
+      "winrate": "66.40%",
+      "bayesianPercentage": "56.29%"
+    }
+  ],
+  [
+    "109696092218588987",
+    {
+      "teamname": "Nigma Galaxy",
+      "wins": 276,
+      "losses": 175,
+      "winrate": "61.20%",
+      "bayesianPercentage": "56.22%"
+    }
+  ],
+  [
+    "105520077508552574",
+    {
+      "teamname": "Tricked Esport",
+      "wins": 190,
+      "losses": 121,
+      "winrate": "61.09%",
+      "bayesianPercentage": "56.10%"
+    }
+  ],
+  [
+    "105913221137618666",
+    {
+      "teamname": "No Org",
+      "wins": 33,
+      "losses": 12,
+      "winrate": "73.33%",
+      "bayesianPercentage": "55.95%"
+    }
+  ],
+  [
+    "105549997263803379",
+    {
+      "teamname": "LOUD Academy",
+      "wins": 938,
+      "losses": 688,
+      "winrate": "57.69%",
+      "bayesianPercentage": "55.88%"
+    }
+  ],
+  [
+    "99566406065437842",
+    {
+      "teamname": "Dark Passage",
+      "wins": 1686,
+      "losses": 1302,
+      "winrate": "56.43%",
+      "bayesianPercentage": "55.87%"
+    }
+  ],
+  [
+    "105520824521753126",
+    {
+      "teamname": "PSV Esports",
+      "wins": 166,
+      "losses": 78,
+      "winrate": "68.03%",
+      "bayesianPercentage": "55.77%"
+    }
+  ],
+  [
+    "99566404853058754",
+    {
+      "teamname": "WeiboGaming FAW AUDI",
+      "wins": 207,
+      "losses": 115,
+      "winrate": "64.29%",
+      "bayesianPercentage": "55.67%"
+    }
+  ],
+  [
+    "98767991860392497",
+    {
+      "teamname": "TSM",
+      "wins": 2649,
+      "losses": 2110,
+      "winrate": "55.66%",
+      "bayesianPercentage": "55.55%"
+    }
+  ],
+  [
+    "99322214684939974",
+    {
+      "teamname": "Unicorns of Love",
+      "wins": 409,
+      "losses": 249,
+      "winrate": "62.16%",
+      "bayesianPercentage": "55.52%"
+    }
+  ],
+  [
+    "103877925817094140",
+    {
+      "teamname": "PIGSPORTS",
+      "wins": 80,
+      "losses": 57,
+      "winrate": "58.39%",
+      "bayesianPercentage": "55.45%"
+    }
+  ],
+  [
+    "105913238372341488",
+    {
+      "teamname": "Wildcard",
+      "wins": 1292,
+      "losses": 1011,
+      "winrate": "56.10%",
+      "bayesianPercentage": "55.36%"
+    }
+  ],
+  [
+    "109669678317817381",
+    {
+      "teamname": "FUT ESPORTS",
+      "wins": 308,
+      "losses": 170,
+      "winrate": "64.44%",
+      "bayesianPercentage": "55.33%"
+    }
+  ],
+  [
+    "98767991921462763",
+    {
+      "teamname": "Dire Wolves",
+      "wins": 1580,
+      "losses": 1207,
+      "winrate": "56.69%",
+      "bayesianPercentage": "55.29%"
+    }
+  ],
+  [
+    "109695910533747910",
+    {
+      "teamname": "RAAD",
+      "wins": 283,
+      "losses": 158,
+      "winrate": "64.17%",
+      "bayesianPercentage": "55.27%"
+    }
+  ],
+  [
+    "107598712583969458",
+    {
+      "teamname": "EBRO",
+      "wins": 817,
+      "losses": 586,
+      "winrate": "58.23%",
+      "bayesianPercentage": "55.25%"
+    }
+  ],
+  [
+    "105520819263036609",
+    {
+      "teamname": "The Agency",
+      "wins": 514,
+      "losses": 340,
+      "winrate": "60.19%",
+      "bayesianPercentage": "55.20%"
+    }
+  ],
+  [
+    "99566405126602853",
+    {
+      "teamname": "FlyQuest Challengers",
+      "wins": 2973,
+      "losses": 2411,
+      "winrate": "55.22%",
+      "bayesianPercentage": "55.18%"
+    }
+  ],
+  [
+    "107450819235010833",
+    {
+      "teamname": "BK ROG Esports",
+      "wins": 436,
+      "losses": 308,
+      "winrate": "58.60%",
+      "bayesianPercentage": "55.17%"
+    }
+  ],
+  [
+    "109783023470714128",
+    {
+      "teamname": "Team Tony Top",
+      "wins": 20,
+      "losses": 5,
+      "winrate": "80.00%",
+      "bayesianPercentage": "55.16%"
+    }
+  ],
+  [
+    "100285330169036485",
+    {
+      "teamname": "Unsold Stuff Gaming",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "55.00%"
+    }
+  ],
+  [
+    "105519746234964687",
+    {
+      "teamname": "Dusty",
+      "wins": 548,
+      "losses": 397,
+      "winrate": "57.99%",
+      "bayesianPercentage": "55.00%"
+    }
+  ],
+  [
+    "107599112065439311",
+    {
+      "teamname": "Dark Horse",
+      "wins": 394,
+      "losses": 301,
+      "winrate": "56.69%",
+      "bayesianPercentage": "54.94%"
+    }
+  ],
+  [
+    "104251016988118464",
+    {
+      "teamname": "Galatasaray Espor Akademi",
+      "wins": 1080,
+      "losses": 866,
+      "winrate": "55.50%",
+      "bayesianPercentage": "54.90%"
+    }
+  ],
+  [
+    "110418022381234710",
+    {
+      "teamname": "SPIKE Syndicate",
+      "wins": 126,
+      "losses": 71,
+      "winrate": "63.96%",
+      "bayesianPercentage": "54.73%"
+    }
+  ],
+  [
+    "105537149834356301",
+    {
+      "teamname": "Anc Outplayed",
+      "wins": 752,
+      "losses": 581,
+      "winrate": "56.41%",
+      "bayesianPercentage": "54.70%"
+    }
+  ],
+  [
+    "105521637552587612",
+    {
+      "teamname": "Team Phantasma",
+      "wins": 778,
+      "losses": 645,
+      "winrate": "54.67%",
+      "bayesianPercentage": "54.66%"
+    }
+  ],
+  [
+    "104710343016706538",
+    {
+      "teamname": "7more7 Pompa Team",
+      "wins": 167,
+      "losses": 119,
+      "winrate": "58.39%",
+      "bayesianPercentage": "54.64%"
+    }
+  ],
+  [
+    "102787200124959636",
+    {
+      "teamname": "Crvena Zvezda Esports",
+      "wins": 749,
+      "losses": 619,
+      "winrate": "54.75%",
+      "bayesianPercentage": "54.55%"
+    }
+  ],
+  [
+    "107603544245460197",
+    {
+      "teamname": "Ramo Awake Gaming",
+      "wins": 136,
+      "losses": 96,
+      "winrate": "58.62%",
+      "bayesianPercentage": "54.45%"
+    }
+  ],
+  [
+    "104710678170825211",
+    {
+      "teamname": "SINNERS Esports",
+      "wins": 788,
+      "losses": 596,
+      "winrate": "56.94%",
+      "bayesianPercentage": "54.45%"
+    }
+  ],
+  [
+    "103935523328473675",
+    {
+      "teamname": "K1CK Neosurf",
+      "wins": 317,
+      "losses": 260,
+      "winrate": "54.94%",
+      "bayesianPercentage": "54.43%"
+    }
+  ],
+  [
+    "105537444152141556",
+    {
+      "teamname": "Herbalife Real Betis",
+      "wins": 419,
+      "losses": 312,
+      "winrate": "57.32%",
+      "bayesianPercentage": "54.42%"
+    }
+  ],
+  [
+    "105594116005157262",
+    {
+      "teamname": "OFFSET Esports",
+      "wins": 448,
+      "losses": 338,
+      "winrate": "57.00%",
+      "bayesianPercentage": "54.35%"
+    }
+  ],
+  [
+    "109782787975510889",
+    {
+      "teamname": "Native Gaming",
+      "wins": 8,
+      "losses": 2,
+      "winrate": "80.00%",
+      "bayesianPercentage": "54.33%"
+    }
+  ],
+  [
+    "105519562229907355",
+    {
+      "teamname": "Barrage Esports",
+      "wins": 88,
+      "losses": 37,
+      "winrate": "70.40%",
+      "bayesianPercentage": "54.28%"
+    }
+  ],
+  [
+    "104710373370426042",
+    {
+      "teamname": "CR4ZY",
+      "wins": 171,
+      "losses": 104,
+      "winrate": "62.18%",
+      "bayesianPercentage": "54.27%"
+    }
+  ],
+  [
+    "105514907449611976",
+    {
+      "teamname": "Team BDS Academy",
+      "wins": 1114,
+      "losses": 936,
+      "winrate": "54.34%",
+      "bayesianPercentage": "54.15%"
+    }
+  ],
+  [
+    "107467834753797729",
+    {
+      "teamname": "Bisons",
+      "wins": 794,
+      "losses": 640,
+      "winrate": "55.37%",
+      "bayesianPercentage": "54.13%"
+    }
+  ],
+  [
+    "109981650516317055",
+    {
+      "teamname": "Mirage Alliance",
+      "wins": 23,
+      "losses": 3,
+      "winrate": "88.46%",
+      "bayesianPercentage": "54.11%"
+    }
+  ],
+  [
+    "106269818143576465",
+    {
+      "teamname": "BOOM Esports",
+      "wins": 231,
+      "losses": 139,
+      "winrate": "62.43%",
+      "bayesianPercentage": "54.11%"
+    }
+  ],
+  [
+    "106827839261303409",
+    {
+      "teamname": "CGA  Academy",
+      "wins": 328,
+      "losses": 237,
+      "winrate": "58.05%",
+      "bayesianPercentage": "53.99%"
+    }
+  ],
+  [
+    "107603554304287575",
+    {
+      "teamname": "King of Goats",
+      "wins": 66,
+      "losses": 23,
+      "winrate": "74.16%",
+      "bayesianPercentage": "53.98%"
+    }
+  ],
+  [
+    "105521408363571548",
+    {
+      "teamname": "Illuminar Gaming",
+      "wins": 1014,
+      "losses": 868,
+      "winrate": "53.88%",
+      "bayesianPercentage": "53.89%"
+    }
+  ],
+  [
+    "107760667929003738",
+    {
+      "teamname": "Frank Esports",
+      "wins": 798,
+      "losses": 656,
+      "winrate": "54.88%",
+      "bayesianPercentage": "53.75%"
+    }
+  ],
+  [
+    "108203159356403647",
+    {
+      "teamname": "Kwangdong Freecs Academy",
+      "wins": 314,
+      "losses": 266,
+      "winrate": "54.14%",
+      "bayesianPercentage": "53.72%"
+    }
+  ],
+  [
+    "109696073114910519",
+    {
+      "teamname": "Anubis Gaming",
+      "wins": 242,
+      "losses": 204,
+      "winrate": "54.26%",
+      "bayesianPercentage": "53.71%"
+    }
+  ],
+  [
+    "107598785733448849",
+    {
+      "teamname": "River Plate Gaming",
+      "wins": 576,
+      "losses": 495,
+      "winrate": "53.78%",
+      "bayesianPercentage": "53.56%"
+    }
+  ],
+  [
+    "107581755241449104",
+    {
+      "teamname": "Red Rooster",
+      "wins": 224,
+      "losses": 170,
+      "winrate": "56.85%",
+      "bayesianPercentage": "53.50%"
+    }
+  ],
+  [
+    "106806773698472633",
+    {
+      "teamname": "Team Aze",
+      "wins": 323,
+      "losses": 275,
+      "winrate": "54.01%",
+      "bayesianPercentage": "53.48%"
+    }
+  ],
+  [
+    "103535282135552642",
+    {
+      "teamname": "Papara SuperMassive Blaze Akademi",
+      "wins": 1406,
+      "losses": 1212,
+      "winrate": "53.71%",
+      "bayesianPercentage": "53.40%"
+    }
+  ],
+  [
+    "102787200126663579",
+    {
+      "teamname": "Giants",
+      "wins": 1142,
+      "losses": 987,
+      "winrate": "53.64%",
+      "bayesianPercentage": "53.33%"
+    }
+  ],
+  [
+    "107599040773840060",
+    {
+      "teamname": "Meta Gaming",
+      "wins": 565,
+      "losses": 483,
+      "winrate": "53.91%",
+      "bayesianPercentage": "53.28%"
+    }
+  ],
+  [
+    "109523293035238887",
+    {
+      "teamname": "Aegis",
+      "wins": 408,
+      "losses": 331,
+      "winrate": "55.21%",
+      "bayesianPercentage": "53.26%"
+    }
+  ],
+  [
+    "99124844354766222",
+    {
+      "teamname": "PCS All-Stars",
+      "wins": 1,
+      "losses": 0,
+      "winrate": "100.00%",
+      "bayesianPercentage": "53.19%"
+    }
+  ],
+  [
+    "109981644490281844",
+    {
+      "teamname": "Rock Bottom Esports",
+      "wins": 12,
+      "losses": 6,
+      "winrate": "66.67%",
+      "bayesianPercentage": "53.16%"
+    }
+  ],
+  [
+    "107580497041999074",
+    {
+      "teamname": "Team Ambition",
+      "wins": 30,
+      "losses": 15,
+      "winrate": "66.67%",
+      "bayesianPercentage": "53.16%"
+    }
+  ],
+  [
+    "105301755072677196",
+    {
+      "teamname": "LCK Queue Kings",
+      "wins": 1,
+      "losses": 0,
+      "winrate": "100.00%",
+      "bayesianPercentage": "53.12%"
+    }
+  ],
+  [
+    "102787200147504121",
+    {
+      "teamname": "Campus Party Sparks",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "53.11%"
+    }
+  ],
+  [
+    "103535282143744679",
+    {
+      "teamname": "Dark Passage Akademi",
+      "wins": 1336,
+      "losses": 1181,
+      "winrate": "53.08%",
+      "bayesianPercentage": "53.09%"
+    }
+  ],
+  [
+    "105593129376630217",
+    {
+      "teamname": "Vikingekrig Esports",
+      "wins": 227,
+      "losses": 175,
+      "winrate": "56.47%",
+      "bayesianPercentage": "53.07%"
+    }
+  ],
+  [
+    "102141671185899507",
+    {
+      "teamname": "University of Western Ontario",
+      "wins": 4,
+      "losses": 1,
+      "winrate": "80.00%",
+      "bayesianPercentage": "52.95%"
+    }
+  ],
+  [
+    "105193385417106233",
+    {
+      "teamname": "LLA All-Stars",
+      "wins": 1,
+      "losses": 0,
+      "winrate": "100.00%",
+      "bayesianPercentage": "52.94%"
+    }
+  ],
+  [
+    "101157821437777013",
+    {
+      "teamname": "NA with Influencers",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "52.93%"
+    }
+  ],
+  [
+    "105351835580819729",
+    {
+      "teamname": "LCS Queue Kings",
+      "wins": 1,
+      "losses": 0,
+      "winrate": "100.00%",
+      "bayesianPercentage": "52.93%"
+    }
+  ],
+  [
+    "98767991882270868",
+    {
+      "teamname": "SHANGHAI EDWARD GAMING HYCAN",
+      "wins": 191,
+      "losses": 160,
+      "winrate": "54.42%",
+      "bayesianPercentage": "52.88%"
+    }
+  ],
+  [
+    "103935642731826448",
+    {
+      "teamname": "Sector One",
+      "wins": 403,
+      "losses": 359,
+      "winrate": "52.89%",
+      "bayesianPercentage": "52.78%"
+    }
+  ],
+  [
+    "105550042327365041",
+    {
+      "teamname": "Gen.G Global Academy",
+      "wins": 2087,
+      "losses": 1845,
+      "winrate": "53.08%",
+      "bayesianPercentage": "52.78%"
+    }
+  ],
+  [
+    "101157821440857212",
+    {
+      "teamname": "EU with Influencers",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "52.76%"
+    }
+  ],
+  [
+    "101157821459731619",
+    {
+      "teamname": "Tandem Mode C",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "52.76%"
+    }
+  ],
+  [
+    "102804906460506452",
+    {
+      "teamname": "Lowkey Esports",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "52.75%"
+    }
+  ],
+  [
+    "103240746433395345",
+    {
+      "teamname": "Clid",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "52.75%"
+    }
+  ],
+  [
+    "107251307514079872",
+    {
+      "teamname": "LXE ESPORTS",
+      "wins": 126,
+      "losses": 74,
+      "winrate": "63.00%",
+      "bayesianPercentage": "52.75%"
+    }
+  ],
+  [
+    "107251941920386009",
+    {
+      "teamname": "BTS ESPORTS",
+      "wins": 114,
+      "losses": 86,
+      "winrate": "57.00%",
+      "bayesianPercentage": "52.73%"
+    }
+  ],
+  [
+    "107603548241713732",
+    {
+      "teamname": "Braves Rising",
+      "wins": 123,
+      "losses": 98,
+      "winrate": "55.66%",
+      "bayesianPercentage": "52.69%"
+    }
+  ],
+  [
+    "99566405132177721",
+    {
+      "teamname": "Clutch Gaming Academy",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "52.60%"
+    }
+  ],
+  [
+    "110424394375218208",
+    {
+      "teamname": "A One Man Army",
+      "wins": 112,
+      "losses": 85,
+      "winrate": "56.85%",
+      "bayesianPercentage": "52.51%"
+    }
+  ],
+  [
+    "98767991940181526",
+    {
+      "teamname": "Misfits Gaming",
+      "wins": 1397,
+      "losses": 1245,
+      "winrate": "52.88%",
+      "bayesianPercentage": "52.50%"
+    }
+  ],
+  [
+    "105550001032913831",
+    {
+      "teamname": "RED Academy",
+      "wins": 868,
+      "losses": 765,
+      "winrate": "53.15%",
+      "bayesianPercentage": "52.43%"
+    }
+  ],
+  [
+    "106371141659311452",
+    {
+      "teamname": "Valiance PRO GAME",
+      "wins": 570,
+      "losses": 501,
+      "winrate": "53.22%",
+      "bayesianPercentage": "52.39%"
+    }
+  ],
+  [
+    "109981647134921596",
+    {
+      "teamname": "CCG Esports",
+      "wins": 15,
+      "losses": 14,
+      "winrate": "51.72%",
+      "bayesianPercentage": "52.38%"
+    }
+  ],
+  [
+    "106857739520697600",
+    {
+      "teamname": "100 Next",
+      "wins": 29,
+      "losses": 19,
+      "winrate": "60.42%",
+      "bayesianPercentage": "52.38%"
+    }
+  ],
+  [
+    "105554088239949229",
+    {
+      "teamname": "x25 Esports",
+      "wins": 233,
+      "losses": 189,
+      "winrate": "55.21%",
+      "bayesianPercentage": "52.35%"
+    }
+  ],
+  [
+    "99566404585387054",
+    {
+      "teamname": "DRX",
+      "wins": 1623,
+      "losses": 1454,
+      "winrate": "52.75%",
+      "bayesianPercentage": "52.32%"
+    }
+  ],
+  [
+    "109668849651338559",
+    {
+      "teamname": "FENNEL",
+      "wins": 138,
+      "losses": 120,
+      "winrate": "53.49%",
+      "bayesianPercentage": "52.31%"
+    }
+  ],
+  [
+    "100205573002983994",
+    {
+      "teamname": "EVOS Esports",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "52.30%"
+    }
+  ],
+  [
+    "100285330170285888",
+    {
+      "teamname": "Kuala Lumpur Hunters",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "52.30%"
+    }
+  ],
+  [
+    "103240746427890311",
+    {
+      "teamname": "Tian",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "52.30%"
+    }
+  ],
+  [
+    "108159958519099117",
+    {
+      "teamname": "Bay State College",
+      "wins": 10,
+      "losses": 3,
+      "winrate": "76.92%",
+      "bayesianPercentage": "52.30%"
+    }
+  ],
+  [
+    "102141671184261103",
+    {
+      "teamname": "Columbia College",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "52.28%"
+    }
+  ],
+  [
+    "103240746431167117",
+    {
+      "teamname": "Exosen",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "52.28%"
+    }
+  ],
+  [
+    "103240746423564927",
+    {
+      "teamname": "Nomanz",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "52.25%"
+    }
+  ],
+  [
+    "99124844358677975",
+    {
+      "teamname": "LEC All-Stars",
+      "wins": 2,
+      "losses": 2,
+      "winrate": "50.00%",
+      "bayesianPercentage": "52.22%"
+    }
+  ],
+  [
+    "105709099258505657",
+    {
+      "teamname": "PEACE",
+      "wins": 747,
+      "losses": 669,
+      "winrate": "52.75%",
+      "bayesianPercentage": "52.19%"
+    }
+  ],
+  [
+    "99566408358330419",
+    {
+      "teamname": "Isurus",
+      "wins": 735,
+      "losses": 661,
+      "winrate": "52.65%",
+      "bayesianPercentage": "52.15%"
+    }
+  ],
+  [
+    "107581765633427097",
+    {
+      "teamname": "Fuego",
+      "wins": 409,
+      "losses": 376,
+      "winrate": "52.10%",
+      "bayesianPercentage": "52.10%"
+    }
+  ],
+  [
+    "105519977854458717",
+    {
+      "teamname": "Nordavind",
+      "wins": 148,
+      "losses": 136,
+      "winrate": "52.11%",
+      "bayesianPercentage": "52.10%"
+    }
+  ],
+  [
+    "99124844355850858",
+    {
+      "teamname": "LCS All-Stars",
+      "wins": 2,
+      "losses": 2,
+      "winrate": "50.00%",
+      "bayesianPercentage": "52.10%"
+    }
+  ],
+  [
+    "107179740624168899",
+    {
+      "teamname": "HEET",
+      "wins": 210,
+      "losses": 183,
+      "winrate": "53.44%",
+      "bayesianPercentage": "52.09%"
+    }
+  ],
+  [
+    "99294153830557090",
+    {
+      "teamname": "OpTic Gaming",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "52.06%"
+    }
+  ],
+  [
+    "102141671186685941",
+    {
+      "teamname": "University of Waterloo",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "52.02%"
+    }
+  ],
+  [
+    "103240746422450813",
+    {
+      "teamname": "Closer",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "51.99%"
+    }
+  ],
+  [
+    "103240746430053003",
+    {
+      "teamname": "TheShy",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "51.96%"
+    }
+  ],
+  [
+    "101157821352457994",
+    {
+      "teamname": "KR with Influencers",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "51.96%"
+    }
+  ],
+  [
+    "101157821395833925",
+    {
+      "teamname": "Uzi",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "51.88%"
+    }
+  ],
+  [
+    "109782867012820172",
+    {
+      "teamname": "Horizon Gaming",
+      "wins": 3,
+      "losses": 6,
+      "winrate": "33.33%",
+      "bayesianPercentage": "51.84%"
+    }
+  ],
+  [
+    "108159996371573462",
+    {
+      "teamname": "Maryville University",
+      "wins": 6,
+      "losses": 2,
+      "winrate": "75.00%",
+      "bayesianPercentage": "51.83%"
+    }
+  ],
+  [
+    "105515345386578249",
+    {
+      "teamname": "Solary",
+      "wins": 1010,
+      "losses": 940,
+      "winrate": "51.79%",
+      "bayesianPercentage": "51.80%"
+    }
+  ],
+  [
+    "101157821464777897",
+    {
+      "teamname": "Team URF B",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "51.75%"
+    }
+  ],
+  [
+    "101157821463139495",
+    {
+      "teamname": "Team URF A",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "51.75%"
+    }
+  ],
+  [
+    "106857755268998406",
+    {
+      "teamname": "Resolve",
+      "wins": 8,
+      "losses": 8,
+      "winrate": "50.00%",
+      "bayesianPercentage": "51.72%"
+    }
+  ],
+  [
+    "105913232697120493",
+    {
+      "teamname": "EG Prodigies",
+      "wins": 21,
+      "losses": 20,
+      "winrate": "51.22%",
+      "bayesianPercentage": "51.69%"
+    }
+  ],
+  [
+    "107128093558481418",
+    {
+      "teamname": "ZennIT",
+      "wins": 210,
+      "losses": 186,
+      "winrate": "53.03%",
+      "bayesianPercentage": "51.68%"
+    }
+  ],
+  [
+    "103240746436737687",
+    {
+      "teamname": "Mikyx",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "51.66%"
+    }
+  ],
+  [
+    "99566406494784730",
+    {
+      "teamname": "MAD Team",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "51.65%"
+    }
+  ],
+  [
+    "110733870612047344",
+    {
+      "teamname": "Team Coachify",
+      "wins": 10,
+      "losses": 3,
+      "winrate": "76.92%",
+      "bayesianPercentage": "51.64%"
+    }
+  ],
+  [
+    "105550054006182911",
+    {
+      "teamname": "NONGSHIM ESPORTS ACADEMY",
+      "wins": 2060,
+      "losses": 1936,
+      "winrate": "51.55%",
+      "bayesianPercentage": "51.56%"
+    }
+  ],
+  [
+    "105520796734358045",
+    {
+      "teamname": "Team 7AM",
+      "wins": 550,
+      "losses": 516,
+      "winrate": "51.59%",
+      "bayesianPercentage": "51.54%"
+    }
+  ],
+  [
+    "99566404579461230",
+    {
+      "teamname": "kt Rolster",
+      "wins": 1523,
+      "losses": 1422,
+      "winrate": "51.71%",
+      "bayesianPercentage": "51.53%"
+    }
+  ],
+  [
+    "99322214691747156",
+    {
+      "teamname": "Splyce",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "51.52%"
+    }
+  ],
+  [
+    "108159917648031455",
+    {
+      "teamname": "UST Esports",
+      "wins": 13,
+      "losses": 0,
+      "winrate": "100.00%",
+      "bayesianPercentage": "51.52%"
+    }
+  ],
+  [
+    "108159968741268165",
+    {
+      "teamname": "Converse University",
+      "wins": 6,
+      "losses": 2,
+      "winrate": "75.00%",
+      "bayesianPercentage": "51.50%"
+    }
+  ],
+  [
+    "101157821432665199",
+    {
+      "teamname": "Ceros",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "51.48%"
+    }
+  ],
+  [
+    "105352091319919029",
+    {
+      "teamname": "LCS Legends",
+      "wins": 0,
+      "losses": 1,
+      "winrate": "0.00%",
+      "bayesianPercentage": "51.46%"
+    }
+  ],
+  [
+    "106857724782292541",
+    {
+      "teamname": "C9 Amateur",
+      "wins": 3,
+      "losses": 6,
+      "winrate": "33.33%",
+      "bayesianPercentage": "51.46%"
+    }
+  ],
+  [
+    "99566405131343995",
+    {
+      "teamname": "Echo Fox Academy",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "51.46%"
+    }
+  ],
+  [
+    "110506938087991033",
+    {
+      "teamname": "FL Academy",
+      "wins": 231,
+      "losses": 210,
+      "winrate": "52.38%",
+      "bayesianPercentage": "51.46%"
+    }
+  ],
+  [
+    "105351737774956843",
+    {
+      "teamname": "LPL Legends",
+      "wins": 1,
+      "losses": 0,
+      "winrate": "100.00%",
+      "bayesianPercentage": "51.43%"
+    }
+  ],
+  [
+    "103240746438900379",
+    {
+      "teamname": "Bolulu",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "51.43%"
+    }
+  ],
+  [
+    "101157821417067613",
+    {
+      "teamname": "G4",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "51.42%"
+    }
+  ],
+  [
+    "106972778172351142",
+    {
+      "teamname": "NRG",
+      "wins": 182,
+      "losses": 167,
+      "winrate": "52.15%",
+      "bayesianPercentage": "51.41%"
+    }
+  ],
+  [
+    "101157821382267957",
+    {
+      "teamname": "Sneaky",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "51.37%"
+    }
+  ],
+  [
+    "99294153826603341",
+    {
+      "teamname": "Clutch Gaming",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "51.36%"
+    }
+  ],
+  [
+    "103240746440080029",
+    {
+      "teamname": "Doinb",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "51.35%"
+    }
+  ],
+  [
+    "103240746432281231",
+    {
+      "teamname": "Ziv",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "51.35%"
+    }
+  ],
+  [
+    "107580481273119961",
+    {
+      "teamname": "Taco Gaming",
+      "wins": 24,
+      "losses": 17,
+      "winrate": "58.54%",
+      "bayesianPercentage": "51.34%"
+    }
+  ],
+  [
+    "103743162394217975",
+    {
+      "teamname": "Santos HotForex",
+      "wins": 462,
+      "losses": 420,
+      "winrate": "52.38%",
+      "bayesianPercentage": "51.33%"
+    }
+  ],
+  [
+    "104228817622043824",
+    {
+      "teamname": "The French Zoo",
+      "wins": 8,
+      "losses": 0,
+      "winrate": "100.00%",
+      "bayesianPercentage": "51.32%"
+    }
+  ],
+  [
+    "103240746426776197",
+    {
+      "teamname": "Shrimp",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "51.28%"
+    }
+  ],
+  [
+    "105301786369976273",
+    {
+      "teamname": "LEC Legends",
+      "wins": 1,
+      "losses": 0,
+      "winrate": "100.00%",
+      "bayesianPercentage": "51.27%"
+    }
+  ],
+  [
+    "99566405688134373",
+    {
+      "teamname": "Besiktasarchive",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "51.25%"
+    }
+  ],
+  [
+    "103240746437786265",
+    {
+      "teamname": "Bwipo",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "51.25%"
+    }
+  ],
+  [
+    "105521426070232498",
+    {
+      "teamname": "Rejects Gaming",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "51.24%"
+    }
+  ],
+  [
+    "109783124183318312",
+    {
+      "teamname": "University of St. Trevor",
+      "wins": 6,
+      "losses": 4,
+      "winrate": "60.00%",
+      "bayesianPercentage": "51.24%"
+    }
+  ],
+  [
+    "109783149221216052",
+    {
+      "teamname": "Lit Esports",
+      "wins": 19,
+      "losses": 13,
+      "winrate": "59.38%",
+      "bayesianPercentage": "51.21%"
+    }
+  ],
+  [
+    "105301773561628001",
+    {
+      "teamname": "LCK Legends",
+      "wins": 0,
+      "losses": 1,
+      "winrate": "0.00%",
+      "bayesianPercentage": "51.20%"
+    }
+  ],
+  [
+    "101909007472450882",
+    {
+      "teamname": "ES Sharks",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "51.20%"
+    }
+  ],
+  [
+    "110733889090164854",
+    {
+      "teamname": "Return of the Middlesticks",
+      "wins": 3,
+      "losses": 6,
+      "winrate": "33.33%",
+      "bayesianPercentage": "51.19%"
+    }
+  ],
+  [
+    "103935468920814040",
+    {
+      "teamname": "Team GO",
+      "wins": 1123,
+      "losses": 1068,
+      "winrate": "51.26%",
+      "bayesianPercentage": "51.19%"
+    }
+  ],
+  [
+    "101909007470353718",
+    {
+      "teamname": "VSG",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "51.19%"
+    }
+  ],
+  [
+    "99566405125435312",
+    {
+      "teamname": "OpTic Gaming Academy",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "51.19%"
+    }
+  ],
+  [
+    "110733864366329081",
+    {
+      "teamname": "Team E Turner",
+      "wins": 4,
+      "losses": 1,
+      "winrate": "80.00%",
+      "bayesianPercentage": "51.16%"
+    }
+  ],
+  [
+    "98767991949608898",
+    {
+      "teamname": "Fenerbah\u00c3\u00a7e Espor",
+      "wins": 1287,
+      "losses": 1228,
+      "winrate": "51.17%",
+      "bayesianPercentage": "51.15%"
+    }
+  ],
+  [
+    "110534728305628996",
+    {
+      "teamname": "Kelyx's Grandpa Gamers",
+      "wins": 6,
+      "losses": 8,
+      "winrate": "42.86%",
+      "bayesianPercentage": "51.14%"
+    }
+  ],
+  [
+    "107580499570181349",
+    {
+      "teamname": "Wildcard Aces",
+      "wins": 0,
+      "losses": 1,
+      "winrate": "0.00%",
+      "bayesianPercentage": "51.12%"
+    }
+  ],
+  [
+    "100205576307813373",
+    {
+      "teamname": "Flamengo ",
+      "wins": 1343,
+      "losses": 1282,
+      "winrate": "51.16%",
+      "bayesianPercentage": "51.08%"
+    }
+  ],
+  [
+    "102141671181705193",
+    {
+      "teamname": "Michigan State University",
+      "wins": 4,
+      "losses": 1,
+      "winrate": "80.00%",
+      "bayesianPercentage": "51.08%"
+    }
+  ],
+  [
+    "103240746421271163",
+    {
+      "teamname": "Chippys",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "51.07%"
+    }
+  ],
+  [
+    "103240746424613505",
+    {
+      "teamname": "Goku",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "51.07%"
+    }
+  ],
+  [
+    "110534696811298545",
+    {
+      "teamname": "Apex Mission Impossible",
+      "wins": 12,
+      "losses": 8,
+      "winrate": "60.00%",
+      "bayesianPercentage": "51.05%"
+    }
+  ],
+  [
+    "105193481874236222",
+    {
+      "teamname": "LCL-All-Stars",
+      "wins": 1,
+      "losses": 0,
+      "winrate": "100.00%",
+      "bayesianPercentage": "51.04%"
+    }
+  ],
+  [
+    "105301791701328923",
+    {
+      "teamname": "LEC Queue Kings",
+      "wins": 0,
+      "losses": 1,
+      "winrate": "0.00%",
+      "bayesianPercentage": "51.03%"
+    }
+  ],
+  [
+    "103535282138043022",
+    {
+      "teamname": "Fenerbah\u00c3\u00a7e Espor Akademi",
+      "wins": 1254,
+      "losses": 1206,
+      "winrate": "50.98%",
+      "bayesianPercentage": "51.02%"
+    }
+  ],
+  [
+    "109631610813971977",
+    {
+      "teamname": "Mezexis Esports",
+      "wins": 50,
+      "losses": 51,
+      "winrate": "49.50%",
+      "bayesianPercentage": "51.00%"
+    }
+  ],
+  [
+    "101157821399635017",
+    {
+      "teamname": "Bang",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "51.00%"
+    }
+  ],
+  [
+    "105193554293818475",
+    {
+      "teamname": "LJL All-Stars",
+      "wins": 1,
+      "losses": 0,
+      "winrate": "100.00%",
+      "bayesianPercentage": "51.00%"
+    }
+  ],
+  [
+    "105521201981545679",
+    {
+      "teamname": "The Spawn Esports",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "51.00%"
+    }
+  ],
+  [
+    "101157821461435557",
+    {
+      "teamname": "Tandem Mode D",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "51.00%"
+    }
+  ],
+  [
+    "107582178455767077",
+    {
+      "teamname": "Pirate Dream",
+      "wins": 303,
+      "losses": 291,
+      "winrate": "51.01%",
+      "bayesianPercentage": "50.99%"
+    }
+  ],
+  [
+    "110534749775658790",
+    {
+      "teamname": "The Cheese Chasers",
+      "wins": 6,
+      "losses": 4,
+      "winrate": "60.00%",
+      "bayesianPercentage": "50.99%"
+    }
+  ],
+  [
+    "103240746442308257",
+    {
+      "teamname": "Optimus",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.97%"
+    }
+  ],
+  [
+    "108160026618060825",
+    {
+      "teamname": "UCI Esports",
+      "wins": 4,
+      "losses": 1,
+      "winrate": "80.00%",
+      "bayesianPercentage": "50.96%"
+    }
+  ],
+  [
+    "101157821349705475",
+    {
+      "teamname": "CN with Influencers",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.94%"
+    }
+  ],
+  [
+    "101157821425652839",
+    {
+      "teamname": "Plugo",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.94%"
+    }
+  ],
+  [
+    "103240746435623573",
+    {
+      "teamname": "CoreJJ",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.94%"
+    }
+  ],
+  [
+    "107598982142057588",
+    {
+      "teamname": "Cruzados Esports",
+      "wins": 379,
+      "losses": 363,
+      "winrate": "51.08%",
+      "bayesianPercentage": "50.93%"
+    }
+  ],
+  [
+    "99124844361058275",
+    {
+      "teamname": "CBLOL All-Stars",
+      "wins": 0,
+      "losses": 1,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.92%"
+    }
+  ],
+  [
+    "101157821456258207",
+    {
+      "teamname": "Tandem Mode A",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.92%"
+    }
+  ],
+  [
+    "104016416551172375",
+    {
+      "teamname": "Seorabeol Gaming",
+      "wins": 3,
+      "losses": 6,
+      "winrate": "33.33%",
+      "bayesianPercentage": "50.91%"
+    }
+  ],
+  [
+    "100783238110621058",
+    {
+      "teamname": "Dashing Buffalo",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.90%"
+    }
+  ],
+  [
+    "101157821434369137",
+    {
+      "teamname": "Pabu",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.90%"
+    }
+  ],
+  [
+    "103240746434574995",
+    {
+      "teamname": "AHaHaCiK",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.90%"
+    }
+  ],
+  [
+    "105549991104165282",
+    {
+      "teamname": "FURIA Academy",
+      "wins": 830,
+      "losses": 799,
+      "winrate": "50.95%",
+      "bayesianPercentage": "50.90%"
+    }
+  ],
+  [
+    "99566406336293850",
+    {
+      "teamname": "Bombers",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.87%"
+    }
+  ],
+  [
+    "99124844362174905",
+    {
+      "teamname": "TCL All-Stars",
+      "wins": 0,
+      "losses": 1,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.87%"
+    }
+  ],
+  [
+    "105193571520283762",
+    {
+      "teamname": "OPL All-Stars",
+      "wins": 1,
+      "losses": 0,
+      "winrate": "100.00%",
+      "bayesianPercentage": "50.86%"
+    }
+  ],
+  [
+    "109783130654973406",
+    {
+      "teamname": "Godel Gamers",
+      "wins": 3,
+      "losses": 6,
+      "winrate": "33.33%",
+      "bayesianPercentage": "50.84%"
+    }
+  ],
+  [
+    "106250732506012141",
+    {
+      "teamname": "Umbra Divinus Gaming",
+      "wins": 100,
+      "losses": 100,
+      "winrate": "50.00%",
+      "bayesianPercentage": "50.84%"
+    }
+  ],
+  [
+    "101157821458027681",
+    {
+      "teamname": "Tandem Mode B",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.84%"
+    }
+  ],
+  [
+    "103240746418846327",
+    {
+      "teamname": "Team Assassin A",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.84%"
+    }
+  ],
+  [
+    "104212474149188693",
+    {
+      "teamname": "Altokekw Espa\u00c3\u00b1ita",
+      "wins": 2,
+      "losses": 2,
+      "winrate": "50.00%",
+      "bayesianPercentage": "50.82%"
+    }
+  ],
+  [
+    "107953988302037900",
+    {
+      "teamname": "Maryville Saints",
+      "wins": 0,
+      "losses": 1,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.81%"
+    }
+  ],
+  [
+    "109698757443650056",
+    {
+      "teamname": "Mad Kings",
+      "wins": 17,
+      "losses": 6,
+      "winrate": "73.91%",
+      "bayesianPercentage": "50.81%"
+    }
+  ],
+  [
+    "101428372600307248",
+    {
+      "teamname": "Rascal Jester",
+      "wins": 1071,
+      "losses": 1038,
+      "winrate": "50.78%",
+      "bayesianPercentage": "50.80%"
+    }
+  ],
+  [
+    "102787200123059082",
+    {
+      "teamname": "Team LDLC",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.80%"
+    }
+  ],
+  [
+    "103240746441194143",
+    {
+      "teamname": "Fofo",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.80%"
+    }
+  ],
+  [
+    "108361537886099513",
+    {
+      "teamname": "300",
+      "wins": 0,
+      "losses": 4,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.80%"
+    }
+  ],
+  [
+    "104234362586443283",
+    {
+      "teamname": "German Pingus",
+      "wins": 2,
+      "losses": 3,
+      "winrate": "40.00%",
+      "bayesianPercentage": "50.79%"
+    }
+  ],
+  [
+    "105957603362200620",
+    {
+      "teamname": "Dignitas Mirage",
+      "wins": 0,
+      "losses": 4,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.79%"
+    }
+  ],
+  [
+    "98767991959203254",
+    {
+      "teamname": "Team oNe e-Sports",
+      "wins": 0,
+      "losses": 1,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.79%"
+    }
+  ],
+  [
+    "98926509887041994",
+    {
+      "teamname": "Echo Fox",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.78%"
+    }
+  ],
+  [
+    "102825747707503563",
+    {
+      "teamname": "MAD Lions E.C. Colombia",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.77%"
+    }
+  ],
+  [
+    "103240746416552563",
+    {
+      "teamname": "Team URF C",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.77%"
+    }
+  ],
+  [
+    "103240746417732213",
+    {
+      "teamname": "Team Urf D",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.77%"
+    }
+  ],
+  [
+    "104710682193583854",
+    {
+      "teamname": "Topo Centras Iron Wolves",
+      "wins": 830,
+      "losses": 807,
+      "winrate": "50.70%",
+      "bayesianPercentage": "50.76%"
+    }
+  ],
+  [
+    "105957640798249312",
+    {
+      "teamname": "Barrage.NA",
+      "wins": 3,
+      "losses": 6,
+      "winrate": "33.33%",
+      "bayesianPercentage": "50.76%"
+    }
+  ],
+  [
+    "108439036582886702",
+    {
+      "teamname": "BWE Esports",
+      "wins": 196,
+      "losses": 197,
+      "winrate": "49.87%",
+      "bayesianPercentage": "50.75%"
+    }
+  ],
+  [
+    "101157821401338955",
+    {
+      "teamname": "Peanut",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.74%"
+    }
+  ],
+  [
+    "100205576949530558",
+    {
+      "teamname": "Bursaspor Esports",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.74%"
+    }
+  ],
+  [
+    "101157821397865543",
+    {
+      "teamname": "Faker",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.74%"
+    }
+  ],
+  [
+    "103935567188806885",
+    {
+      "teamname": "Energypot Wizards",
+      "wins": 18,
+      "losses": 18,
+      "winrate": "50.00%",
+      "bayesianPercentage": "50.73%"
+    }
+  ],
+  [
+    "105537947396116202",
+    {
+      "teamname": "NASR ESPORTS Akademi",
+      "wins": 678,
+      "losses": 659,
+      "winrate": "50.71%",
+      "bayesianPercentage": "50.73%"
+    }
+  ],
+  [
+    "108565997404381643",
+    {
+      "teamname": "Tempest Gaming",
+      "wins": 3,
+      "losses": 6,
+      "winrate": "33.33%",
+      "bayesianPercentage": "50.73%"
+    }
+  ],
+  [
+    "109699042809864069",
+    {
+      "teamname": "Vipers",
+      "wins": 36,
+      "losses": 37,
+      "winrate": "49.32%",
+      "bayesianPercentage": "50.72%"
+    }
+  ],
+  [
+    "107580483738977500",
+    {
+      "teamname": "Winthrop University",
+      "wins": 24,
+      "losses": 24,
+      "winrate": "50.00%",
+      "bayesianPercentage": "50.71%"
+    }
+  ],
+  [
+    "103240746393642312",
+    {
+      "teamname": "All-Stars Blue",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.71%"
+    }
+  ],
+  [
+    "110492173877838150",
+    {
+      "teamname": "Eternal Fire",
+      "wins": 100,
+      "losses": 100,
+      "winrate": "50.00%",
+      "bayesianPercentage": "50.70%"
+    }
+  ],
+  [
+    "102141671187668983",
+    {
+      "teamname": "NC State University",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.70%"
+    }
+  ],
+  [
+    "107580444745581889",
+    {
+      "teamname": "Immortals AOE",
+      "wins": 3,
+      "losses": 6,
+      "winrate": "33.33%",
+      "bayesianPercentage": "50.69%"
+    }
+  ],
+  [
+    "103240746396067146",
+    {
+      "teamname": "All-Stars Red",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.69%"
+    }
+  ],
+  [
+    "104212455500985426",
+    {
+      "teamname": "LEC Kings",
+      "wins": 4,
+      "losses": 4,
+      "winrate": "50.00%",
+      "bayesianPercentage": "50.68%"
+    }
+  ],
+  [
+    "105357804699574324",
+    {
+      "teamname": "CoreJJ Dream Team",
+      "wins": 0,
+      "losses": 1,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.67%"
+    }
+  ],
+  [
+    "109698026697016325",
+    {
+      "teamname": "Barcelona BG",
+      "wins": 21,
+      "losses": 25,
+      "winrate": "45.65%",
+      "bayesianPercentage": "50.65%"
+    }
+  ],
+  [
+    "99566408220213759",
+    {
+      "teamname": "CNB e-Sports Club",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.65%"
+    }
+  ],
+  [
+    "110534700622694005",
+    {
+      "teamname": "Aporia",
+      "wins": 0,
+      "losses": 8,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.63%"
+    }
+  ],
+  [
+    "108159890692353756",
+    {
+      "teamname": "St. Clair College",
+      "wins": 0,
+      "losses": 5,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.63%"
+    }
+  ],
+  [
+    "110534741480867943",
+    {
+      "teamname": "Teamless Revenge",
+      "wins": 6,
+      "losses": 12,
+      "winrate": "33.33%",
+      "bayesianPercentage": "50.62%"
+    }
+  ],
+  [
+    "110534712174898632",
+    {
+      "teamname": "Blue Otter",
+      "wins": 0,
+      "losses": 4,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.60%"
+    }
+  ],
+  [
+    "108361545122797332",
+    {
+      "teamname": "AOE Ginger Turmeric",
+      "wins": 22,
+      "losses": 17,
+      "winrate": "56.41%",
+      "bayesianPercentage": "50.59%"
+    }
+  ],
+  [
+    "103877976717529187",
+    {
+      "teamname": "Intrepid Fox Gaming",
+      "wins": 60,
+      "losses": 63,
+      "winrate": "48.78%",
+      "bayesianPercentage": "50.57%"
+    }
+  ],
+  [
+    "109981655738221109",
+    {
+      "teamname": "Team Plink",
+      "wins": 0,
+      "losses": 4,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.55%"
+    }
+  ],
+  [
+    "106250729133367861",
+    {
+      "teamname": "Olympiacos Alimou esports",
+      "wins": 196,
+      "losses": 197,
+      "winrate": "49.87%",
+      "bayesianPercentage": "50.53%"
+    }
+  ],
+  [
+    "107580455322240324",
+    {
+      "teamname": "No Team",
+      "wins": 0,
+      "losses": 4,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.51%"
+    }
+  ],
+  [
+    "110733877357854829",
+    {
+      "teamname": "Gentle Hearts Gaming",
+      "wins": 6,
+      "losses": 4,
+      "winrate": "60.00%",
+      "bayesianPercentage": "50.51%"
+    }
+  ],
+  [
+    "105913111502565010",
+    {
+      "teamname": "Zoos Gaming",
+      "wins": 3,
+      "losses": 10,
+      "winrate": "23.08%",
+      "bayesianPercentage": "50.50%"
+    }
+  ],
+  [
+    "105543843212923183",
+    {
+      "teamname": "Goskilla",
+      "wins": 448,
+      "losses": 442,
+      "winrate": "50.34%",
+      "bayesianPercentage": "50.50%"
+    }
+  ],
+  [
+    "99124844353216570",
+    {
+      "teamname": "LCK All-Stars",
+      "wins": 3,
+      "losses": 6,
+      "winrate": "33.33%",
+      "bayesianPercentage": "50.49%"
+    }
+  ],
+  [
+    "107580506699777259",
+    {
+      "teamname": "ISU Redbirds",
+      "wins": 0,
+      "losses": 4,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.46%"
+    }
+  ],
+  [
+    "107580475800733004",
+    {
+      "teamname": "Third Party",
+      "wins": 3,
+      "losses": 6,
+      "winrate": "33.33%",
+      "bayesianPercentage": "50.45%"
+    }
+  ],
+  [
+    "107582591908138922",
+    {
+      "teamname": "Cienciano",
+      "wins": 92,
+      "losses": 95,
+      "winrate": "49.20%",
+      "bayesianPercentage": "50.45%"
+    }
+  ],
+  [
+    "110733881542862348",
+    {
+      "teamname": "Cold Hearted",
+      "wins": 0,
+      "losses": 4,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.44%"
+    }
+  ],
+  [
+    "107597870621708485",
+    {
+      "teamname": "Cyber Wolves Esports",
+      "wins": 400,
+      "losses": 397,
+      "winrate": "50.19%",
+      "bayesianPercentage": "50.43%"
+    }
+  ],
+  [
+    "108121051709036068",
+    {
+      "teamname": "Polar Squad",
+      "wins": 21,
+      "losses": 25,
+      "winrate": "45.65%",
+      "bayesianPercentage": "50.43%"
+    }
+  ],
+  [
+    "101157821427356777",
+    {
+      "teamname": "Seiya",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.43%"
+    }
+  ],
+  [
+    "102141671182557163",
+    {
+      "teamname": "Redbird Esports",
+      "wins": 2,
+      "losses": 2,
+      "winrate": "50.00%",
+      "bayesianPercentage": "50.42%"
+    }
+  ],
+  [
+    "105357803054359120",
+    {
+      "teamname": "Bwipo Dream Team",
+      "wins": 1,
+      "losses": 0,
+      "winrate": "100.00%",
+      "bayesianPercentage": "50.40%"
+    }
+  ],
+  [
+    "99566406495581481",
+    {
+      "teamname": "G-Rex",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.39%"
+    }
+  ],
+  [
+    "102787200143309800",
+    {
+      "teamname": "eNsure",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.39%"
+    }
+  ],
+  [
+    "98767991902391669",
+    {
+      "teamname": "Flash Wolves",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.39%"
+    }
+  ],
+  [
+    "109783136441695429",
+    {
+      "teamname": "Mirage",
+      "wins": 0,
+      "losses": 4,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.38%"
+    }
+  ],
+  [
+    "101157821430895725",
+    {
+      "teamname": "Evi",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.36%"
+    }
+  ],
+  [
+    "103240746419960441",
+    {
+      "teamname": "Team Assassin B",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.32%"
+    }
+  ],
+  [
+    "102141671185047537",
+    {
+      "teamname": "UCI Esports",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.32%"
+    }
+  ],
+  [
+    "102787200141016030",
+    {
+      "teamname": "Rogue Esports Club",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.32%"
+    }
+  ],
+  [
+    "103240746429004425",
+    {
+      "teamname": "Jankos",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.31%"
+    }
+  ],
+  [
+    "101978171845303729",
+    {
+      "teamname": "MEGA Esports",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.31%"
+    }
+  ],
+  [
+    "104234144258996303",
+    {
+      "teamname": "POLSKA GUROM",
+      "wins": 2,
+      "losses": 3,
+      "winrate": "40.00%",
+      "bayesianPercentage": "50.30%"
+    }
+  ],
+  [
+    "99566404578577099",
+    {
+      "teamname": "Jin Air Green Wings",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.29%"
+    }
+  ],
+  [
+    "105301877841257613",
+    {
+      "teamname": "VCS All Stars",
+      "wins": 1,
+      "losses": 0,
+      "winrate": "100.00%",
+      "bayesianPercentage": "50.28%"
+    }
+  ],
+  [
+    "107416342401528388",
+    {
+      "teamname": "Maturalni Forsaken",
+      "wins": 650,
+      "losses": 652,
+      "winrate": "49.92%",
+      "bayesianPercentage": "50.27%"
+    }
+  ],
+  [
+    "108361578564310810",
+    {
+      "teamname": "Team Pending",
+      "wins": 14,
+      "losses": 13,
+      "winrate": "51.85%",
+      "bayesianPercentage": "50.27%"
+    }
+  ],
+  [
+    "105351724613755142",
+    {
+      "teamname": "LPL Queue Kings",
+      "wins": 0,
+      "losses": 1,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.26%"
+    }
+  ],
+  [
+    "110534714934488523",
+    {
+      "teamname": "CB Gaming",
+      "wins": 3,
+      "losses": 10,
+      "winrate": "23.08%",
+      "bayesianPercentage": "50.25%"
+    }
+  ],
+  [
+    "109981678167856017",
+    {
+      "teamname": "Miracle",
+      "wins": 6,
+      "losses": 12,
+      "winrate": "33.33%",
+      "bayesianPercentage": "50.25%"
+    }
+  ],
+  [
+    "103240746425727619",
+    {
+      "teamname": "Levi",
+      "wins": 0,
+      "losses": 0,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.25%"
+    }
+  ],
+  [
+    "110534732558665825",
+    {
+      "teamname": "Komodo",
+      "wins": 3,
+      "losses": 10,
+      "winrate": "23.08%",
+      "bayesianPercentage": "50.23%"
+    }
+  ],
+  [
+    "106302119383559530",
+    {
+      "teamname": "Galaxy Racer",
+      "wins": 70,
+      "losses": 76,
+      "winrate": "47.95%",
+      "bayesianPercentage": "50.22%"
+    }
+  ],
+  [
+    "108361570687544399",
+    {
+      "teamname": "Jake's Kittens",
+      "wins": 4,
+      "losses": 5,
+      "winrate": "44.44%",
+      "bayesianPercentage": "50.22%"
+    }
+  ],
+  [
+    "109480204628225868",
+    {
+      "teamname": "Los Grandes",
+      "wins": 327,
+      "losses": 330,
+      "winrate": "49.77%",
+      "bayesianPercentage": "50.21%"
+    }
+  ],
+  [
+    "108566004579728490",
+    {
+      "teamname": "LARGE",
+      "wins": 0,
+      "losses": 4,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.18%"
+    }
+  ],
+  [
+    "107599485973747723",
+    {
+      "teamname": "Grypciocraft Esports",
+      "wins": 339,
+      "losses": 350,
+      "winrate": "49.20%",
+      "bayesianPercentage": "50.14%"
+    }
+  ],
+  [
+    "109699038581250169",
+    {
+      "teamname": "Red Eyes Esports",
+      "wins": 17,
+      "losses": 27,
+      "winrate": "38.64%",
+      "bayesianPercentage": "50.14%"
+    }
+  ],
+  [
+    "108361550364038935",
+    {
+      "teamname": "AOE Randoms",
+      "wins": 0,
+      "losses": 8,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.10%"
+    }
+  ],
+  [
+    "110534751905120040",
+    {
+      "teamname": "Young Buffalos",
+      "wins": 0,
+      "losses": 4,
+      "winrate": "0.00%",
+      "bayesianPercentage": "50.09%"
+    }
+  ],
+  [
+    "109698855806033734",
+    {
+      "teamname": "Universitario Esports",
+      "wins": 10,
+      "losses": 20,
+      "winrate": "33.33%",
+      "bayesianPercentage": "50.00%"
+    }
+  ],
+  [
+    "103877908090914662",
+    {
+      "teamname": "Kenty",
+      "wins": 12,
+      "losses": 24,
+      "winrate": "33.33%",
+      "bayesianPercentage": "49.97%"
+    }
+  ],
+  [
+    "109783160511364305",
+    {
+      "teamname": "CB Gaming",
+      "wins": 0,
+      "losses": 4,
+      "winrate": "0.00%",
+      "bayesianPercentage": "49.93%"
+    }
+  ],
+  [
+    "102787200145472495",
+    {
+      "teamname": "Defusekids",
+      "wins": 31,
+      "losses": 42,
+      "winrate": "42.47%",
+      "bayesianPercentage": "49.92%"
+    }
+  ],
+  [
+    "109783170393931575",
+    {
+      "teamname": "Conviction",
+      "wins": 0,
+      "losses": 8,
+      "winrate": "0.00%",
+      "bayesianPercentage": "49.91%"
+    }
+  ],
+  [
+    "107582598621022934",
+    {
+      "teamname": "Club Deportivo Municipal",
+      "wins": 84,
+      "losses": 94,
+      "winrate": "47.19%",
+      "bayesianPercentage": "49.89%"
+    }
+  ],
+  [
+    "108361565719424734",
+    {
+      "teamname": "DK Crew",
+      "wins": 3,
+      "losses": 11,
+      "winrate": "21.43%",
+      "bayesianPercentage": "49.83%"
+    }
+  ],
+  [
+    "99124844356912967",
+    {
+      "teamname": "LPL All-Stars",
+      "wins": 0,
+      "losses": 9,
+      "winrate": "0.00%",
+      "bayesianPercentage": "49.81%"
+    }
+  ],
+  [
+    "103877774634323825",
+    {
+      "teamname": "YDN Gamers",
+      "wins": 12,
+      "losses": 24,
+      "winrate": "33.33%",
+      "bayesianPercentage": "49.80%"
+    }
+  ],
+  [
+    "105514967858969605",
+    {
+      "teamname": "GameWard",
+      "wins": 1007,
+      "losses": 1020,
+      "winrate": "49.68%",
+      "bayesianPercentage": "49.72%"
+    }
+  ],
+  [
+    "103878020539746273",
+    {
+      "teamname": "EGN Esports",
+      "wins": 657,
+      "losses": 684,
+      "winrate": "48.99%",
+      "bayesianPercentage": "49.54%"
+    }
+  ],
+  [
+    "107582184905264520",
+    {
+      "teamname": "Waia Snikt",
+      "wins": 277,
+      "losses": 297,
+      "winrate": "48.26%",
+      "bayesianPercentage": "49.49%"
+    }
+  ],
+  [
+    "103877589042434434",
+    {
+      "teamname": "GamerLegion",
+      "wins": 1077,
+      "losses": 1123,
+      "winrate": "48.95%",
+      "bayesianPercentage": "49.46%"
+    }
+  ],
+  [
+    "105520788833075738",
+    {
+      "teamname": "KV Mechelen Esports",
+      "wins": 325,
+      "losses": 354,
+      "winrate": "47.86%",
+      "bayesianPercentage": "49.42%"
+    }
+  ],
+  [
+    "107599061926073885",
+    {
+      "teamname": "Newstar",
+      "wins": 354,
+      "losses": 389,
+      "winrate": "47.64%",
+      "bayesianPercentage": "49.31%"
+    }
+  ],
+  [
+    "109539776003058530",
+    {
+      "teamname": "Alior Bank Team",
+      "wins": 338,
+      "losses": 366,
+      "winrate": "48.01%",
+      "bayesianPercentage": "49.23%"
+    }
+  ],
+  [
+    "99566408221114231",
+    {
+      "teamname": "KaBuM! Esports",
+      "wins": 1608,
+      "losses": 1678,
+      "winrate": "48.93%",
+      "bayesianPercentage": "49.16%"
+    }
+  ],
+  [
+    "106334802515490809",
+    {
+      "teamname": "Wortex",
+      "wins": 40,
+      "losses": 61,
+      "winrate": "39.60%",
+      "bayesianPercentage": "49.09%"
+    }
+  ],
+  [
+    "99566408222831088",
+    {
+      "teamname": "Liberty",
+      "wins": 1597,
+      "losses": 1680,
+      "winrate": "48.73%",
+      "bayesianPercentage": "49.08%"
+    }
+  ],
+  [
+    "103877879209300619",
+    {
+      "teamname": "Vipers Inc",
+      "wins": 12,
+      "losses": 24,
+      "winrate": "33.33%",
+      "bayesianPercentage": "49.05%"
+    }
+  ],
+  [
+    "107582181197106556",
+    {
+      "teamname": "Skull Cracker Clan",
+      "wins": 95,
+      "losses": 121,
+      "winrate": "43.98%",
+      "bayesianPercentage": "49.05%"
+    }
+  ],
+  [
+    "108078422885368642",
+    {
+      "teamname": "Panathinaikos Esports",
+      "wins": 182,
+      "losses": 211,
+      "winrate": "46.31%",
+      "bayesianPercentage": "49.00%"
+    }
+  ],
+  [
+    "109485342651298305",
+    {
+      "teamname": "FLUXO Academy",
+      "wins": 306,
+      "losses": 343,
+      "winrate": "47.15%",
+      "bayesianPercentage": "48.87%"
+    }
+  ],
+  [
+    "105520822049210915",
+    {
+      "teamname": "mCon esports",
+      "wins": 517,
+      "losses": 570,
+      "winrate": "47.56%",
+      "bayesianPercentage": "48.74%"
+    }
+  ],
+  [
+    "101383792559569368",
+    {
+      "teamname": "All Knights",
+      "wins": 675,
+      "losses": 713,
+      "winrate": "48.63%",
+      "bayesianPercentage": "48.71%"
+    }
+  ],
+  [
+    "105549995617170853",
+    {
+      "teamname": "KaBuM! Academy",
+      "wins": 777,
+      "losses": 853,
+      "winrate": "47.67%",
+      "bayesianPercentage": "48.70%"
+    }
+  ],
+  [
+    "105537226118106446",
+    {
+      "teamname": "Axolotl Esports",
+      "wins": 588,
+      "losses": 635,
+      "winrate": "48.08%",
+      "bayesianPercentage": "48.55%"
+    }
+  ],
+  [
+    "105520713962793016",
+    {
+      "teamname": "Granit Gaming",
+      "wins": 114,
+      "losses": 154,
+      "winrate": "42.54%",
+      "bayesianPercentage": "48.55%"
+    }
+  ],
+  [
+    "107582150625414483",
+    {
+      "teamname": "AceS GaminG",
+      "wins": 73,
+      "losses": 102,
+      "winrate": "41.71%",
+      "bayesianPercentage": "48.46%"
+    }
+  ],
+  [
+    "107251245690956393",
+    {
+      "teamname": "Saigon Buffalo Esports",
+      "wins": 356,
+      "losses": 406,
+      "winrate": "46.72%",
+      "bayesianPercentage": "48.46%"
+    }
+  ],
+  [
+    "107581750701049485",
+    {
+      "teamname": "Janus Esports",
+      "wins": 384,
+      "losses": 437,
+      "winrate": "46.77%",
+      "bayesianPercentage": "48.43%"
+    }
+  ],
+  [
+    "110383487456480967",
+    {
+      "teamname": "Vertex ESC",
+      "wins": 9,
+      "losses": 37,
+      "winrate": "19.57%",
+      "bayesianPercentage": "48.34%"
+    }
+  ],
+  [
+    "103535282119620510",
+    {
+      "teamname": "Fukuoka SoftBank HAWKS gaming",
+      "wins": 1136,
+      "losses": 1243,
+      "winrate": "47.75%",
+      "bayesianPercentage": "48.28%"
+    }
+  ],
+  [
+    "103877951616192529",
+    {
+      "teamname": "Cyber Gaming",
+      "wins": 0,
+      "losses": 36,
+      "winrate": "0.00%",
+      "bayesianPercentage": "48.26%"
+    }
+  ],
+  [
+    "107603566520687175",
+    {
+      "teamname": "Team Mayan eSports",
+      "wins": 102,
+      "losses": 117,
+      "winrate": "46.58%",
+      "bayesianPercentage": "48.21%"
+    }
+  ],
+  [
+    "106827815539026710",
+    {
+      "teamname": "RJ Academy",
+      "wins": 28,
+      "losses": 71,
+      "winrate": "28.28%",
+      "bayesianPercentage": "48.18%"
+    }
+  ],
+  [
+    "109696115986547257",
+    {
+      "teamname": "Fox Gaming",
+      "wins": 182,
+      "losses": 210,
+      "winrate": "46.43%",
+      "bayesianPercentage": "48.09%"
+    }
+  ],
+  [
+    "105550005698683818",
+    {
+      "teamname": "Liberty Academy",
+      "wins": 780,
+      "losses": 848,
+      "winrate": "47.91%",
+      "bayesianPercentage": "47.99%"
+    }
+  ],
+  [
+    "106222632206917342",
+    {
+      "teamname": "Resolve",
+      "wins": 49,
+      "losses": 97,
+      "winrate": "33.56%",
+      "bayesianPercentage": "47.99%"
+    }
+  ],
+  [
+    "109675490370327425",
+    {
+      "teamname": "Ground Zero",
+      "wins": 21,
+      "losses": 67,
+      "winrate": "23.86%",
+      "bayesianPercentage": "47.84%"
+    }
+  ],
+  [
+    "105536952747658409",
+    {
+      "teamname": "MKERS",
+      "wins": 217,
+      "losses": 258,
+      "winrate": "45.68%",
+      "bayesianPercentage": "47.82%"
+    }
+  ],
+  [
+    "107456419134134246",
+    {
+      "teamname": "Astralis Talent",
+      "wins": 290,
+      "losses": 362,
+      "winrate": "44.48%",
+      "bayesianPercentage": "47.72%"
+    }
+  ],
+  [
+    "99566405123587075",
+    {
+      "teamname": "CLG Challengers",
+      "wins": 1860,
+      "losses": 2086,
+      "winrate": "47.14%",
+      "bayesianPercentage": "47.70%"
+    }
+  ],
+  [
+    "105520816474194464",
+    {
+      "teamname": "Dynasty",
+      "wins": 80,
+      "losses": 124,
+      "winrate": "39.22%",
+      "bayesianPercentage": "47.61%"
+    }
+  ],
+  [
+    "99566406066182955",
+    {
+      "teamname": "GALAKTICOS",
+      "wins": 1342,
+      "losses": 1512,
+      "winrate": "47.02%",
+      "bayesianPercentage": "47.55%"
+    }
+  ],
+  [
+    "103535282146169523",
+    {
+      "teamname": "Info Yat\u00c4\u00b1r\u00c4\u00b1m Aurora Akademi",
+      "wins": 1196,
+      "losses": 1345,
+      "winrate": "47.07%",
+      "bayesianPercentage": "47.51%"
+    }
+  ],
+  [
+    "107582638341246907",
+    {
+      "teamname": "Instinct Gaming",
+      "wins": 80,
+      "losses": 99,
+      "winrate": "44.69%",
+      "bayesianPercentage": "47.47%"
+    }
+  ],
+  [
+    "107565493716773932",
+    {
+      "teamname": "Nativz",
+      "wins": 193,
+      "losses": 252,
+      "winrate": "43.37%",
+      "bayesianPercentage": "47.46%"
+    }
+  ],
+  [
+    "105547976546505145",
+    {
+      "teamname": "Team Infamous",
+      "wins": 30,
+      "losses": 70,
+      "winrate": "30.00%",
+      "bayesianPercentage": "47.40%"
+    }
+  ],
+  [
+    "105536738266035235",
+    {
+      "teamname": "Cyberground Gaming",
+      "wins": 546,
+      "losses": 639,
+      "winrate": "46.08%",
+      "bayesianPercentage": "47.38%"
+    }
+  ],
+  [
+    "105520781900097659",
+    {
+      "teamname": "4 Elements",
+      "wins": 30,
+      "losses": 71,
+      "winrate": "29.70%",
+      "bayesianPercentage": "47.36%"
+    }
+  ],
+  [
+    "108131965235538611",
+    {
+      "teamname": "Antares Esports",
+      "wins": 34,
+      "losses": 91,
+      "winrate": "27.20%",
+      "bayesianPercentage": "47.31%"
+    }
+  ],
+  [
+    "109783164711873455",
+    {
+      "teamname": "Zenigma",
+      "wins": 3,
+      "losses": 10,
+      "winrate": "23.08%",
+      "bayesianPercentage": "47.18%"
+    }
+  ],
+  [
+    "105521674055625312",
+    {
+      "teamname": "Gamespace Mediterranean College Esports",
+      "wins": 595,
+      "losses": 711,
+      "winrate": "45.56%",
+      "bayesianPercentage": "47.16%"
+    }
+  ],
+  [
+    "106334794714373670",
+    {
+      "teamname": "Goexanimo",
+      "wins": 62,
+      "losses": 78,
+      "winrate": "44.29%",
+      "bayesianPercentage": "47.14%"
+    }
+  ],
+  [
+    "100205576309502431",
+    {
+      "teamname": "FURIA",
+      "wins": 1530,
+      "losses": 1760,
+      "winrate": "46.50%",
+      "bayesianPercentage": "47.08%"
+    }
+  ],
+  [
+    "107467827374313054",
+    {
+      "teamname": "Finetwork KOI",
+      "wins": 604,
+      "losses": 709,
+      "winrate": "46.00%",
+      "bayesianPercentage": "47.05%"
+    }
+  ],
+  [
+    "107582609836036013",
+    {
+      "teamname": "Diamond Doves",
+      "wins": 104,
+      "losses": 126,
+      "winrate": "45.22%",
+      "bayesianPercentage": "47.03%"
+    }
+  ],
+  [
+    "107597866344501908",
+    {
+      "teamname": "Auxesis Esports",
+      "wins": 156,
+      "losses": 240,
+      "winrate": "39.39%",
+      "bayesianPercentage": "46.96%"
+    }
+  ],
+  [
+    "108203161924300737",
+    {
+      "teamname": "DRX Academy",
+      "wins": 240,
+      "losses": 336,
+      "winrate": "41.67%",
+      "bayesianPercentage": "46.95%"
+    }
+  ],
+  [
+    "107581296208168309",
+    {
+      "teamname": "Tomorrow Esports",
+      "wins": 424,
+      "losses": 543,
+      "winrate": "43.85%",
+      "bayesianPercentage": "46.91%"
+    }
+  ],
+  [
+    "99322214689444546",
+    {
+      "teamname": "Schalke 04 Esports",
+      "wins": 1535,
+      "losses": 1773,
+      "winrate": "46.40%",
+      "bayesianPercentage": "46.90%"
+    }
+  ],
+  [
+    "110425157952111645",
+    {
+      "teamname": "Fourth Wall",
+      "wins": 70,
+      "losses": 126,
+      "winrate": "35.71%",
+      "bayesianPercentage": "46.80%"
+    }
+  ],
+  [
+    "105520784254806142",
+    {
+      "teamname": "ION SQUAD",
+      "wins": 258,
+      "losses": 339,
+      "winrate": "43.22%",
+      "bayesianPercentage": "46.79%"
+    }
+  ],
+  [
+    "107582641798795198",
+    {
+      "teamname": "Spectacled Bears",
+      "wins": 232,
+      "losses": 331,
+      "winrate": "41.21%",
+      "bayesianPercentage": "46.71%"
+    }
+  ],
+  [
+    "105536980594429116",
+    {
+      "teamname": "Romulea eSport",
+      "wins": 75,
+      "losses": 150,
+      "winrate": "33.33%",
+      "bayesianPercentage": "46.63%"
+    }
+  ],
+  [
+    "109704625422425316",
+    {
+      "teamname": "Benelux United",
+      "wins": 70,
+      "losses": 126,
+      "winrate": "35.71%",
+      "bayesianPercentage": "46.60%"
+    }
+  ],
+  [
+    "107582615829368757",
+    {
+      "teamname": "Fantasy Gaming",
+      "wins": 14,
+      "losses": 84,
+      "winrate": "14.29%",
+      "bayesianPercentage": "46.59%"
+    }
+  ],
+  [
+    "107603586980602718",
+    {
+      "teamname": "NOCTA",
+      "wins": 42,
+      "losses": 96,
+      "winrate": "30.43%",
+      "bayesianPercentage": "46.49%"
+    }
+  ],
+  [
+    "107598651997213225",
+    {
+      "teamname": "9z Gaming",
+      "wins": 418,
+      "losses": 551,
+      "winrate": "43.14%",
+      "bayesianPercentage": "46.46%"
+    }
+  ],
+  [
+    "106857734387052095",
+    {
+      "teamname": "AOE Gold",
+      "wins": 1021,
+      "losses": 1226,
+      "winrate": "45.44%",
+      "bayesianPercentage": "46.44%"
+    }
+  ],
+  [
+    "109672618694070633",
+    {
+      "teamname": "Aethernum Esports",
+      "wins": 0,
+      "losses": 43,
+      "winrate": "0.00%",
+      "bayesianPercentage": "46.28%"
+    }
+  ],
+  [
+    "109676337359108345",
+    {
+      "teamname": "Eclipse Gaming",
+      "wins": 163,
+      "losses": 235,
+      "winrate": "40.95%",
+      "bayesianPercentage": "46.27%"
+    }
+  ],
+  [
+    "109698030312834058",
+    {
+      "teamname": "Genbu Gaming",
+      "wins": 9,
+      "losses": 44,
+      "winrate": "16.98%",
+      "bayesianPercentage": "46.21%"
+    }
+  ],
+  [
+    "107582613263241138",
+    {
+      "teamname": "Deliverance Esports",
+      "wins": 13,
+      "losses": 72,
+      "winrate": "15.29%",
+      "bayesianPercentage": "45.98%"
+    }
+  ],
+  [
+    "98926509892121852",
+    {
+      "teamname": "FlyQuest",
+      "wins": 2260,
+      "losses": 2687,
+      "winrate": "45.68%",
+      "bayesianPercentage": "45.97%"
+    }
+  ],
+  [
+    "101428372603715124",
+    {
+      "teamname": "Crest Gaming Act",
+      "wins": 1060,
+      "losses": 1302,
+      "winrate": "44.88%",
+      "bayesianPercentage": "45.95%"
+    }
+  ],
+  [
+    "99566404855553726",
+    {
+      "teamname": "FunPlus Phoenix",
+      "wins": 118,
+      "losses": 200,
+      "winrate": "37.11%",
+      "bayesianPercentage": "45.93%"
+    }
+  ],
+  [
+    "109631614501223948",
+    {
+      "teamname": "War Legion Esports",
+      "wins": 20,
+      "losses": 80,
+      "winrate": "20.00%",
+      "bayesianPercentage": "45.82%"
+    }
+  ],
+  [
+    "108203169709977541",
+    {
+      "teamname": "BRO Academy",
+      "wins": 240,
+      "losses": 340,
+      "winrate": "41.38%",
+      "bayesianPercentage": "45.74%"
+    }
+  ],
+  [
+    "99566405127798575",
+    {
+      "teamname": "TSM Challengers",
+      "wins": 1776,
+      "losses": 2192,
+      "winrate": "44.76%",
+      "bayesianPercentage": "45.67%"
+    }
+  ],
+  [
+    "110534724851488577",
+    {
+      "teamname": "Froggy Five",
+      "wins": 3,
+      "losses": 6,
+      "winrate": "33.33%",
+      "bayesianPercentage": "45.65%"
+    }
+  ],
+  [
+    "107598764318774383",
+    {
+      "teamname": "KR\u00c3\u0153 Esports",
+      "wins": 420,
+      "losses": 552,
+      "winrate": "43.21%",
+      "bayesianPercentage": "45.43%"
+    }
+  ],
+  [
+    "109696047948627764",
+    {
+      "teamname": "GNG Esports",
+      "wins": 140,
+      "losses": 252,
+      "winrate": "35.71%",
+      "bayesianPercentage": "45.42%"
+    }
+  ],
+  [
+    "105553729458550723",
+    {
+      "teamname": "Nexus KTRL",
+      "wins": 328,
+      "losses": 485,
+      "winrate": "40.34%",
+      "bayesianPercentage": "45.39%"
+    }
+  ],
+  [
+    "105521412995449549",
+    {
+      "teamname": "Team ESCA Gaming",
+      "wins": 764,
+      "losses": 980,
+      "winrate": "43.81%",
+      "bayesianPercentage": "45.36%"
+    }
+  ],
+  [
+    "105532791598779236",
+    {
+      "teamname": "UCAM",
+      "wins": 893,
+      "losses": 1176,
+      "winrate": "43.16%",
+      "bayesianPercentage": "45.09%"
+    }
+  ],
+  [
+    "99566405129589291",
+    {
+      "teamname": "Golden Guardians Challengers",
+      "wins": 1810,
+      "losses": 2246,
+      "winrate": "44.63%",
+      "bayesianPercentage": "44.94%"
+    }
+  ],
+  [
+    "104710383210356454",
+    {
+      "teamname": "LowLandLions",
+      "wins": 262,
+      "losses": 366,
+      "winrate": "41.72%",
+      "bayesianPercentage": "44.89%"
+    }
+  ],
+  [
+    "105521451717484016",
+    {
+      "teamname": "Hive Athens EC",
+      "wins": 256,
+      "losses": 392,
+      "winrate": "39.51%",
+      "bayesianPercentage": "44.79%"
+    }
+  ],
+  [
+    "107603596915629288",
+    {
+      "teamname": "Spirituals",
+      "wins": 50,
+      "losses": 132,
+      "winrate": "27.47%",
+      "bayesianPercentage": "44.78%"
+    }
+  ],
+  [
+    "103535282140533402",
+    {
+      "teamname": "Be\u00c5\u0178ikta\u00c5\u0178 Akademi",
+      "wins": 1116,
+      "losses": 1422,
+      "winrate": "43.97%",
+      "bayesianPercentage": "44.75%"
+    }
+  ],
+  [
+    "108448995754333242",
+    {
+      "teamname": "webidoo Gaming",
+      "wins": 56,
+      "losses": 140,
+      "winrate": "28.57%",
+      "bayesianPercentage": "44.75%"
+    }
+  ],
+  [
+    "105532840001188717",
+    {
+      "teamname": "S2V Esports",
+      "wins": 259,
+      "losses": 426,
+      "winrate": "37.81%",
+      "bayesianPercentage": "44.68%"
+    }
+  ],
+  [
+    "107067065368380132",
+    {
+      "teamname": "Wild Panthers Esports",
+      "wins": 140,
+      "losses": 252,
+      "winrate": "35.71%",
+      "bayesianPercentage": "44.66%"
+    }
+  ],
+  [
+    "98767991897792379",
+    {
+      "teamname": "Hong Kong Attitude",
+      "wins": 262,
+      "losses": 433,
+      "winrate": "37.70%",
+      "bayesianPercentage": "44.60%"
+    }
+  ],
+  [
+    "103461966975897718",
+    {
+      "teamname": "Immortals Progressive Challengers",
+      "wins": 1770,
+      "losses": 2261,
+      "winrate": "43.91%",
+      "bayesianPercentage": "44.59%"
+    }
+  ],
+  [
+    "105537621677160078",
+    {
+      "teamname": "Team Queso",
+      "wins": 270,
+      "losses": 379,
+      "winrate": "41.60%",
+      "bayesianPercentage": "44.53%"
+    }
+  ],
+  [
+    "110425005562048945",
+    {
+      "teamname": "Keypulse Esports",
+      "wins": 56,
+      "losses": 140,
+      "winrate": "28.57%",
+      "bayesianPercentage": "44.47%"
+    }
+  ],
+  [
+    "105548000936710641",
+    {
+      "teamname": "Method2Madness",
+      "wins": 105,
+      "losses": 156,
+      "winrate": "40.23%",
+      "bayesianPercentage": "44.41%"
+    }
+  ],
+  [
+    "107423083507599175",
+    {
+      "teamname": "Vanir",
+      "wins": 442,
+      "losses": 599,
+      "winrate": "42.46%",
+      "bayesianPercentage": "44.20%"
+    }
+  ],
+  [
+    "103495716886587312",
+    {
+      "teamname": "Be\u00c5\u0178ikta\u00c5\u0178",
+      "wins": 1275,
+      "losses": 1723,
+      "winrate": "42.53%",
+      "bayesianPercentage": "44.20%"
+    }
+  ],
+  [
+    "109485351596724390",
+    {
+      "teamname": "Los Grandes Academy",
+      "wins": 276,
+      "losses": 381,
+      "winrate": "42.01%",
+      "bayesianPercentage": "44.19%"
+    }
+  ],
+  [
+    "101383793572656373",
+    {
+      "teamname": "EXCEL",
+      "wins": 1223,
+      "losses": 1668,
+      "winrate": "42.30%",
+      "bayesianPercentage": "44.16%"
+    }
+  ],
+  [
+    "104211677548295324",
+    {
+      "teamname": "Double Crunch Team Italy",
+      "wins": 0,
+      "losses": 4,
+      "winrate": "0.00%",
+      "bayesianPercentage": "44.13%"
+    }
+  ],
+  [
+    "109695924147263860",
+    {
+      "teamname": "Triple Esports",
+      "wins": 128,
+      "losses": 268,
+      "winrate": "32.32%",
+      "bayesianPercentage": "44.13%"
+    }
+  ],
+  [
+    "106827765448944398",
+    {
+      "teamname": "DFM Academy",
+      "wins": 200,
+      "losses": 347,
+      "winrate": "36.56%",
+      "bayesianPercentage": "44.12%"
+    }
+  ],
+  [
+    "99871276356460471",
+    {
+      "teamname": "Griffin",
+      "wins": 90,
+      "losses": 238,
+      "winrate": "27.44%",
+      "bayesianPercentage": "44.11%"
+    }
+  ],
+  [
+    "107598780504331406",
+    {
+      "teamname": "Maycam Evolve",
+      "wins": 436,
+      "losses": 633,
+      "winrate": "40.79%",
+      "bayesianPercentage": "44.08%"
+    }
+  ],
+  [
+    "109539873500788632",
+    {
+      "teamname": "EXEED",
+      "wins": 234,
+      "losses": 414,
+      "winrate": "36.11%",
+      "bayesianPercentage": "44.08%"
+    }
+  ],
+  [
+    "104843437139220481",
+    {
+      "teamname": "Undead BK",
+      "wins": 580,
+      "losses": 814,
+      "winrate": "41.61%",
+      "bayesianPercentage": "44.07%"
+    }
+  ],
+  [
+    "103461966971048042",
+    {
+      "teamname": "Evil Geniuses Challengers",
+      "wins": 2287,
+      "losses": 2983,
+      "winrate": "43.40%",
+      "bayesianPercentage": "43.83%"
+    }
+  ],
+  [
+    "102787200159169580",
+    {
+      "teamname": "Godsent",
+      "wins": 99,
+      "losses": 168,
+      "winrate": "37.08%",
+      "bayesianPercentage": "43.82%"
+    }
+  ],
+  [
+    "106300533256999014",
+    {
+      "teamname": "Starlan Gaming Club",
+      "wins": 30,
+      "losses": 70,
+      "winrate": "30.00%",
+      "bayesianPercentage": "43.80%"
+    }
+  ],
+  [
+    "101383793569248484",
+    {
+      "teamname": "Astralis",
+      "wins": 1215,
+      "losses": 1647,
+      "winrate": "42.45%",
+      "bayesianPercentage": "43.73%"
+    }
+  ],
+  [
+    "109692071893352727",
+    {
+      "teamname": "Hell Pigs",
+      "wins": 234,
+      "losses": 414,
+      "winrate": "36.11%",
+      "bayesianPercentage": "43.62%"
+    }
+  ],
+  [
+    "105397399468432537",
+    {
+      "teamname": "Miners",
+      "wins": 522,
+      "losses": 776,
+      "winrate": "40.22%",
+      "bayesianPercentage": "43.54%"
+    }
+  ],
+  [
+    "105519945593890595",
+    {
+      "teamname": "KOVA Esports",
+      "wins": 67,
+      "losses": 180,
+      "winrate": "27.13%",
+      "bayesianPercentage": "43.45%"
+    }
+  ],
+  [
+    "105593311172904657",
+    {
+      "teamname": "Eclot Gaming",
+      "wins": 56,
+      "losses": 141,
+      "winrate": "28.43%",
+      "bayesianPercentage": "43.44%"
+    }
+  ],
+  [
+    "99566408219409348",
+    {
+      "teamname": "Vivo Keyd Stars",
+      "wins": 818,
+      "losses": 1158,
+      "winrate": "41.40%",
+      "bayesianPercentage": "43.41%"
+    }
+  ],
+  [
+    "107700211633200412",
+    {
+      "teamname": "Meta Falcon Team",
+      "wins": 252,
+      "losses": 401,
+      "winrate": "38.59%",
+      "bayesianPercentage": "43.39%"
+    }
+  ],
+  [
+    "105521402545275594",
+    {
+      "teamname": "Gentlemen's Gaming",
+      "wins": 406,
+      "losses": 667,
+      "winrate": "37.84%",
+      "bayesianPercentage": "43.38%"
+    }
+  ],
+  [
+    "103935421249833954",
+    {
+      "teamname": "MAD Lions Madrid",
+      "wins": 564,
+      "losses": 770,
+      "winrate": "42.28%",
+      "bayesianPercentage": "43.37%"
+    }
+  ],
+  [
+    "107582173169864040",
+    {
+      "teamname": "GeekSide Esports",
+      "wins": 71,
+      "losses": 168,
+      "winrate": "29.71%",
+      "bayesianPercentage": "43.37%"
+    }
+  ],
+  [
+    "107597858964689090",
+    {
+      "teamname": "SOVEJA",
+      "wins": 28,
+      "losses": 168,
+      "winrate": "14.29%",
+      "bayesianPercentage": "43.37%"
+    }
+  ],
+  [
+    "107648168744912288",
+    {
+      "teamname": "DREN Esports",
+      "wins": 112,
+      "losses": 280,
+      "winrate": "28.57%",
+      "bayesianPercentage": "43.29%"
+    }
+  ],
+  [
+    "103535282148790975",
+    {
+      "teamname": "GALAKTICOS Akademi",
+      "wins": 1052,
+      "losses": 1521,
+      "winrate": "40.89%",
+      "bayesianPercentage": "43.24%"
+    }
+  ],
+  [
+    "100289931264192378",
+    {
+      "teamname": "Team Spirit",
+      "wins": 154,
+      "losses": 294,
+      "winrate": "34.38%",
+      "bayesianPercentage": "43.23%"
+    }
+  ],
+  [
+    "107581209070519555",
+    {
+      "teamname": "Atomic Esports",
+      "wins": 126,
+      "losses": 291,
+      "winrate": "30.22%",
+      "bayesianPercentage": "43.12%"
+    }
+  ],
+  [
+    "105553684493690219",
+    {
+      "teamname": "Split Raiders",
+      "wins": 343,
+      "losses": 472,
+      "winrate": "42.09%",
+      "bayesianPercentage": "42.95%"
+    }
+  ],
+  [
+    "104710359142494900",
+    {
+      "teamname": "Samsung Morning Stars",
+      "wins": 295,
+      "losses": 535,
+      "winrate": "35.54%",
+      "bayesianPercentage": "42.91%"
+    }
+  ],
+  [
+    "109637393694097670",
+    {
+      "teamname": "Team Heretics",
+      "wins": 117,
+      "losses": 159,
+      "winrate": "42.39%",
+      "bayesianPercentage": "42.90%"
+    }
+  ],
+  [
+    "107251295460371069",
+    {
+      "teamname": "Team Secret",
+      "wins": 232,
+      "losses": 368,
+      "winrate": "38.67%",
+      "bayesianPercentage": "42.90%"
+    }
+  ],
+  [
+    "99566408561605102",
+    {
+      "teamname": "XTEN Esports",
+      "wins": 498,
+      "losses": 771,
+      "winrate": "39.24%",
+      "bayesianPercentage": "42.90%"
+    }
+  ],
+  [
+    "104367072827489994",
+    {
+      "teamname": "Berjaya Dragons",
+      "wins": 218,
+      "losses": 435,
+      "winrate": "33.38%",
+      "bayesianPercentage": "42.83%"
+    }
+  ],
+  [
+    "109539675734129088",
+    {
+      "teamname": "Northern Lions Esports",
+      "wins": 112,
+      "losses": 280,
+      "winrate": "28.57%",
+      "bayesianPercentage": "42.78%"
+    }
+  ],
+  [
+    "107565448721890834",
+    {
+      "teamname": "Domino Esports",
+      "wins": 130,
+      "losses": 291,
+      "winrate": "30.88%",
+      "bayesianPercentage": "42.73%"
+    }
+  ],
+  [
+    "100725845022060229",
+    {
+      "teamname": "Liiv SANDBOX",
+      "wins": 1232,
+      "losses": 1704,
+      "winrate": "41.96%",
+      "bayesianPercentage": "42.70%"
+    }
+  ],
+  [
+    "99294153824386385",
+    {
+      "teamname": "Golden Guardians",
+      "wins": 1995,
+      "losses": 2843,
+      "winrate": "41.24%",
+      "bayesianPercentage": "42.65%"
+    }
+  ],
+  [
+    "107437032053655867",
+    {
+      "teamname": "Kanga Esports",
+      "wins": 355,
+      "losses": 624,
+      "winrate": "36.26%",
+      "bayesianPercentage": "42.64%"
+    }
+  ],
+  [
+    "105550051809743868",
+    {
+      "teamname": "Liiv SANDBOX Youth",
+      "wins": 1611,
+      "losses": 2316,
+      "winrate": "41.02%",
+      "bayesianPercentage": "42.63%"
+    }
+  ],
+  [
+    "105520826536746180",
+    {
+      "teamname": "Team THRLL",
+      "wins": 40,
+      "losses": 161,
+      "winrate": "19.90%",
+      "bayesianPercentage": "42.52%"
+    }
+  ],
+  [
+    "109697683685398040",
+    {
+      "teamname": "MAGAZA",
+      "wins": 140,
+      "losses": 252,
+      "winrate": "35.71%",
+      "bayesianPercentage": "42.45%"
+    }
+  ],
+  [
+    "105550024238752685",
+    {
+      "teamname": "KDF Challengers",
+      "wins": 1624,
+      "losses": 2342,
+      "winrate": "40.95%",
+      "bayesianPercentage": "42.43%"
+    }
+  ],
+  [
+    "103535282151674574",
+    {
+      "teamname": "Royal Youth Akademi",
+      "wins": 513,
+      "losses": 703,
+      "winrate": "42.19%",
+      "bayesianPercentage": "42.36%"
+    }
+  ],
+  [
+    "108203173414485265",
+    {
+      "teamname": "HLE Academy",
+      "wins": 216,
+      "losses": 360,
+      "winrate": "37.50%",
+      "bayesianPercentage": "42.33%"
+    }
+  ],
+  [
+    "109697689430777005",
+    {
+      "teamname": "Ankora Gaming",
+      "wins": 98,
+      "losses": 294,
+      "winrate": "25.00%",
+      "bayesianPercentage": "42.18%"
+    }
+  ],
+  [
+    "99566406332122275",
+    {
+      "teamname": "Avant Gaming",
+      "wins": 504,
+      "losses": 820,
+      "winrate": "38.07%",
+      "bayesianPercentage": "42.12%"
+    }
+  ],
+  [
+    "107251231972989211",
+    {
+      "teamname": "SBTC ESPORTS",
+      "wins": 199,
+      "losses": 434,
+      "winrate": "31.44%",
+      "bayesianPercentage": "42.08%"
+    }
+  ],
+  [
+    "99566404581868574",
+    {
+      "teamname": "Kwangdong Freecs",
+      "wins": 1239,
+      "losses": 1727,
+      "winrate": "41.77%",
+      "bayesianPercentage": "42.00%"
+    }
+  ],
+  [
+    "98926509883054987",
+    {
+      "teamname": "Dignitas",
+      "wins": 2015,
+      "losses": 2852,
+      "winrate": "41.40%",
+      "bayesianPercentage": "41.97%"
+    }
+  ],
+  [
+    "103877554248683116",
+    {
+      "teamname": "Schalke 04 Evolution",
+      "wins": 335,
+      "losses": 480,
+      "winrate": "41.10%",
+      "bayesianPercentage": "41.91%"
+    }
+  ],
+  [
+    "99566404848691211",
+    {
+      "teamname": "Invictus Gaming",
+      "wins": 96,
+      "losses": 169,
+      "winrate": "36.23%",
+      "bayesianPercentage": "41.80%"
+    }
+  ],
+  [
+    "103963715924353674",
+    {
+      "teamname": "Dragon Army",
+      "wins": 154,
+      "losses": 294,
+      "winrate": "34.38%",
+      "bayesianPercentage": "41.78%"
+    }
+  ],
+  [
+    "105536773074826367",
+    {
+      "teamname": "GGEsports",
+      "wins": 346,
+      "losses": 651,
+      "winrate": "34.70%",
+      "bayesianPercentage": "41.76%"
+    }
+  ],
+  [
+    "106806779752531762",
+    {
+      "teamname": "Globant Emerald Team",
+      "wins": 314,
+      "losses": 567,
+      "winrate": "35.64%",
+      "bayesianPercentage": "41.75%"
+    }
+  ],
+  [
+    "107179722233063345",
+    {
+      "teamname": "Cryptova",
+      "wins": 280,
+      "losses": 504,
+      "winrate": "35.71%",
+      "bayesianPercentage": "41.70%"
+    }
+  ],
+  [
+    "99566408217116828",
+    {
+      "teamname": "INTZ",
+      "wins": 1333,
+      "losses": 1973,
+      "winrate": "40.32%",
+      "bayesianPercentage": "41.67%"
+    }
+  ],
+  [
+    "105549993449477104",
+    {
+      "teamname": "INTZ Academy",
+      "wins": 606,
+      "losses": 1031,
+      "winrate": "37.02%",
+      "bayesianPercentage": "41.57%"
+    }
+  ],
+  [
+    "105548019132871601",
+    {
+      "teamname": "Medieval Riga",
+      "wins": 20,
+      "losses": 180,
+      "winrate": "10.00%",
+      "bayesianPercentage": "41.54%"
+    }
+  ],
+  [
+    "109671413728531527",
+    {
+      "teamname": "Pentagon Rejects",
+      "wins": 126,
+      "losses": 266,
+      "winrate": "32.14%",
+      "bayesianPercentage": "41.50%"
+    }
+  ],
+  [
+    "107693836459380354",
+    {
+      "teamname": "SAMPI",
+      "wins": 154,
+      "losses": 238,
+      "winrate": "39.29%",
+      "bayesianPercentage": "41.43%"
+    }
+  ],
+  [
+    "101383793195758800",
+    {
+      "teamname": "Redemption Porto Alegre",
+      "wins": 126,
+      "losses": 315,
+      "winrate": "28.57%",
+      "bayesianPercentage": "41.35%"
+    }
+  ],
+  [
+    "107599089191671351",
+    {
+      "teamname": "Santiago Wanderers",
+      "wins": 251,
+      "losses": 451,
+      "winrate": "35.75%",
+      "bayesianPercentage": "41.34%"
+    }
+  ],
+  [
+    "107258254469504696",
+    {
+      "teamname": "Team Flash",
+      "wins": 168,
+      "losses": 424,
+      "winrate": "28.38%",
+      "bayesianPercentage": "41.34%"
+    }
+  ],
+  [
+    "107581212180071788",
+    {
+      "teamname": "Peek Gaming",
+      "wins": 332,
+      "losses": 606,
+      "winrate": "35.39%",
+      "bayesianPercentage": "41.24%"
+    }
+  ],
+  [
+    "107599144012469862",
+    {
+      "teamname": "Maze Gaming",
+      "wins": 247,
+      "losses": 459,
+      "winrate": "34.99%",
+      "bayesianPercentage": "41.23%"
+    }
+  ],
+  [
+    "107655539755387391",
+    {
+      "teamname": "Varona Esports",
+      "wins": 42,
+      "losses": 154,
+      "winrate": "21.43%",
+      "bayesianPercentage": "41.22%"
+    }
+  ],
+  [
+    "105550047979361273",
+    {
+      "teamname": "HLE Challengers",
+      "wins": 1551,
+      "losses": 2393,
+      "winrate": "39.33%",
+      "bayesianPercentage": "41.19%"
+    }
+  ],
+  [
+    "105521504308341229",
+    {
+      "teamname": "Team Refuse",
+      "wins": 278,
+      "losses": 596,
+      "winrate": "31.81%",
+      "bayesianPercentage": "40.95%"
+    }
+  ],
+  [
+    "105537408539332006",
+    {
+      "teamname": "eMonkeyz SDH",
+      "wins": 198,
+      "losses": 450,
+      "winrate": "30.56%",
+      "bayesianPercentage": "40.91%"
+    }
+  ],
+  [
+    "105521293297166647",
+    {
+      "teamname": "Hell Zerolag Esports",
+      "wins": 423,
+      "losses": 819,
+      "winrate": "34.06%",
+      "bayesianPercentage": "40.78%"
+    }
+  ],
+  [
+    "108403526900459473",
+    {
+      "teamname": "UniQ Esports",
+      "wins": 101,
+      "losses": 320,
+      "winrate": "23.99%",
+      "bayesianPercentage": "40.65%"
+    }
+  ],
+  [
+    "102141671183409133",
+    {
+      "teamname": "Maryville University",
+      "wins": 509,
+      "losses": 847,
+      "winrate": "37.54%",
+      "bayesianPercentage": "40.64%"
+    }
+  ],
+  [
+    "108203166973601408",
+    {
+      "teamname": "Liiv SANDBOX Academy",
+      "wins": 192,
+      "losses": 384,
+      "winrate": "33.33%",
+      "bayesianPercentage": "40.62%"
+    }
+  ],
+  [
+    "101978171843206569",
+    {
+      "teamname": "Vega Squadron",
+      "wins": 117,
+      "losses": 364,
+      "winrate": "24.32%",
+      "bayesianPercentage": "40.62%"
+    }
+  ],
+  [
+    "105594101461473671",
+    {
+      "teamname": "Karma Clan Esports",
+      "wins": 248,
+      "losses": 576,
+      "winrate": "30.10%",
+      "bayesianPercentage": "40.53%"
+    }
+  ],
+  [
+    "105503778424809514",
+    {
+      "teamname": "EURONICS Gaming",
+      "wins": 180,
+      "losses": 468,
+      "winrate": "27.78%",
+      "bayesianPercentage": "40.48%"
+    }
+  ],
+  [
+    "107456355516438414",
+    {
+      "teamname": "Eintracht Frankfurt",
+      "wins": 180,
+      "losses": 468,
+      "winrate": "27.78%",
+      "bayesianPercentage": "40.45%"
+    }
+  ],
+  [
+    "105593278887024877",
+    {
+      "teamname": "Inaequalis",
+      "wins": 70,
+      "losses": 322,
+      "winrate": "17.86%",
+      "bayesianPercentage": "40.40%"
+    }
+  ],
+  [
+    "109696138543579708",
+    {
+      "teamname": "3BL Esports",
+      "wins": 98,
+      "losses": 294,
+      "winrate": "25.00%",
+      "bayesianPercentage": "40.27%"
+    }
+  ],
+  [
+    "105594176887807460",
+    {
+      "teamname": "EFIVE Esports",
+      "wins": 84,
+      "losses": 308,
+      "winrate": "21.43%",
+      "bayesianPercentage": "40.17%"
+    }
+  ],
+  [
+    "106827848618374543",
+    {
+      "teamname": "BC Academy",
+      "wins": 133,
+      "losses": 407,
+      "winrate": "24.63%",
+      "bayesianPercentage": "39.97%"
+    }
+  ],
+  [
+    "101383793567806688",
+    {
+      "teamname": "SK Gaming",
+      "wins": 1089,
+      "losses": 1772,
+      "winrate": "38.06%",
+      "bayesianPercentage": "39.91%"
+    }
+  ],
+  [
+    "105503848339138647",
+    {
+      "teamname": "PENTA 1860",
+      "wins": 522,
+      "losses": 811,
+      "winrate": "39.16%",
+      "bayesianPercentage": "39.87%"
+    }
+  ],
+  [
+    "101428372598668846",
+    {
+      "teamname": "Burning Core",
+      "wins": 861,
+      "losses": 1493,
+      "winrate": "36.58%",
+      "bayesianPercentage": "39.80%"
+    }
+  ],
+  [
+    "105549984475833252",
+    {
+      "teamname": "Cruzeiro Academy",
+      "wins": 72,
+      "losses": 252,
+      "winrate": "22.22%",
+      "bayesianPercentage": "39.69%"
+    }
+  ],
+  [
+    "109697686032800938",
+    {
+      "teamname": "XtremeDominators",
+      "wins": 0,
+      "losses": 196,
+      "winrate": "0.00%",
+      "bayesianPercentage": "39.55%"
+    }
+  ],
+  [
+    "107456284318482723",
+    {
+      "teamname": "Mirage-Elyandra",
+      "wins": 162,
+      "losses": 486,
+      "winrate": "25.00%",
+      "bayesianPercentage": "39.43%"
+    }
+  ],
+  [
+    "107574959289974368",
+    {
+      "teamname": "Odivelas Sports Club",
+      "wins": 268,
+      "losses": 520,
+      "winrate": "34.01%",
+      "bayesianPercentage": "39.31%"
+    }
+  ],
+  [
+    "107581178720470377",
+    {
+      "teamname": "Arctic Gaming",
+      "wins": 159,
+      "losses": 258,
+      "winrate": "38.13%",
+      "bayesianPercentage": "39.23%"
+    }
+  ],
+  [
+    "99566405944694628",
+    {
+      "teamname": "Pixel Esports Club",
+      "wins": 112,
+      "losses": 280,
+      "winrate": "28.57%",
+      "bayesianPercentage": "39.17%"
+    }
+  ],
+  [
+    "101428372602011186",
+    {
+      "teamname": "V3 Esports",
+      "wins": 892,
+      "losses": 1528,
+      "winrate": "36.86%",
+      "bayesianPercentage": "38.98%"
+    }
+  ],
+  [
+    "107563714667537640",
+    {
+      "teamname": "Team BDS",
+      "wins": 282,
+      "losses": 636,
+      "winrate": "30.72%",
+      "bayesianPercentage": "38.94%"
+    }
+  ],
+  [
+    "107598878262940546",
+    {
+      "teamname": "Malvinas Rise",
+      "wins": 513,
+      "losses": 933,
+      "winrate": "35.48%",
+      "bayesianPercentage": "38.71%"
+    }
+  ],
+  [
+    "107603551467692884",
+    {
+      "teamname": "ELR Gaming",
+      "wins": 13,
+      "losses": 72,
+      "winrate": "15.29%",
+      "bayesianPercentage": "38.61%"
+    }
+  ],
+  [
+    "109674808371974726",
+    {
+      "teamname": "Newell's Esports",
+      "wins": 0,
+      "losses": 100,
+      "winrate": "0.00%",
+      "bayesianPercentage": "38.61%"
+    }
+  ],
+  [
+    "104367099322647716",
+    {
+      "teamname": "Liyab Esports",
+      "wins": 167,
+      "losses": 519,
+      "winrate": "24.34%",
+      "bayesianPercentage": "38.58%"
+    }
+  ],
+  [
+    "105593182576105603",
+    {
+      "teamname": "BRUTE",
+      "wins": 428,
+      "losses": 797,
+      "winrate": "34.94%",
+      "bayesianPercentage": "38.46%"
+    }
+  ],
+  [
+    "100205573496804586",
+    {
+      "teamname": "Hanwha Life Esports",
+      "wins": 1063,
+      "losses": 1951,
+      "winrate": "35.27%",
+      "bayesianPercentage": "38.42%"
+    }
+  ],
+  [
+    "109692074894483834",
+    {
+      "teamname": "West Point Esports",
+      "wins": 180,
+      "losses": 468,
+      "winrate": "27.78%",
+      "bayesianPercentage": "37.89%"
+    }
+  ],
+  [
+    "107599174108436104",
+    {
+      "teamname": "Rebirth Esports",
+      "wins": 256,
+      "losses": 480,
+      "winrate": "34.78%",
+      "bayesianPercentage": "37.85%"
+    }
+  ],
+  [
+    "99566404846951820",
+    {
+      "teamname": "LGD GAMING",
+      "wins": 64,
+      "losses": 257,
+      "winrate": "19.94%",
+      "bayesianPercentage": "37.63%"
+    }
+  ],
+  [
+    "107598805167594304",
+    {
+      "teamname": "Wap Esports",
+      "wins": 517,
+      "losses": 916,
+      "winrate": "36.08%",
+      "bayesianPercentage": "37.61%"
+    }
+  ],
+  [
+    "104202382255290736",
+    {
+      "teamname": "RENSGA",
+      "wins": 402,
+      "losses": 903,
+      "winrate": "30.80%",
+      "bayesianPercentage": "37.61%"
+    }
+  ],
+  [
+    "103495716836203404",
+    {
+      "teamname": "5 Ronin",
+      "wins": 945,
+      "losses": 1791,
+      "winrate": "34.54%",
+      "bayesianPercentage": "37.29%"
+    }
+  ],
+  [
+    "108319669531442279",
+    {
+      "teamname": "Aguilas Doradas",
+      "wins": 17,
+      "losses": 83,
+      "winrate": "17.00%",
+      "bayesianPercentage": "37.15%"
+    }
+  ],
+  [
+    "107599188771591359",
+    {
+      "teamname": "Wolf Club Gaming",
+      "wins": 144,
+      "losses": 504,
+      "winrate": "22.22%",
+      "bayesianPercentage": "37.08%"
+    }
+  ],
+  [
+    "102825747701670848",
+    {
+      "teamname": "Azules Esports",
+      "wins": 120,
+      "losses": 289,
+      "winrate": "29.34%",
+      "bayesianPercentage": "37.03%"
+    }
+  ],
+  [
+    "99322214695067838",
+    {
+      "teamname": "Team Vitality",
+      "wins": 1026,
+      "losses": 1868,
+      "winrate": "35.45%",
+      "bayesianPercentage": "36.57%"
+    }
+  ],
+  [
+    "103535282113853330",
+    {
+      "teamname": "5 Ronin Akademi",
+      "wins": 778,
+      "losses": 1678,
+      "winrate": "31.68%",
+      "bayesianPercentage": "36.48%"
+    }
+  ],
+  [
+    "105503948999800557",
+    {
+      "teamname": "E WIE EINFACH E-SPORTS",
+      "wins": 684,
+      "losses": 1261,
+      "winrate": "35.17%",
+      "bayesianPercentage": "36.45%"
+    }
+  ],
+  [
+    "107423086908356081",
+    {
+      "teamname": "Nyyrikki",
+      "wins": 234,
+      "losses": 414,
+      "winrate": "36.11%",
+      "bayesianPercentage": "36.39%"
+    }
+  ],
+  [
+    "98767991930907107",
+    {
+      "teamname": "Immortals Progressive",
+      "wins": 1670,
+      "losses": 3039,
+      "winrate": "35.46%",
+      "bayesianPercentage": "36.37%"
+    }
+  ],
+  [
+    "109672446077514083",
+    {
+      "teamname": "The Kings Moon",
+      "wins": 42,
+      "losses": 154,
+      "winrate": "21.43%",
+      "bayesianPercentage": "36.31%"
+    }
+  ],
+  [
+    "105593161016793151",
+    {
+      "teamname": "Inside Games",
+      "wins": 423,
+      "losses": 766,
+      "winrate": "35.58%",
+      "bayesianPercentage": "36.23%"
+    }
+  ],
+  [
+    "105521239281281237",
+    {
+      "teamname": "CowBoySquad Imperials Esports",
+      "wins": 64,
+      "losses": 384,
+      "winrate": "14.29%",
+      "bayesianPercentage": "36.17%"
+    }
+  ],
+  [
+    "102747101565183056",
+    {
+      "teamname": "NongShim REDFORCE",
+      "wins": 834,
+      "losses": 1768,
+      "winrate": "32.05%",
+      "bayesianPercentage": "36.11%"
+    }
+  ],
+  [
+    "105663527959374033",
+    {
+      "teamname": "CTRL PLAY Team",
+      "wins": 58,
+      "losses": 419,
+      "winrate": "12.16%",
+      "bayesianPercentage": "35.97%"
+    }
+  ],
+  [
+    "108361575122450254",
+    {
+      "teamname": "Team Fish Taco",
+      "wins": 377,
+      "losses": 953,
+      "winrate": "28.35%",
+      "bayesianPercentage": "35.86%"
+    }
+  ],
+  [
+    "105594163014588871",
+    {
+      "teamname": "Boavista F.C",
+      "wins": 301,
+      "losses": 905,
+      "winrate": "24.96%",
+      "bayesianPercentage": "35.64%"
+    }
+  ],
+  [
+    "105550036134585264",
+    {
+      "teamname": "BRO Challengers",
+      "wins": 1323,
+      "losses": 2602,
+      "winrate": "33.71%",
+      "bayesianPercentage": "34.95%"
+    }
+  ],
+  [
+    "102787200153467923",
+    {
+      "teamname": "BCN Squad",
+      "wins": 204,
+      "losses": 481,
+      "winrate": "29.78%",
+      "bayesianPercentage": "34.44%"
+    }
+  ],
+  [
+    "108018637503819612",
+    {
+      "teamname": "PRO42 Esports",
+      "wins": 14,
+      "losses": 71,
+      "winrate": "16.47%",
+      "bayesianPercentage": "34.25%"
+    }
+  ],
+  [
+    "107581761958954646",
+    {
+      "teamname": "Vandals Esports",
+      "wins": 98,
+      "losses": 394,
+      "winrate": "19.92%",
+      "bayesianPercentage": "34.24%"
+    }
+  ],
+  [
+    "107564135791716115",
+    {
+      "teamname": "Guasones",
+      "wins": 108,
+      "losses": 540,
+      "winrate": "16.67%",
+      "bayesianPercentage": "34.21%"
+    }
+  ],
+  [
+    "106269859169658575",
+    {
+      "teamname": "Impunity Esports",
+      "wins": 516,
+      "losses": 1159,
+      "winrate": "30.81%",
+      "bayesianPercentage": "33.95%"
+    }
+  ],
+  [
+    "110424397251619481",
+    {
+      "teamname": "Myth Esports",
+      "wins": 56,
+      "losses": 140,
+      "winrate": "28.57%",
+      "bayesianPercentage": "33.75%"
+    }
+  ],
+  [
+    "101428372607057464",
+    {
+      "teamname": "AXIZ",
+      "wins": 717,
+      "losses": 1630,
+      "winrate": "30.55%",
+      "bayesianPercentage": "33.65%"
+    }
+  ],
+  [
+    "107110686951738484",
+    {
+      "teamname": "Esports Empire",
+      "wins": 112,
+      "losses": 280,
+      "winrate": "28.57%",
+      "bayesianPercentage": "33.62%"
+    }
+  ],
+  [
+    "107468079354897663",
+    {
+      "teamname": "Team Oplon",
+      "wins": 108,
+      "losses": 540,
+      "winrate": "16.67%",
+      "bayesianPercentage": "33.55%"
+    }
+  ],
+  [
+    "98926509884398584",
+    {
+      "teamname": "CLG",
+      "wins": 1344,
+      "losses": 3087,
+      "winrate": "30.33%",
+      "bayesianPercentage": "33.40%"
+    }
+  ],
+  [
+    "102787200138722262",
+    {
+      "teamname": "Devils.One",
+      "wins": 256,
+      "losses": 785,
+      "winrate": "24.59%",
+      "bayesianPercentage": "33.30%"
+    }
+  ],
+  [
+    "103877891572305836",
+    {
+      "teamname": "Team Singularity",
+      "wins": 258,
+      "losses": 711,
+      "winrate": "26.63%",
+      "bayesianPercentage": "33.16%"
+    }
+  ],
+  [
+    "107582176093752697",
+    {
+      "teamname": "Hooked Esports",
+      "wins": 14,
+      "losses": 35,
+      "winrate": "28.57%",
+      "bayesianPercentage": "33.13%"
+    }
+  ],
+  [
+    "108319257932089006",
+    {
+      "teamname": "Osaka",
+      "wins": 58,
+      "losses": 384,
+      "winrate": "13.12%",
+      "bayesianPercentage": "32.70%"
+    }
+  ],
+  [
+    "106857761435870473",
+    {
+      "teamname": "Supernova",
+      "wins": 417,
+      "losses": 923,
+      "winrate": "31.12%",
+      "bayesianPercentage": "32.63%"
+    }
+  ],
+  [
+    "105515266817621145",
+    {
+      "teamname": "Team MCES",
+      "wins": 144,
+      "losses": 504,
+      "winrate": "22.22%",
+      "bayesianPercentage": "32.42%"
+    }
+  ],
+  [
+    "105519846782566525",
+    {
+      "teamname": "MnM Gaming",
+      "wins": 172,
+      "losses": 577,
+      "winrate": "22.96%",
+      "bayesianPercentage": "32.38%"
+    }
+  ],
+  [
+    "102787200130988976",
+    {
+      "teamname": "ASUS ROG Elite",
+      "wins": 66,
+      "losses": 420,
+      "winrate": "13.58%",
+      "bayesianPercentage": "32.31%"
+    }
+  ],
+  [
+    "109671193729027761",
+    {
+      "teamname": "FLY FAM",
+      "wins": 150,
+      "losses": 758,
+      "winrate": "16.52%",
+      "bayesianPercentage": "32.31%"
+    }
+  ],
+  [
+    "99566406069969565",
+    {
+      "teamname": "Info Yat\u00c4\u00b1r\u00c4\u00b1m Aurora",
+      "wins": 674,
+      "losses": 1876,
+      "winrate": "26.43%",
+      "bayesianPercentage": "32.15%"
+    }
+  ],
+  [
+    "105593213115128994",
+    {
+      "teamname": "Dark Tigers",
+      "wins": 212,
+      "losses": 576,
+      "winrate": "26.90%",
+      "bayesianPercentage": "31.60%"
+    }
+  ],
+  [
+    "107598704067400262",
+    {
+      "teamname": "Stone Movistar",
+      "wins": 287,
+      "losses": 727,
+      "winrate": "28.30%",
+      "bayesianPercentage": "31.26%"
+    }
+  ],
+  [
+    "98767991916844003",
+    {
+      "teamname": "Kaos Latin Gamers",
+      "wins": 74,
+      "losses": 335,
+      "winrate": "18.09%",
+      "bayesianPercentage": "30.87%"
+    }
+  ],
+  [
+    "99566406070802758",
+    {
+      "teamname": "Royal Youth",
+      "wins": 200,
+      "losses": 960,
+      "winrate": "17.24%",
+      "bayesianPercentage": "30.75%"
+    }
+  ],
+  [
+    "107635420167535818",
+    {
+      "teamname": "SEM9",
+      "wins": 36,
+      "losses": 612,
+      "winrate": "5.56%",
+      "bayesianPercentage": "30.71%"
+    }
+  ],
+  [
+    "105503535895066182",
+    {
+      "teamname": "Wave Esports",
+      "wins": 324,
+      "losses": 972,
+      "winrate": "25.00%",
+      "bayesianPercentage": "30.56%"
+    }
+  ],
+  [
+    "107581733744920199",
+    {
+      "teamname": "Goat Esports",
+      "wins": 28,
+      "losses": 168,
+      "winrate": "14.29%",
+      "bayesianPercentage": "30.27%"
+    }
+  ],
+  [
+    "106827823550343961",
+    {
+      "teamname": "AXZ Academy",
+      "wins": 91,
+      "losses": 449,
+      "winrate": "16.85%",
+      "bayesianPercentage": "29.83%"
+    }
+  ],
+  [
+    "109749493607708438",
+    {
+      "teamname": "ENEMI3S",
+      "wins": 28,
+      "losses": 168,
+      "winrate": "14.29%",
+      "bayesianPercentage": "29.50%"
+    }
+  ],
+  [
+    "106371176555003349",
+    {
+      "teamname": "NK Osijek Esport",
+      "wins": 15,
+      "losses": 210,
+      "winrate": "6.67%",
+      "bayesianPercentage": "29.32%"
+    }
+  ],
+  [
+    "105550003470349739",
+    {
+      "teamname": "Rensga Academy",
+      "wins": 272,
+      "losses": 704,
+      "winrate": "27.87%",
+      "bayesianPercentage": "29.29%"
+    }
+  ],
+  [
+    "105505619546859895",
+    {
+      "teamname": "OKSavingsBank BRION",
+      "wins": 548,
+      "losses": 1434,
+      "winrate": "27.65%",
+      "bayesianPercentage": "29.28%"
+    }
+  ],
+  [
+    "107456352597333899",
+    {
+      "teamname": "NNO Prime",
+      "wins": 108,
+      "losses": 540,
+      "winrate": "16.67%",
+      "bayesianPercentage": "28.74%"
+    }
+  ],
+  [
+    "101383792887446028",
+    {
+      "teamname": "MAMMOTH",
+      "wins": 676,
+      "losses": 2072,
+      "winrate": "24.60%",
+      "bayesianPercentage": "28.15%"
+    }
+  ],
+  [
+    "105521419784127190",
+    {
+      "teamname": "Komil&Friends",
+      "wins": 463,
+      "losses": 1255,
+      "winrate": "26.95%",
+      "bayesianPercentage": "28.12%"
+    }
+  ],
+  [
+    "105515109012592449",
+    {
+      "teamname": "IZIDREAM",
+      "wins": 342,
+      "losses": 954,
+      "winrate": "26.39%",
+      "bayesianPercentage": "27.77%"
+    }
+  ],
+  [
+    "101428372830010965",
+    {
+      "teamname": "Alpha Esports",
+      "wins": 170,
+      "losses": 519,
+      "winrate": "24.67%",
+      "bayesianPercentage": "27.34%"
+    }
+  ],
+  [
+    "107700208463820785",
+    {
+      "teamname": "Hurricane Gaming",
+      "wins": 36,
+      "losses": 288,
+      "winrate": "11.11%",
+      "bayesianPercentage": "27.16%"
+    }
+  ],
+  [
+    "109828279319224248",
+    {
+      "teamname": "MGN Box Esports",
+      "wins": 56,
+      "losses": 336,
+      "winrate": "14.29%",
+      "bayesianPercentage": "23.78%"
+    }
+  ],
+  [
+    "108361563004344389",
+    {
+      "teamname": "The Last Dance",
+      "wins": 36,
+      "losses": 891,
+      "winrate": "3.88%",
+      "bayesianPercentage": "22.23%"
+    }
+  ],
+  [
+    "109671201259007744",
+    {
+      "teamname": "Team Liquid Honda First",
+      "wins": 183,
+      "losses": 730,
+      "winrate": "20.04%",
+      "bayesianPercentage": "20.45%"
+    }
+  ],
+  [
+    "102747101562758215",
+    {
+      "teamname": "SeolHaeOne Prince",
+      "wins": 144,
+      "losses": 828,
+      "winrate": "14.81%",
+      "bayesianPercentage": "19.55%"
+    }
+  ],
+  [
+    "108517492697602721",
+    {
+      "teamname": "Dewish Team",
+      "wins": 108,
+      "losses": 864,
+      "winrate": "11.11%",
+      "bayesianPercentage": "17.17%"
+    }
+  ],
+  [
+    "101383792891050518",
+    {
+      "teamname": "Gravitas",
+      "wins": 378,
+      "losses": 2268,
+      "winrate": "14.29%",
+      "bayesianPercentage": "15.47%"
+    }
+  ],
+  [
+    "109631541326560210",
+    {
+      "teamname": "Reven Esports",
+      "wins": 14,
+      "losses": 182,
+      "winrate": "7.14%",
+      "bayesianPercentage": "12.64%"
+    }
+  ]
+]
