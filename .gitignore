@@ -1,2 +1,9 @@
 esports-data/*
 games/*
+
+**/.env
+
+.chalice/deployments/
+.chalice/venv/
+
+__pycache__/

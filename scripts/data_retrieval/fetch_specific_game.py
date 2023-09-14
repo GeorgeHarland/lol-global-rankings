@@ -1,6 +1,5 @@
 import requests
 import gzip
-import json
 import shutil
 import os
 from io import BytesIO

@@ -1,0 +1,10 @@
+{
+  "version": "2.0",
+  "app_name": "blue-buff-lambdas",
+  "stages": {
+    "dev": {
+      "api_gateway_stage": "api",
+      "iam_role_arn": {"Fn::Sub": "arn:aws:iam::${AWS_ACCOUNT_ID}:role/${IAM_ROLE_NAME}"}
+    }
+  }
+}
