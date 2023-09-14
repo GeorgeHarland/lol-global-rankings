@@ -1,14 +1,23 @@
 **/.env
+**/.env*.local
 
-build/
-dist/
-coverage/
+**/build/
+**/dist/
+**/coverage/
 
 frontend/node_modules/
 frontend/.next/
-frontend/dist
-frontend/build
 frontend/out
+frontend/.pnp
+frontend/.pnp.js
+frontend/.DS_Store
+frontend/*.pem
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/vercel
+frontend/*.tsbuildinfo
+frontend/next-env.d.ts
 
 backend/esports-data/*
 backend/games/*
