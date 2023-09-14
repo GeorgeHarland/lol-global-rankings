@@ -1,9 +1,21 @@
-esports-data/*
-games/*
-
 **/.env
 
-.chalice/deployments/
-.chalice/venv/
+build/
+dist/
+coverage/
 
-__pycache__/
+frontend/node_modules/
+frontend/.next/
+frontend/dist
+frontend/build
+frontend/out
+
+backend/esports-data/*
+backend/games/*
+
+backend/.chalice/deployments/
+backend/.chalice/venv/
+
+backend/__pycache__/
+backend/.pytest_cache/
+backend/venv/
