@@ -1,13 +1,24 @@
+'use client';
+import { usePathname, useSearchParams } from 'next/navigation';
 import Dropdown from './Dropdown';
 import Team from './Team';
 
-const TeamProfileContainer = () => (
-  <div className="m-4">
-    <div className="flex gap-6  ">
-      <Team />
-      <Dropdown />
+const TeamProfileContainer = () => {
+  const pathName = usePathname().substring(1).toUpperCase();
+  return (
+    <div className="m-4">
+      <div className="flex gap-6  ">
+        <Team
+          teamName={pathName}
+          globalRank={3}
+          championshipRating={1039}
+          playerRating={1599}
+          longevity={1900}
+        />
+        <Dropdown />
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 export default TeamProfileContainer;

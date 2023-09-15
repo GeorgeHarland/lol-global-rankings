@@ -1,23 +1,47 @@
+'use client';
+import { getURL } from 'next/dist/shared/lib/utils';
 import Link from 'next/link';
+import { TeamType } from '@/types/types';
+import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 
-const Team = () => (
-  <div>
-    <div className="border-2 rounded-lg border-black p-4">
-      <h2 className="text-center font-bold text-lg">T1</h2>
-      <h3>Global Rank: 3</h3>
-      <h4>Championship Rating: 1039</h4>
-      <h4>Player Rating: 1599</h4>
-      <h4>Longevity: 1900</h4>
-    </div>
+const Team = ({
+  teamName,
+  globalRank,
+  championshipRating,
+  playerRating,
+  longevity,
+}: TeamType) => {
+  return (
     <div>
-      <h2>Current Roster</h2>
-      <Link href="#">Zeus</Link>
-      <Link href="#">Oner</Link>
-      <Link href="#">Faker</Link>
-      <Link href="#">Gumayusi</Link>
-      <Link href="#">Keria</Link>
+      <div className="border-2 rounded-lg border-black p-4">
+        <h2 className="text-center font-bold text-lg">{teamName}</h2>
+        <h4>Global Rank: {globalRank}</h4>
+        <h4>Championship Rating: {championshipRating}</h4>
+        <h4>Player Rating: {playerRating}</h4>
+        <h4>Longevity: {longevity}</h4>
+      </div>
+      <div>
+        <h2 className="text-center font-bold text-lg">Current Roster</h2>
+        <ul>
+          <li>
+            <Link href={`${teamName}/playerName`}>Zeus</Link>
+          </li>
+          <li>
+            <Link href={`${teamName}/playerName`}>Oner</Link>
+          </li>
+          <li>
+            <Link href={`${teamName}/playerName`}>Faker</Link>
+          </li>
+          <li>
+            <Link href={`${teamName}/playerName`}>Gumayusi</Link>
+          </li>
+          <li>
+            <Link href={`${teamName}/playerName`}>Keria</Link>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 export default Team;
