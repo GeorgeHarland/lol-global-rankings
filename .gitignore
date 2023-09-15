@@ -19,12 +19,12 @@ frontend/vercel
 frontend/*.tsbuildinfo
 frontend/next-env.d.ts
 
-backend/esports-data/*
-backend/games/*
+backend/**/esports-data/*
+backend/**/derived-data/*
+backend/**/games/*
 
-backend/.chalice/deployments/
-backend/.chalice/venv/
-
-backend/__pycache__/
-backend/.pytest_cache/
-backend/venv/
+backend/**/__pycache__/
+backend/**/.pytest_cache/
+backend/**/venv/
+backend/**/deployments/*
+backend/**/deployed/*
