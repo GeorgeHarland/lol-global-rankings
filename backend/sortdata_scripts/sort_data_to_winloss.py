@@ -1,4 +1,5 @@
 import json
+import os
 
 def calculate_bayesian_win_rate(prior_win_rate, average_games_played, wins, losses):
     total_games = wins + losses
@@ -45,9 +46,10 @@ def compute_team_statistics(teams_data, tournaments_data):
         
     team_stats = sorted(team_stats.items(), key=lambda x: float(x[1]["bayesianPercentage"].rstrip('%')), reverse=True)
         
-    with open('derived-data/team_winrates.json', 'w') as outfile:
-        json.dump(team_stats, outfile, indent=2)
-    
+    directory = "chalicelib/derived-data/"
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+       
     with open('chalicelib/derived-data/team_winrates.json', 'w') as outfile:
         json.dump(team_stats, outfile, indent=2)
 

@@ -17,6 +17,8 @@ Backend built using Python and AWS Chalice (Lambda).
 - Install Python
 - Navigate to the backend directory using "cd backend"
 - run "pip install -r requirements.txt"
+- run "py fetch_scripts/only_fixtures_data.py"
+- run "py sortdata_scripts/sort_data_to_winloss.py"
 - Run chalice locally with "chalice local"
 - Get the environment variables for chalice and put them in .env in the .chalice folder
 - Deploy chalice to AWS Lambda using "chalice deploy". Use "chalice destroy" to remove it.
