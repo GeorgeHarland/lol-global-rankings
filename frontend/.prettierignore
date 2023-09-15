@@ -1,0 +1,37 @@
+# Ignore Next.js build directories
+/.next
+
+# Ignore Next.js server directory
+/server
+
+# Ignore Node.js modules
+/node_modules
+
+# Ignore output build directories
+/out
+/.out
+
+# Ignore other common build-related directories
+/.cache
+/.git
+/.vscode
+/.idea
+
+# Ignore coverage reports
+/coverage
+
+# Ignore specific file types
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.woff
+*.woff2
+*.eot
+*.ttf
+*.mp4
+*.webm
+*.ogg
+*.wav
+*.md
