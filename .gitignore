@@ -4,6 +4,7 @@
 **/build/
 **/dist/
 **/coverage/
+**/esports-data
 
 frontend/node_modules/
 frontend/.next/
