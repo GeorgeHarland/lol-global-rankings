@@ -2,6 +2,8 @@
 import { getURL } from 'next/dist/shared/lib/utils';
 import Link from 'next/link';
 import { TeamType } from '@/types/types';
+import Player from './Player';
+
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 
 const Team = ({
@@ -24,19 +26,19 @@ const Team = ({
         <h2 className="text-center font-bold text-lg">Current Roster</h2>
         <ul>
           <li>
-            <Link href={`${teamName}/playerName`}>Zeus</Link>
+            <Player teamName={teamName} playerName="Zeus" />
           </li>
           <li>
-            <Link href={`${teamName}/playerName`}>Oner</Link>
+            <Player teamName={teamName} playerName="Oner" />
           </li>
           <li>
-            <Link href={`${teamName}/playerName`}>Faker</Link>
+            <Player teamName={teamName} playerName="Faker" />
           </li>
           <li>
-            <Link href={`${teamName}/playerName`}>Gumayusi</Link>
+            <Player teamName={teamName} playerName="Gumayusi" />
           </li>
           <li>
-            <Link href={`${teamName}/playerName`}>Keria</Link>
+            <Player teamName={teamName} playerName="Keria" />
           </li>
         </ul>
       </div>

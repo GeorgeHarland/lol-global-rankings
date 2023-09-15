@@ -1,2 +1,7 @@
-const PlayerPage = () => <div>PlayerPage</div>;
+import { useRouter } from 'next/navigation';
+
+const PlayerPage = () => {
+  return <div>PlayerPage</div>;
+};
+
 export default PlayerPage;
