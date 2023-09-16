@@ -2,17 +2,11 @@
 import { dummyData } from '@/constants/data';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
-
-type dataType = {
-  team_id: string;
-  team_code: string;
-  team_name: string;
-  rank: number;
-};
+import { RankingType } from '@/types/types';
 
 const GlobalLeaderboard = () => {
   const [data, setData] = useState(dummyData);
-  const [sortedData, setSortedData] = useState<dataType[]>([]);
+  const [sortedData, setSortedData] = useState<RankingType[]>([]);
 
   useEffect(() => {
     sortDataIntoRankings();
