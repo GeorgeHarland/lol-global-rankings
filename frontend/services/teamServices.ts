@@ -1,7 +1,3 @@
-// get team/teams data
-// get player/players data
-// ...?
-
 import axios from 'axios';
 
 const TEAM_URL =
