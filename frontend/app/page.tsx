@@ -14,7 +14,7 @@ const Home = () => {
       } catch (error) {
         console.log(error);
       }
-    }
+    };
 
     fetchRankingsData();
   }, []);
@@ -27,15 +27,21 @@ const Home = () => {
     <div>
       {rankingsData.top_10_rankings.map(([teamId, teamDetails], index) => (
         <div key={teamId}>
-          <strong>{teamDetails.teamname}</strong><br/>
-          Wins: {teamDetails.wins}<br/>
-          Losses: {teamDetails.losses}<br/>
-          Winrate: {teamDetails.winrate}<br/>
-          Bayesian Percentage: {teamDetails.bayesianPercentage}<br/><br/>
+          <strong>{teamDetails.teamname}</strong>
+          <br />
+          Wins: {teamDetails.wins}
+          <br />
+          Losses: {teamDetails.losses}
+          <br />
+          Winrate: {teamDetails.winrate}
+          <br />
+          Bayesian Percentage: {teamDetails.bayesianPercentage}
+          <br />
+          <br />
         </div>
       ))}
     </div>
-  )
-}
+  );
+};
 
 export default Home;

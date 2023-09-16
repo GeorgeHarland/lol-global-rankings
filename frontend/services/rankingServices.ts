@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const RANKING_URL =
-"https://uh4olt2xr7.execute-api.us-west-2.amazonaws.com/api/winlossgames";
+  'https://uh4olt2xr7.execute-api.us-west-2.amazonaws.com/api/winlossgames';
 
 export const getRankingData = async () => {
   try {
