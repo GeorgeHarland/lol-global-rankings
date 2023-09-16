@@ -31,16 +31,19 @@ mock_teams = [
             "team_id": "100205573495116443",
             "team_code": "GEN",
             "team_name": "Gen.G",
+            "team_icon_url": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/e/e3/Gen.Glogo_square.png/revision/latest?cb=20210325073128",
         },
         {
             "team_id": "98767991877340524",
             "team_code": "C9",
             "team_name": "Cloud9",
+            "team_icon_url": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/8/88/Cloud9logo_square.png/revision/latest?cb=20230426052413",
         },
         {
             "team_id": "99566404853058754",
             "team_code": "WBG",
             "team_name": "WeiboGaming FAW AUDI",
+            "team_icon_url": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/a/a2/T1logo_square.png/revision/latest?cb=20230512040747",
         }
     ]
 
