@@ -6,6 +6,6 @@ const nextConfig = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

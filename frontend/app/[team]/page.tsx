@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import React, { useState, useEffect } from 'react';
 import TeamProfileContainer from '@/components/TeamProfileContainer';
@@ -15,13 +15,13 @@ const TeamPage = () => {
         setTeamData(data);
       } catch (error) {
         // router.push('/');
-        console.log(error)
+        console.log(error);
       }
     };
-    
+
     fetchTeamData();
   }, []);
-  
+
   if (!teamData) return <div>Loading...</div>;
 
   return <TeamProfileContainer teamData={teamData} />;
