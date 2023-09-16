@@ -62,12 +62,12 @@ mock_players = [
         },
     ]
 
-@app.route('/', methods=['GET'])
+@app.route('/', methods=['GET'], cors=True)
 def hello():
     return {'message': 'Hello, world!'}
 
-@app.route('/teams', methods=['GET'])
-@app.route('/teams/{team_name}', methods=['GET'])
+@app.route('/teams', methods=['GET'], cors=True)
+@app.route('/teams/{team_name}', methods=['GET'], cors=True)
 def get_team(team_name = ''):
     # if no team name, provide list of teams
     if not team_name:
@@ -77,8 +77,8 @@ def get_team(team_name = ''):
             return team
     return {"error": "Team not found"}
 
-@app.route('/players', methods=['GET'])
-@app.route('/players/{player_name}', methods=['GET'])
+@app.route('/players', methods=['GET'], cors=True)
+@app.route('/players/{player_name}', methods=['GET'], cors=True)
 def get_player(player_name = ''):
     # if no player name, provide list of players? maybe, less important than the teams one
     if not player_name:
@@ -88,33 +88,33 @@ def get_player(player_name = ''):
             return player
     return {"error": "Player not found"}
 
-@app.route('/random', methods=['GET'])
+@app.route('/random', methods=['GET'], cors=True)
 def generate_random_rankings():
     filename = 'chalicelib/derived-data/team_winrates.json'
     top_10_rankings = random_ranking(filename)
     return {'top_10_rankings': top_10_rankings}
 
-@app.route('/winlossgames', methods=['GET'])
+@app.route('/winlossgames', methods=['GET'], cors=True)
 def generate_winlossgames_rankings():
     with open('chalicelib/derived-data/team_winrates.json', 'r') as infile:
         team_stats = json.load(infile)
     top_10_rankings = team_stats[:10]
     return {'top_10_rankings': top_10_rankings}
 
-@app.route('/tournament_rankings/{tournament_id}', methods=['GET'])
+@app.route('/tournament_rankings/{tournament_id}', methods=['GET'], cors=True)
 def get_tournament_rankings(tournament_id):
     # params: tournament_id (string, path, required*), stage (string, query)
     # rankings should be historical to the tournament
     # return {"message": f"Tournament rankings for ID {tournament_id}"}
     return {"rankings": mock_rankings}
 
-@app.route('/global_rankings', methods=['GET'])
+@app.route('/global_rankings', methods=['GET'], cors=True)
 def get_global_rankings():
     # params: number_of_teams (integer, query)
     # return {"message": "Global rankings"}
     return {"rankings": mock_rankings}
 
-@app.route('/team_rankings', methods=['GET'])
+@app.route('/team_rankings', methods=['GET'], cors=True)
 def get_team_rankings():
     # params: team_ids (array[string], query, required*)
     # team_ids = app.current_request.query_params.getlist('team_ids')

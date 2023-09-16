@@ -3,7 +3,9 @@ import { usePathname, useSearchParams } from 'next/navigation';
 import Dropdown from './Dropdown';
 import Team from './Team';
 
-const TeamProfileContainer = () => {
+// ADD TS PROP
+const TeamProfileContainer = (teamdata: any) => {
+  console.log(teamdata);
   const pathName = usePathname().substring(1).toUpperCase();
   return (
     <div className="m-4">

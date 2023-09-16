@@ -6,6 +6,7 @@
 **/coverage/
 **/esports-data
 
+node_modules/
 frontend/node_modules/
 frontend/.next/
 frontend/out
