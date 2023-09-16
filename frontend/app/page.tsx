@@ -1,5 +1,6 @@
 'use client';
 
+import GlobalLeaderboard from '@/components/GlobalLeaderboard';
 import { getRankingData } from '@/services/rankingServices';
 import React, { useState, useEffect } from 'react';
 
@@ -15,7 +16,6 @@ const Home = () => {
         console.log(error);
       }
     };
-
     fetchRankingsData();
   }, []);
 
