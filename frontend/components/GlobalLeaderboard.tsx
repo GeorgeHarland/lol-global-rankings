@@ -4,9 +4,10 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
 type dataType = {
-  rank: number;
-  team_name: string;
+  team_id: string;
   team_code: string;
+  team_name: string;
+  rank: number;
 };
 
 const GlobalLeaderboard = () => {
@@ -21,8 +22,6 @@ const GlobalLeaderboard = () => {
     const slicedData = data.slice().sort((a, b) => a.rank - b.rank);
     setSortedData(slicedData);
   };
-
-  console.log(data[0].team_code);
 
   const mappedData = () => {
     return sortedData.map((data, index) => (
