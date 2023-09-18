@@ -13,7 +13,7 @@ const GlobalLeaderboard = () => {
   }, []);
 
   const sortDataIntoRankings = () => {
-    const slicedData = data.slice().sort((a, b) => a.rank - b.rank);
+    const slicedData = data.sort((a, b) => a.rank - b.rank);
     setSortedData(slicedData);
   };
 
