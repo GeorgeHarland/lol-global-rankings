@@ -5,7 +5,6 @@ import Team from './Team';
 
 // ADD TS PROP
 const TeamProfileContainer = (teamdata: any) => {
-  console.log(teamdata);
   const pathName = usePathname().substring(1).toUpperCase();
   return (
     <div className="m-4">
