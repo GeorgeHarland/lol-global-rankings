@@ -25,9 +25,7 @@ const GlobalLeaderboard = () => {
     const indexOfLastItem = currentPage * itemsPerPage;
     const indexOfFirstItem = indexOfLastItem - itemsPerPage;
     console.log(indexOfFirstItem);
-
-    if (sortedData)
-      setPaginatedData(sortedData.slice(indexOfFirstItem, indexOfLastItem));
+    setPaginatedData(sortedData.slice(indexOfFirstItem, indexOfLastItem));
   };
 
   //Old TABLE FORMAT FUNCTION (CAN BE REMOVED YOUR PREFERENCE)
