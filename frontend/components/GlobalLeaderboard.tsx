@@ -101,8 +101,8 @@ const GlobalLeaderboard = () => {
       <div className="flex gap-4">
         <button
           disabled={currentPage === 1}
+          hidden={currentPage === 1}
           onClick={() => PreviousPage()}
-          className="hover:underline"
         >
           Previous
         </button>
@@ -111,8 +111,8 @@ const GlobalLeaderboard = () => {
         </h2>
         <button
           disabled={currentPage === Math.ceil(sortedData.length / itemsPerPage)}
+          hidden={currentPage === Math.ceil(sortedData.length / itemsPerPage)}
           onClick={() => NextPage()}
-          className="hover:underline"
         >
           Next
         </button>
