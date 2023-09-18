@@ -7,16 +7,30 @@ import { RankingType } from '@/types/types';
 const GlobalLeaderboard = () => {
   const [data, setData] = useState(dummyData);
   const [sortedData, setSortedData] = useState<RankingType[]>([]);
+  const [paginatedData, setPaginatedData] = useState<RankingType[]>([]);
+  const [currentPage, setCurrentPage] = useState<number>(1);
+  const [itemsPerPage, setItemsPerPage] = useState<number>(20);
 
   useEffect(() => {
     sortDataIntoRankings();
-  }, []);
+  }, [sortedData.length, currentPage]);
 
   const sortDataIntoRankings = () => {
     const slicedData = data.sort((a, b) => a.rank - b.rank);
     setSortedData(slicedData);
+    Paginate();
   };
 
+  const Paginate = () => {
+    const indexOfLastItem = currentPage * itemsPerPage;
+    const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+    console.log(indexOfFirstItem);
+
+    if (sortedData)
+      setPaginatedData(sortedData.slice(indexOfFirstItem, indexOfLastItem));
+  };
+
+  //Old TABLE FORMAT FUNCTION (CAN BE REMOVED YOUR PREFERENCE)
   // const mappedData = () => {
   //   return sortedData.map((data, index) => (
   //     <tr key={index}>
@@ -30,8 +44,18 @@ const GlobalLeaderboard = () => {
   //   ));
   // };
 
+  const NextPage = () => {
+    setCurrentPage((prevState) => prevState + 1);
+    Paginate();
+  };
+
+  const PreviousPage = () => {
+    setCurrentPage((prevState) => prevState - 1);
+    Paginate();
+  };
+
   const mappedData = () => {
-    return sortedData.map((data, index) => (
+    return paginatedData.map((data, index) => (
       <div
         key={index}
         className="flex py-4 border-2 border-black rounded-lg mb-4"
@@ -60,6 +84,7 @@ const GlobalLeaderboard = () => {
   };
 
   return (
+    //OLD TABLE FORMAT (CAN BE REMOVED YOUR PREFERENCE)
     // <div>
     //   <table>
     //     <thead>
@@ -71,7 +96,28 @@ const GlobalLeaderboard = () => {
     //     <tbody>{mappedData()}</tbody>
     //   </table>
     // </div>
-    <div className="w-max">{mappedData()}</div>
+    <div className="w-max">
+      {mappedData()}
+      <div className="flex gap-4">
+        <button
+          disabled={currentPage === 1}
+          onClick={() => PreviousPage()}
+          className="hover:underline"
+        >
+          Previous
+        </button>
+        <h2>
+          {currentPage} / {Math.ceil(sortedData.length / itemsPerPage)}
+        </h2>
+        <button
+          disabled={currentPage === Math.ceil(sortedData.length / itemsPerPage)}
+          onClick={() => NextPage()}
+          className="hover:underline"
+        >
+          Next
+        </button>
+      </div>
+    </div>
   );
 };
 
