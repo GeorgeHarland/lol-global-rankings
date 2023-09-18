@@ -22,7 +22,9 @@ const GlobalLeaderboard = () => {
       <tr key={index}>
         <td>{data.rank}</td>
         <td className="text-center">
-          <Link href={`/${data.team_code}`}>{data.team_name}</Link>
+          <Link className="hover:underline" href={`/${data.team_code}`}>
+            {data.team_name}
+          </Link>
         </td>
       </tr>
     ));
