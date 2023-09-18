@@ -2,30 +2,30 @@
 
 import GlobalLeaderboard from '@/components/GlobalLeaderboard';
 import { getRankingData } from '@/services/rankingServices';
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 const Home = () => {
   const [rankingsData, setRankingsData] = useState(null);
 
-  useEffect(() => {
-    const fetchRankingsData = async () => {
-      try {
-        const data = await getRankingData();
-        setRankingsData(data);
-      } catch (error) {
-        console.log(error);
-      }
-    };
-    fetchRankingsData();
-  }, []);
+  // useEffect(() => {
+  //   const fetchRankingsData = async () => {
+  //     try {
+  //       const data = await getRankingData();
+  //       setRankingsData(data);
+  //     } catch (error) {
+  //       console.log(error);
+  //     }
+  //   };
+  //   fetchRankingsData();
+  // }, []);
 
-  if (!rankingsData) return <div>Loading...</div>;
+  // if (!rankingsData) return <div>Loading...</div>;
 
   // want some rankings table component
   // needs to work with a different data format though - to match the riot api format
   return (
     <div className="flex">
-      <div>
+      {/* <div>
         {rankingsData.top_10_rankings.map(([teamId, teamDetails], index) => (
           <div key={teamId}>
             <strong>{teamDetails.teamname}</strong>
@@ -41,7 +41,7 @@ const Home = () => {
             <br />
           </div>
         ))}
-      </div>
+      </div> */}
       <GlobalLeaderboard />
     </div>
   );
