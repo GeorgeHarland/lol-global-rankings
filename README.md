@@ -16,9 +16,9 @@ Backend built using Python and AWS Chalice (Lambda).
 
 - Install Python
 - Navigate to the backend directory using "cd backend"
-- run "pip install -r requirements.txt"
-- run "py scripts/only_fixtures_data.py"
-- run "py scripts/generate_derived_data.py"
-- Run chalice locally with "chalice local"
+- Run "pip install -r requirements.txt"
+- Run "py scripts/only_fixtures_data.py" to get team and tournament data from riot's S3
+- Run "py scripts/generate_derived_data.py" to generate data for the API to pass to the frontend
+- Test chalice locally with "chalice local"
 - Get the environment variables for chalice and put them in .env in the .chalice folder
 - Deploy chalice to AWS Lambda using "chalice deploy". Use "chalice destroy" to remove it.

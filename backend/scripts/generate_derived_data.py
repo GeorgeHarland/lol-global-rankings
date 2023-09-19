@@ -1,4 +1,7 @@
 import json
+import os
+
+script_directory = os.path.dirname(os.path.abspath(__file__))
 
 def generate_team_data(teams_data, tournaments_data, players_data):
     team_details = {}
@@ -9,14 +12,13 @@ def generate_team_data(teams_data, tournaments_data, players_data):
         losses = 0
         total_games_played = 0
         
-        # Get players of the current team
         current_roster = [
             {
                 "player_id": player["player_id"],
-                "summoner_name": player["summoner_name"],
-                "role": player["role"]
+                "summoner_name": player["handle"],
+                "role": "(Role placeholder)"
             }
-            for player in players_data if player["team_id"] == team_id
+            for player in players_data if player["home_team_id"] == team_id
         ]
 
         # Calculate wins, losses, and total games
@@ -35,26 +37,31 @@ def generate_team_data(teams_data, tournaments_data, players_data):
         else:
             win_rate = 0
         
-        # Attach details to the team
         team_details[team_id] = {
             "team_id": team_id,
-            "team_code": team["team_code"],
-            "team_name": team["team_name"],
-            "team_icon_url": team["team_icon_url"],
+            "team_code": team["acronym"],
+            "team_name": team["name"],
+            "team_icon_url": "Icon url placeholder",
             "total_wins": wins,
             "total_losses": losses,
             "total_winrate": win_rate,
-            "average_game_duration": None,  # You might need to get this from elsewhere
-            "home_region": None,  # You might need to get this from elsewhere
+            "average_game_duration": "Average game duration placeholder",
+            "home_region": "Home region placeholder",
             "current_roster": current_roster
         }
     
-    # Write to file
-    with open('../chalicelib/team_data.json', 'w') as outfile:
+    chalice_path = os.path.join(script_directory, '..', 'chalicelib', 'teams_data.json')
+    # Check if file exists
+    if os.path.exists(chalice_path):
+        os.remove(chalice_path)  # Delete the file if it exists
+
+    # Create a new file and dump the contents into it
+    with open(chalice_path, 'w') as outfile:
         json.dump(list(team_details.values()), outfile, indent=2)
 
 def generate_rankings_data():
-    with open('../chalicelib/team_data.json', 'r') as f:
+    open_path = os.path.join(script_directory, '..', 'chalicelib', 'teams_data.json')
+    with open(open_path, 'r') as f:
         team_data = json.load(f)
 
     rankings = []
@@ -66,14 +73,21 @@ def generate_rankings_data():
             "rank": idx
         })
 
-    # Write rankings to file
-    with open('../chalicelib/rankings_data.json', 'w') as outfile:
-        json.dump(rankings, outfile, indent=2)
+    chalice_path = os.path.join(script_directory, '..', 'chalicelib', 'rankings_data.json')
+    
+    if os.path.exists(chalice_path):
+        os.remove(chalice_path)  # Delete the file if it exists
+
+    with open(chalice_path, 'w') as outfile:
+        json.dump(list(rankings), outfile, indent=2)
 
 if __name__ == "__main__":
-    with open('../esports-data/teams.json', 'r') as teams_file, \
-         open('../esports-data/tournaments.json', 'r') as tournaments_file, \
-         open('../esports-data/players.json', 'r') as players_file:
+    teams_path = os.path.join(script_directory, '..', 'esports-data', 'teams.json')
+    tournaments_path = os.path.join(script_directory, '..', 'esports-data', 'tournaments.json')
+    players_path = os.path.join(script_directory, '..', 'esports-data', 'players.json')
+    with open(teams_path, 'r', encoding='utf-8') as teams_file, \
+         open(tournaments_path, 'r', encoding='utf-8') as tournaments_file, \
+         open(players_path, 'r', encoding='utf-8') as players_file:
         teams_data = json.load(teams_file)
         tournaments_data = json.load(tournaments_file)
         players_data = json.load(players_file)
