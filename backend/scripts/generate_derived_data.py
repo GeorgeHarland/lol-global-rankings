@@ -51,11 +51,9 @@ def generate_team_data(teams_data, tournaments_data, players_data):
         }
     
     chalice_path = os.path.join(script_directory, '..', 'chalicelib', 'teams_data.json')
-    # Check if file exists
     if os.path.exists(chalice_path):
         os.remove(chalice_path)  # Delete the file if it exists
 
-    # Create a new file and dump the contents into it
     with open(chalice_path, 'w') as outfile:
         json.dump(list(team_details.values()), outfile, indent=2)
 

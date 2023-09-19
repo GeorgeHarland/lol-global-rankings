@@ -39,7 +39,7 @@ def get_tournament_rankings(tournament_id):
 
 @app.route('/team_rankings', methods=['GET'], cors=True)
 def get_team_rankings():
-    team_ids = app.current_request.query_params.get('team_ids', [])
+    team_ids = app.current_request.query_params.getlist('team_ids') if app.current_request.query_params else []
     
     if not team_ids:
         raise BadRequestError("team_ids query parameter is required and should be an array of team ids.")
