@@ -1,5 +1,6 @@
 import json
 import os
+import leaguepedia_parser
 
 script_directory = os.path.dirname(os.path.abspath(__file__))
 
@@ -41,7 +42,7 @@ def generate_team_data(teams_data, tournaments_data, players_data):
             "team_id": team_id,
             "team_code": team["acronym"],
             "team_name": team["name"],
-            "team_icon_url": "Icon url placeholder",
+            "team_icon_url": get_team_logo_url(team["name"], team["acronym"]),
             "total_wins": wins,
             "total_losses": losses,
             "total_winrate": win_rate,
@@ -78,6 +79,15 @@ def generate_rankings_data():
 
     with open(chalice_path, 'w') as outfile:
         json.dump(list(rankings), outfile, indent=2)
+        
+def get_team_logo_url(team_name, team_code) -> str:
+    # Attempt with team name -> team code -> set a string if both fail
+    for name in [team_name, team_code]:
+        try:
+            return leaguepedia_parser.get_team_logo(name)
+        except:
+            pass
+    return "no_icon_found"
 
 if __name__ == "__main__":
     teams_path = os.path.join(script_directory, '..', 'esports-data', 'teams.json')
