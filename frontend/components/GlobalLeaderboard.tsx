@@ -1,5 +1,4 @@
 'use client';
-import { dummyData } from '@/constants/data';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { RankingType } from '@/types/types';
