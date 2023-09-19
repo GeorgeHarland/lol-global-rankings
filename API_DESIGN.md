@@ -20,7 +20,7 @@ Response:
   total_wins: number
   total_losses: number
   total_winrate: number
-  average_game_duration: number
+  tournaments_participated_in: Array[string]
   home_region: string
   current_roster: [
     {

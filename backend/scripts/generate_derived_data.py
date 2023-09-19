@@ -6,6 +6,20 @@ script_directory = os.path.dirname(os.path.abspath(__file__))
 
 def generate_team_data(teams_data, tournaments_data, players_data):
     team_details = {}
+    
+    leagues_path = os.path.join(script_directory, '..', 'esports-data', 'leagues.json')
+    with open(leagues_path, 'r', encoding='utf-8') as leagues_file:
+        leagues_data = json.load(leagues_file)
+        
+    # \Region to tournament mapping
+    region_to_tournaments = {}
+    for league in leagues_data:
+        if league['region'] != 'INTERNATIONAL':
+            if league['region'] not in region_to_tournaments:
+                region_to_tournaments[league['region']] = []
+            for tournament in league['tournaments']:
+                if tournament['id'] not in region_to_tournaments[league['region']]:
+                    region_to_tournaments[league['region']].append(tournament['id'])
 
     for team in teams_data:
         team_id = team["team_id"]
@@ -21,6 +35,8 @@ def generate_team_data(teams_data, tournaments_data, players_data):
             }
             for player in players_data if player["home_team_id"] == team_id
         ]
+        
+        tournaments_participated_in = set()
 
         # Calculate wins, losses, and total games
         for tournament in tournaments_data:
@@ -29,6 +45,7 @@ def generate_team_data(teams_data, tournaments_data, players_data):
                     for match in section["matches"]:
                         for match_team in match["teams"]:
                             if match_team["id"] == team_id:
+                                tournaments_participated_in.add(tournament["id"])
                                 wins += match_team["record"]["wins"]
                                 losses += match_team["record"]["losses"]
                                 total_games_played += match_team["record"]["wins"] + match_team["record"]["losses"]
@@ -37,6 +54,16 @@ def generate_team_data(teams_data, tournaments_data, players_data):
             win_rate = wins / total_games_played
         else:
             win_rate = 0
+            
+        # # Work out home region
+        home_region = None
+        for region, tournaments in region_to_tournaments.items():
+            for tournament_id in tournaments_participated_in:
+                if tournament_id in tournaments:
+                    home_region = region
+                    break
+            if home_region:
+                break
         
         team_details[team_id] = {
             "team_id": team_id,
@@ -46,8 +73,8 @@ def generate_team_data(teams_data, tournaments_data, players_data):
             "total_wins": wins,
             "total_losses": losses,
             "total_winrate": win_rate,
-            "average_game_duration": "Average game duration placeholder",
-            "home_region": "Home region placeholder",
+            "tournaments_participated_in": list(tournaments_participated_in),
+            "home_region": home_region or "Unknown",
             "current_roster": current_roster
         }
     
