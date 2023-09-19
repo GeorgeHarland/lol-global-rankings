@@ -1,10 +1,6 @@
 'use client';
-import { getURL } from 'next/dist/shared/lib/utils';
-import Link from 'next/link';
 import { TeamType } from '@/types/types';
 import Player from './Player';
-
-import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 
 const Team = ({
   teamName,

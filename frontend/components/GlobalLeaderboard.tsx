@@ -1,11 +1,11 @@
 'use client';
-import { dummyData } from '@/constants/data';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { RankingType } from '@/types/types';
+import { getGlobalRankingsData } from '@/services/rankingServices';
 
 const GlobalLeaderboard = () => {
-  const [data, setData] = useState(dummyData);
+  const [data, setData] = useState<RankingType[]>([]);
   const [sortedData, setSortedData] = useState<RankingType[]>([]);
   const [paginatedData, setPaginatedData] = useState<RankingType[]>([]);
   const [currentPage, setCurrentPage] = useState<number>(1);
@@ -13,7 +13,16 @@ const GlobalLeaderboard = () => {
 
   useEffect(() => {
     sortDataIntoRankings();
-  }, [sortedData.length, currentPage]);
+  }, [sortedData.length, currentPage, data]);
+
+  useEffect(() => {
+    getGlobalRanking();
+  }, []);
+
+  const getGlobalRanking = async () => {
+    const data = await getGlobalRankingsData();
+    setData(data);
+  };
 
   const sortDataIntoRankings = () => {
     const slicedData = data.sort((a, b) => a.rank - b.rank);
@@ -27,20 +36,6 @@ const GlobalLeaderboard = () => {
     console.log(indexOfFirstItem);
     setPaginatedData(sortedData.slice(indexOfFirstItem, indexOfLastItem));
   };
-
-  //Old TABLE FORMAT FUNCTION (CAN BE REMOVED YOUR PREFERENCE)
-  // const mappedData = () => {
-  //   return sortedData.map((data, index) => (
-  //     <tr key={index}>
-  //       <td>{data.rank}</td>
-  //       <td className="text-center">
-  //         <Link className="hover:underline" href={`/${data.team_code}`}>
-  //           {data.team_name}
-  //         </Link>
-  //       </td>
-  //     </tr>
-  //   ));
-  // };
 
   const NextPage = () => {
     setCurrentPage((prevState) => prevState + 1);
@@ -82,18 +77,6 @@ const GlobalLeaderboard = () => {
   };
 
   return (
-    //OLD TABLE FORMAT (CAN BE REMOVED YOUR PREFERENCE)
-    // <div>
-    //   <table>
-    //     <thead>
-    //       <tr>
-    //         <th>Rank</th>
-    //         <th>Team Name</th>
-    //       </tr>
-    //     </thead>
-    //     <tbody>{mappedData()}</tbody>
-    //   </table>
-    // </div>
     <div className="w-max">
       {mappedData()}
       <div className="flex gap-4">
