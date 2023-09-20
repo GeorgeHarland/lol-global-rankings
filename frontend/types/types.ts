@@ -1,6 +1,5 @@
 export type TeamType = {
   teamName: string;
-  teamId?: string;
   globalRank: number;
   championshipRating: number;
   playerRating: number;
