@@ -55,7 +55,7 @@ def generate_team_data(teams_data, tournaments_data, players_data):
         else:
             win_rate = 0
             
-        # # Work out home region
+        # Work out home region
         home_region = None
         for region, tournaments in region_to_tournaments.items():
             for tournament_id in tournaments_participated_in:
