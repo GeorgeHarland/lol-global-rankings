@@ -14,12 +14,12 @@ with open(rankings_data_path, 'r') as f:
     rankings_data = json.load(f)
 
 @app.route('/teams', methods=['GET'], cors=True)
-@app.route('/teams/{team_code}', methods=['GET'], cors=True)
-def get_team_data(team_code = ''):
-    if not team_code:
+@app.route('/teams/{team_id}', methods=['GET'], cors=True)
+def get_team_data(team_id = ''):
+    if not team_id:
         return team_data
     for team in team_data:
-        if team['team_code'] == team_code:
+        if team['team_id'] == team_id:
             return team
     return {"error": "Team not found"}
 
@@ -33,7 +33,7 @@ def get_global_rankings():
 @app.route('/tournament_rankings/{tournament_id}', methods=['GET'], cors=True)
 def get_tournament_rankings(tournament_id):
     if not tournament_id:
-        raise BadRequestError("team_ids query parameter is required and should be an array of team ids.")
+        raise BadRequestError("tournament_id query parameter is required and should be a single string.")
     stage = app.current_request.query_params.get('stage', None)
     return "To be done"
 

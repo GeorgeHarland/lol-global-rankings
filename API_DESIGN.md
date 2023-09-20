@@ -3,12 +3,12 @@
 ## Team Data
 
 /teams<br />
-/teams/{team_name}
+/teams/{team_id}
 
 Fetches data about a team, or gets all teams if none specified
 
 Params:
-- team_name (path, string): the team to find data for
+- team_id (path, string): the team to find data for
 
 Response:
 ```
