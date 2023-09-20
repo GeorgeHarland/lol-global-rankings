@@ -1,6 +1,7 @@
 'use client';
 import { TeamType } from '@/types/types';
 import Player from './Player';
+import { Play } from 'next/font/google';
 
 const Team = ({
   teamName,
@@ -8,7 +9,21 @@ const Team = ({
   championshipRating,
   playerRating,
   longevity,
+  currentRoster,
 }: TeamType) => {
+  const currentRosterMap = () => {
+    if (!currentRoster) return;
+    return currentRoster.map((player) => (
+      <li>
+        <Player
+          teamName={teamName}
+          playerName={player.summonerName}
+          role={player.role}
+        />
+      </li>
+    ));
+  };
+
   return (
     <div>
       <div className="border-2 rounded-lg border-black p-4">
@@ -20,23 +35,11 @@ const Team = ({
       </div>
       <div>
         <h2 className="text-center font-bold text-lg">Current Roster</h2>
-        <ul>
-          <li>
-            <Player teamName={teamName} playerName="Zeus" />
-          </li>
-          <li>
-            <Player teamName={teamName} playerName="Oner" />
-          </li>
-          <li>
-            <Player teamName={teamName} playerName="Faker" />
-          </li>
-          <li>
-            <Player teamName={teamName} playerName="Gumayusi" />
-          </li>
-          <li>
-            <Player teamName={teamName} playerName="Keria" />
-          </li>
-        </ul>
+        {currentRoster?.length ? (
+          <ul>{currentRosterMap()}</ul>
+        ) : (
+          <div>No players on roster</div>
+        )}
       </div>
     </div>
   );
