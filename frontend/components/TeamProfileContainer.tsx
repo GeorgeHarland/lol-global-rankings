@@ -6,6 +6,7 @@ import { useEffect, useState } from 'react';
 import { getTeamData } from '@/services/teamServices';
 import { TeamType } from '@/types/types';
 import { snakeToCamel } from '@/utils';
+import Image from 'next/image';
 
 const TeamProfileContainer = () => {
   const [teamData, setTeamData] = useState<TeamType>();
@@ -24,6 +25,8 @@ const TeamProfileContainer = () => {
     GetTeamData();
   }, []);
 
+  console.log(teamData, teamData?.teamIconUrl);
+
   if (!teamData) return <div>Loading...</div>;
 
   return (
@@ -36,6 +39,7 @@ const TeamProfileContainer = () => {
           playerRating={1599}
           longevity={1900}
           currentRoster={teamData?.currentRoster}
+          teamIconUrl={teamData.teamIconUrl}
         />
         <Dropdown />
       </div>
