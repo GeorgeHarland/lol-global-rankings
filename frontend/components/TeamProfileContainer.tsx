@@ -6,24 +6,23 @@ import { useEffect, useState } from 'react';
 import { getTeamData } from '@/services/teamServices';
 import { TeamType } from '@/types/types';
 import { snakeToCamel } from '@/utils';
-import Image from 'next/image';
 
 const TeamProfileContainer = () => {
   const [teamData, setTeamData] = useState<TeamType>();
   const teamID = usePathname().substring(1);
 
-  const GetTeamData = async () => {
-    try {
-      const data = await getTeamData(teamID);
-      setTeamData(snakeToCamel(data));
-    } catch (error) {
-      // router.push('/');
-      console.log(error);
-    }
-  };
   useEffect(() => {
+    const GetTeamData = async () => {
+      try {
+        const data = await getTeamData(teamID);
+        setTeamData(snakeToCamel(data));
+      } catch (error) {
+        // router.push('/');
+        console.log(error);
+      }
+    };
     GetTeamData();
-  }, []);
+  }, [teamID]);
 
   console.log(teamData, teamData?.teamIconUrl);
 

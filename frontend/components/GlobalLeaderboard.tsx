@@ -1,6 +1,6 @@
 'use client';
 import Link from 'next/link';
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { RankingType } from '@/types/types';
 import { getGlobalRankingsData } from '@/services/rankingServices';
 
@@ -11,9 +11,21 @@ const GlobalLeaderboard = () => {
   const [currentPage, setCurrentPage] = useState<number>(1);
   const [itemsPerPage, setItemsPerPage] = useState<number>(20);
 
+  const Paginate = useCallback(() => {
+    const indexOfLastItem = currentPage * itemsPerPage;
+    const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+    console.log(indexOfFirstItem);
+    setPaginatedData(sortedData.slice(indexOfFirstItem, indexOfLastItem));
+  }, [currentPage, itemsPerPage, sortedData]);
+
   useEffect(() => {
+    const sortDataIntoRankings = () => {
+      const slicedData = data.sort((a, b) => a.rank - b.rank);
+      setSortedData(slicedData);
+      Paginate();
+    };
     sortDataIntoRankings();
-  }, [sortedData.length, currentPage, data]);
+  }, [sortedData.length, currentPage, data, Paginate]);
 
   useEffect(() => {
     getGlobalRanking();
@@ -22,19 +34,6 @@ const GlobalLeaderboard = () => {
   const getGlobalRanking = async () => {
     const data = await getGlobalRankingsData();
     setData(data);
-  };
-
-  const sortDataIntoRankings = () => {
-    const slicedData = data.sort((a, b) => a.rank - b.rank);
-    setSortedData(slicedData);
-    Paginate();
-  };
-
-  const Paginate = () => {
-    const indexOfLastItem = currentPage * itemsPerPage;
-    const indexOfFirstItem = indexOfLastItem - itemsPerPage;
-    console.log(indexOfFirstItem);
-    setPaginatedData(sortedData.slice(indexOfFirstItem, indexOfLastItem));
   };
 
   const NextPage = () => {
@@ -54,21 +53,19 @@ const GlobalLeaderboard = () => {
         className="flex py-4 border-2 border-black rounded-lg mb-4"
       >
         <h2 className="mx-2 self-center">{data.rank}</h2>
-        <Link
-          className="hover:underline self-center"
-          href={`/${data.team_id}`}
-        >
+        <Link className="hover:underline self-center" href={`/${data.team_id}`}>
           {data.team_name}
         </Link>
         <div className="ml-auto">
           <div className="flex">
             <div className="mx-4">
-              <h1> Wins: 203</h1>
-              <h1>Losses: 36</h1>
+              <h1> Wins: {data.total_wins}</h1>
+              <h1> Losses: {data.total_losses}</h1>
+              <h1> Winrate: {(data.total_winrate * 100).toFixed(0)}%</h1>
             </div>
             <div className="mr-4">
-              <h1> Winrate: 84.94%</h1>
-              <h1> Bayesian Percentage: 80.48%</h1>
+              <h1> Region: {data.home_region}</h1>
+              <h1> Tournaments: {data.tournaments_participated_in.length}</h1>
             </div>
           </div>
         </div>
