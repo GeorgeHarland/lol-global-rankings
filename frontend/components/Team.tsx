@@ -14,8 +14,8 @@ const Team = ({
 }: TeamType) => {
   const currentRosterMap = () => {
     if (!currentRoster) return;
-    return currentRoster.map((player) => (
-      <li>
+    return currentRoster.map((player, i) => (
+      <li key={i}>
         <Player
           teamName={teamName}
           playerName={player.summonerName}

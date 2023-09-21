@@ -7,7 +7,7 @@ script_directory = os.path.dirname(os.path.abspath(__file__))
 
 teams_data_path = os.path.join(script_directory, 'chalicelib', 'teams_data.json')
 with open(teams_data_path, 'r') as f:
-    team_data = json.load(f)
+    teams_data = json.load(f)
 
 rankings_data_path = os.path.join(script_directory, 'chalicelib', 'rankings_data.json')
 with open(rankings_data_path, 'r') as f:
@@ -17,8 +17,8 @@ with open(rankings_data_path, 'r') as f:
 @app.route('/teams/{team_id}', methods=['GET'], cors=True)
 def get_team_data(team_id = ''):
     if not team_id:
-        return team_data
-    for team in team_data:
+        return teams_data
+    for team in teams_data:
         if team['team_id'] == team_id:
             return team
     return {"error": "Team not found"}
@@ -27,7 +27,14 @@ def get_team_data(team_id = ''):
 def get_global_rankings():
     query_params = app.current_request.query_params or {}
     number_of_teams = int(query_params.get('number_of_teams', 20))
-    sorted_data = sorted(rankings_data, key=lambda x: x['rank'])[:number_of_teams]
+    if query_params.get('detailed_data', 'false').lower() == 'true':
+        data_source = teams_data
+        for index, team in enumerate(data_source):
+            team['rank'] = index + 1
+    else:
+        data_source = rankings_data
+    
+    sorted_data = sorted(data_source, key=lambda x: x['rank'])[:number_of_teams]
     return sorted_data
 
 @app.route('/tournament_rankings/{tournament_id}', methods=['GET'], cors=True)
