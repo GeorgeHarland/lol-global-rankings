@@ -6,6 +6,14 @@ const nextConfig = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'static.wikia.nocookie.net',
+      },
+    ],
+  },
 };
 
 module.exports = nextConfig;

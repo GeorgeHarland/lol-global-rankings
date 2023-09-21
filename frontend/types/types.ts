@@ -1,11 +1,17 @@
-// test force update
-
 export type TeamType = {
   teamName: string;
+  teamIconUrl?: string;
   globalRank: number;
   championshipRating: number;
   playerRating: number;
   longevity: number;
+  currentRoster?: PlayerType[];
+};
+
+type PlayerType = {
+  playerId: string;
+  summonerName: string;
+  role: string;
 };
 
 export type RankingType = {
