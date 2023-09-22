@@ -71,6 +71,12 @@ games_df.head()
 
 # First features: wins, losses, winrates, bayesian winrate (total games matters)
 
+def calculate_bayesian_win_rate(prior_win_rate, average_games_played, wins, losses):
+    total_games = wins + losses
+    if average_games_played + total_games == 0:
+        return 0
+    return (prior_win_rate * average_games_played + wins) / (average_games_played + total_games) * 100
+
 def compute_team_statistics(teams_data, tournaments_data):
     team_stats_list = []
     
