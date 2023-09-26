@@ -145,3 +145,11 @@ team_winrates.head()
 
 filtered_teams_df = team_winrates[['team_id', 'bayesianPercentage']]
 print(filtered_teams_df)
+
+# for each team, when checking tournaments participated in:
+# collect every (non-duplicate) gameId that involves the team from that tournament
+# for each game with those IDs, get the last element of the list and check if that object's eventType="stats_update". If not,
+#   get the element before it, etc. until one is stats_update.
+# grab all the data and add them to predefined counters (eg. total dragon kills)
+# once looped through all games, divide each of the counters by the total amount of games
+# add each of those bits of info to the derived dataframe containing the features.
