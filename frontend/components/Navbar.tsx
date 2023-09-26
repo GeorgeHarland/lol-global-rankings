@@ -8,7 +8,7 @@ const Navbar = () => {
           Global Leaderboard
         </p>
       </Link>
-      <Link href="/worlds2023">
+      <Link href="/worlds">
         <p className="text-2xl font-bold hover:text-gray-400">Worlds 2023</p>
       </Link>
       <Link href="/teams">

@@ -1,55 +1,19 @@
-export const lolRegions = {
-  NA: 'North America',
-  EU: 'Europe',
-  KR: 'Korea',
-  CN: 'China',
-  LCK: 'LCK',
-  LCS: 'LCS',
-  LEC: 'LEC',
-  LPL: 'LPL',
-  BR: 'Brazil',
-  TR: 'Turkey',
-  LAN: 'Latin America North',
-  LAS: 'Latin America South',
-  OCE: 'Oceania',
-  JP: 'Japan',
-  VN: 'Vietnam',
-  RU: 'Russia',
-  SEA: 'Southeast Asia',
-};
-
-export const lolTournaments = {
-  Worlds: 'League of Legends World Championship (Worlds)',
-  MSI: 'Mid-Season Invitational (MSI)',
-  LCS: 'League of Legends Championship Series (LCS)',
-  LEC: 'League of Legends European Championship (LEC)',
-  LCK: 'League of Legends Champions Korea (LCK)',
-  LPL: 'League of Legends Pro League (LPL)',
-  LMS: 'League of Legends Master Series (LMS)',
-  LLN: 'Latin America League (LLN)',
-  CBLOL: 'Campeonato Brasileiro de League of Legends (CBLOL)',
-  LJL: 'League of Legends Japan League (LJL)',
-};
-
-export const lolTeams = {
-  fnatic: 'Fnatic',
-  g2: 'G2 Esports',
-  skt: 'T1 (formerly SK Telecom T1)',
-  damwon: 'DAMWON Gaming',
-  cloud9: 'Cloud9',
-  tsm: 'Team SoloMid (TSM)',
-  rng: 'Royal Never Give Up (RNG)',
-  fpx: 'FunPlus Phoenix (FPX)',
-  edg: 'Edward Gaming (EDG)',
-  gen_g: 'Gen.G Esports',
-  liquid: 'Team Liquid',
-  fnc: 'FunPlus Phoenix (FPX)',
-  ig: 'Invictus Gaming (IG)',
-  rogue: 'Rogue',
-  vitality: 'Team Vitality',
-  mad: 'MAD Lions',
-  drx: 'DRX (DragonX)',
-  immortals: 'Immortals',
-  '100t': '100 Thieves',
-  lgd: 'LGD Gaming',
+export const constants = {
+  aboutUs: `Welcome to the League of Legends Global Power Rankings hackathon project
+    website! We are a dedicated team of esports enthusiasts and data-driven
+    developers who are passionate about bringing you the most accurate and
+    up-to-date rankings for your favorite League of Legends teams. Our
+    mission is to provide a comprehensive and objective assessment of the
+    competitive landscape in the world of League of Legends. We leverage
+    cutting-edge technology, data analytics, and the power of the League of
+    Legends community to create a platform that showcases the true strengths
+    and weaknesses of each team. Whether you're a die-hard esports fan or
+    just curious about how your favorite team stacks up against the
+    competition, our website is here to provide you with the insights you
+    need. Explore our rankings, dive into team profiles, and stay informed
+    about the ever-changing world of professional League of Legends. Thank
+    you for visiting our website, and we hope you find it informative and
+    enjoyable. If you have any questions or feedback, please don't hesitate
+    to reach out to us. Together, we can make the League of Legends
+    community even more vibrant and competitive!`,
 };

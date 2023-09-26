@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { useCallback, useEffect, useState } from 'react';
 import { RankingType } from '@/types/types';
 import { getGlobalRankingsData } from '@/services/rankingServices';
-import { lolRegions, lolTournaments, lolTeams } from '@/constants';
+import { lolRegions, lolTournaments, lolTeams } from '@/constants/lolDummyData';
 
 const GlobalLeaderboard = () => {
   const [data, setData] = useState<RankingType[]>([]);
