@@ -114,7 +114,7 @@ def get_team_logo_url(team_name, team_code) -> str:
             return leaguepedia_parser.get_team_logo(name)
         except:
             pass
-    return "no_icon_found"
+    return None
 
 if __name__ == "__main__":
     teams_path = os.path.join(script_directory, '..', 'esports-data', 'teams.json')
