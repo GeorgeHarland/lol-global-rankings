@@ -9,7 +9,7 @@ import { snakeToCamel } from '@/utils';
 
 const TeamProfileContainer = () => {
   const [teamData, setTeamData] = useState<TeamType>();
-  const teamID = usePathname().substring(1);
+  const teamID = usePathname().match(/\d+/)?.toString();
 
   useEffect(() => {
     const GetTeamData = async () => {
@@ -23,8 +23,6 @@ const TeamProfileContainer = () => {
     };
     GetTeamData();
   }, [teamID]);
-
-  console.log(teamData, teamData?.teamIconUrl);
 
   if (!teamData) return <div>Loading...</div>;
 

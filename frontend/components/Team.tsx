@@ -2,6 +2,7 @@
 import { TeamType } from '@/types/types';
 import Player from './Player';
 import Image from 'next/image';
+import defaultLogo from '@/images/defaultLogo.png';
 
 const Team = ({
   teamName,
@@ -14,8 +15,8 @@ const Team = ({
 }: TeamType) => {
   const currentRosterMap = () => {
     if (!currentRoster) return;
-    return currentRoster.map((player, i) => (
-      <li key={i}>
+    return currentRoster.map((player, idx) => (
+      <li key={idx}>
         <Player
           teamName={teamName}
           playerName={player.summonerName}
@@ -30,7 +31,7 @@ const Team = ({
       <div className="border-2 rounded-lg border-black p-4 relative">
         {/* Doesnt look great I hate CSS */}
         <Image
-          src={teamIconUrl ?? ''}
+          src={teamIconUrl ?? defaultLogo}
           alt={teamName}
           width={150}
           height={200}

@@ -53,7 +53,7 @@ const GlobalLeaderboard = () => {
         className="flex py-4 border-2 border-black rounded-lg mb-4"
       >
         <h2 className="mx-2 self-center">{data.rank}</h2>
-        <Link className="hover:underline self-center" href={`/${data.team_id}`}>
+        <Link className="hover:underline self-center" href={`/teams/${data.team_id}`}>
           {data.team_name}
         </Link>
         <div className="ml-auto">
