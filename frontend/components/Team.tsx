@@ -30,13 +30,22 @@ const Team = ({
     <div>
       <div className="border-2 rounded-lg border-black p-4 relative">
         {/* Doesnt look great I hate CSS */}
-        <Image
-          src={teamIconUrl ?? defaultLogo}
-          alt={teamName}
-          width={150}
-          height={200}
-          className="absolute inset-0 -z-10 opacity-50"
-        />
+        {teamIconUrl ?
+          <Image
+            src={teamIconUrl}
+            alt={teamName}
+            width={150}
+            height={200}
+            className="absolute inset-0 -z-10 opacity-50"
+          /> : 
+          <Image
+            src={defaultLogo}
+            alt={teamName}
+            width={300}
+            height={400}
+            className="absolute inset-0 -z-10 opacity-50 -top-10"
+          />
+        }
         <h2 className="text-center font-bold text-lg">{teamName}</h2>
         <h4>Global Rank: {globalRank}</h4>
         <h4>Championship Rating: {championshipRating}</h4>
