@@ -37,7 +37,7 @@ export const lolTeams = [
   { abbreviation: 'skt', name: 'T1 (formerly SK Telecom T1)' },
   { abbreviation: 'damwon', name: 'DAMWON Gaming' },
   { abbreviation: 'cloud9', name: 'Cloud9' },
-  { abbreviation: 'tsm', name: 'Team SoloMid (TSM)' },
+  { abbreviation: 'tsm', name: 'Team SoloMid' },
   { abbreviation: 'rng', name: 'Royal Never Give Up (RNG)' },
   { abbreviation: 'fpx', name: 'FunPlus Phoenix (FPX)' },
   { abbreviation: 'edg', name: 'Edward Gaming (EDG)' },

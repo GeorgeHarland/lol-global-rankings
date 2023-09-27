@@ -27,7 +27,9 @@ const QuickCompare = () => {
     const results = lolTeams.filter((team) => {
       return (
         (input && team.name && team.name.toLowerCase().includes(input)) ||
-        team.abbreviation.toLowerCase().includes(input)
+        (input &&
+          team.abbreviation &&
+          team.abbreviation.toLowerCase().includes(input))
       );
     });
 
