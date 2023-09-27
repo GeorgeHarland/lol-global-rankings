@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-around border-b border-gray-400 mb-4">
+    <nav className="flex justify-around border-b border-gray-400 mb-4 pb-4">
       <Link href="/">
         <p className="text-2xl font-bold hover:text-gray-400">
           Global Leaderboard

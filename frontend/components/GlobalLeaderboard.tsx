@@ -3,7 +3,6 @@ import Link from 'next/link';
 import { useCallback, useEffect, useState } from 'react';
 import { RankingType } from '@/types/types';
 import { getGlobalRankingsData } from '@/services/rankingServices';
-import { lolRegions, lolTournaments, lolTeams } from '@/constants/lolDummyData';
 import QuickCompare from './QuickCompare';
 
 const GlobalLeaderboard = () => {

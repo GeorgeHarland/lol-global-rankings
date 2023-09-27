@@ -1,9 +1,10 @@
 import { lolRegions, lolTeams, lolTournaments } from '@/constants/lolDummyData';
-import { use, useState } from 'react';
+import { useState } from 'react';
 
 const QuickCompare = () => {
   const [teamOneID, setTeamOneID] = useState<number>();
   const [teamTwoID, setTeamTwoID] = useState<number>();
+
   return (
     <>
       <div className="flex flex-col">
