@@ -1,3 +1,5 @@
+import { TeamInfo } from '@/types/types';
+
 export function snakeToCamel(obj: any): any {
   if (obj === null || typeof obj !== 'object') {
     return obj;
@@ -20,10 +22,6 @@ export function snakeToCamel(obj: any): any {
   return camelObj;
 }
 
-type TeamInfo = {
-  name: string;
-  abbreviation: string;
-};
 export function teamFilter(teams: TeamInfo[], input: string) {
   const results = teams.filter((team) => {
     return (

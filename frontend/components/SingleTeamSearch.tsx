@@ -5,6 +5,7 @@ import { teamFilter } from '@/utils';
 import { TeamInfo } from '@/types/types';
 import SearchResult from './SearchResult';
 import { useRouter } from 'next/navigation';
+import SearchResultContainer from './SearchResultContainer';
 
 const SingleTeamSearch = () => {
   const [teamName, setTeamName] = useState<string>('');
@@ -38,13 +39,10 @@ const SingleTeamSearch = () => {
         onChange={(e) => handleOnChange(e)}
         className="outline-none pl-1 py-2 text-black rounded-lg w-1/4 text-center bg-gray-400 "
       />
-      {teamResults.map((result, index) => (
-        <SearchResult
-          key={index}
-          teamName={result.name}
-          ResultOnClick={() => resultOnClick(result.name)}
-        />
-      ))}
+      <SearchResultContainer
+        results={teamResults}
+        resultFunction={resultOnClick}
+      />
     </div>
   );
 };
