@@ -7,7 +7,7 @@ from glicko2 import Player
 script_directory = os.path.dirname(os.path.abspath(__file__))
 tournaments_path = os.path.join(script_directory, '..', 'backend', 'esports-data', 'tournaments.json')
 leagues_path = os.path.join(script_directory, '..', 'backend', 'esports-data', 'leagues.json')
-teams_path = os.path.join(script_directory, 'teams_data.json')
+teams_path = os.path.join(script_directory, '..', 'backend', 'chalicelib', 'teams_data.json')
 
 with open(tournaments_path, 'r', encoding='utf-8') as f:
     tournaments = json.load(f)
@@ -60,17 +60,20 @@ region_ratings = {
   'EMEA': 1650,
   'NORTH AMERICA': 1600,
   'Unknown': 1500,
-  'default': 1500
+  'default': 1500,
+  'no_games_played': 0
 }
 
-# team setup + get region for each team
+# team setup (get all unique teams)
 
 sorted_results = sorted(results, key=lambda x: x['startDate'])
 df = pd.DataFrame(sorted_results)
 df.head()
 
 team_ratings = {}
-unique_teams = pd.concat([df['winning_team_id'], df['losing_team_id']]).unique()
+df_teams = pd.concat([df['winning_team_id'], df['losing_team_id']]).unique().tolist()
+team_data_ids = [team_data['team_id'] for team_data in teams]
+unique_teams = list(set(df_teams + team_data_ids))
 
 # First, initialize all teams with default ratings
 for team_id in unique_teams:
@@ -92,9 +95,24 @@ for index, row in df.iterrows():
     winning_team.update_player([losing_team.rating], [losing_team.rd], [1.0])
     losing_team.update_player([winning_team.rating], [winning_team.rd], [0.0])
     
-# Display final results
+# Display and save final results
 
-sorted_teams = sorted(team_ratings.keys(), key=lambda x: team_ratings[x].rating, reverse=False)
+for team_id in unique_teams:
+    if team_id not in team_ratings:
+        team_ratings[team_id] = Player(rating=region_ratings['no_games_played']) 
+        
+sorted_teams = sorted(team_ratings.keys(), key=lambda x: team_ratings[x].rating, reverse=True)
 
-for team_id in sorted_teams:
-    print(f"Team ID: {team_id}, Rating: {team_ratings[team_id].rating}")
+output_path = os.path.join(script_directory, '..', 'backend', 'ml-output', 'glicko_elo.json')
+
+if os.path.exists(output_path):
+    os.remove(output_path)
+    
+# Create a list of dictionaries
+output_data = [{'team_id': team_id, 'rating': team_ratings[team_id].rating} for team_id in sorted_teams]
+
+print('top team: ', output_data[0])
+
+# Dump this list to a JSON file
+with open(output_path, 'w') as outfile:
+    json.dump(output_data, outfile, indent=2)
