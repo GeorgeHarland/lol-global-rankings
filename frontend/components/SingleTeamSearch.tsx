@@ -1,21 +1,25 @@
 'use client';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { lolTeams } from '@/constants/lolDummyData';
 import { teamFilter } from '@/utils';
 import { TeamInfo } from '@/types/types';
-import SearchResult from './SearchResult';
 import { useRouter } from 'next/navigation';
 import SearchResultContainer from './SearchResultContainer';
 
 const SingleTeamSearch = () => {
   const [teamName, setTeamName] = useState<string>('');
   const [teamResults, setTeamResults] = useState<TeamInfo[]>([]);
+  const [teams, setTeam] = useState(lolTeams);
   const [teamID, setTeamID] = useState('12139199912'); // Replace with actual ID
   const router = useRouter();
 
+  useEffect(() => {
+    // Fetch team data here
+  }, []);
+
   const handleOnChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const input = e.target.value.toLowerCase();
-    const results = teamFilter(lolTeams, input);
+    const results = teamFilter(teams, input); // MAY NEED TO CHANGE THIS LOGIC TO RETURN ID OR SOMETHING
 
     setTeamName(input);
 
