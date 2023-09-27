@@ -1,7 +1,8 @@
+import SingleTeamSearch from '@/components/SingleTeamSearch';
 import React from 'react';
 
 const Teams = () => {
-  return <div>Teams</div>;
+  return <SingleTeamSearch />;
 };
 
 export default Teams;

@@ -19,3 +19,19 @@ export function snakeToCamel(obj: any): any {
 
   return camelObj;
 }
+
+type TeamInfo = {
+  name: string;
+  abbreviation: string;
+};
+export function teamFilter(teams: TeamInfo[], input: string) {
+  const results = teams.filter((team) => {
+    return (
+      (input && team.name && team.name.toLowerCase().includes(input)) ||
+      (input &&
+        team.abbreviation &&
+        team.abbreviation.toLowerCase().includes(input))
+    );
+  });
+  return results;
+}

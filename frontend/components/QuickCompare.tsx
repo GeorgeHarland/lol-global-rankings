@@ -2,6 +2,8 @@
 import { lolRegions, lolTeams, lolTournaments } from '@/constants/lolDummyData';
 import { useState } from 'react';
 import SearchResult from './SearchResult';
+import TeamSearch from './TeamSearch';
+import { teamFilter } from '@/utils';
 
 type TeamInfo = {
   abbreviation: string;
@@ -9,8 +11,8 @@ type TeamInfo = {
 };
 
 const QuickCompare = () => {
-  const [teamOneInput, setTeamOneInput] = useState<string>();
-  const [teamTwoInput, setTeamTwoInput] = useState<string>();
+  const [teamOneInput, setTeamOneInput] = useState<string>('');
+  const [teamTwoInput, setTeamTwoInput] = useState<string>('');
   const [teamOneID, setTeamOneID] = useState<number>();
   const [teamTwoID, setTeamTwoID] = useState<number>();
   const [resultsOne, setResultsOne] = useState<TeamInfo[]>([]);
@@ -25,14 +27,7 @@ const QuickCompare = () => {
 
     setInputFunction(input);
 
-    const results = lolTeams.filter((team) => {
-      return (
-        (input && team.name && team.name.toLowerCase().includes(input)) ||
-        (input &&
-          team.abbreviation &&
-          team.abbreviation.toLowerCase().includes(input))
-      );
-    });
+    const results = teamFilter(lolTeams, input);
 
     if (input === '') {
       setResultsFunction([]);
@@ -95,6 +90,7 @@ const QuickCompare = () => {
           ))}
         </div>
         <h2 className="font-bold text-lg">Team 2: </h2>
+
         <input
           type="search"
           value={teamTwoInput}

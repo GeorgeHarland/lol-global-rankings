@@ -27,3 +27,8 @@ export type RankingType = {
   current_roster: PlayerType[];
   rank: number;
 };
+
+export type TeamInfo = {
+  name: string;
+  abbreviation: string;
+};
