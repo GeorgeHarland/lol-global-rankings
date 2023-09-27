@@ -1,6 +1,7 @@
 'use client';
 import { lolRegions, lolTeams, lolTournaments } from '@/constants/lolDummyData';
 import { useState } from 'react';
+import SearchResult from './SearchResult';
 
 type TeamInfo = {
   abbreviation: string;
@@ -80,18 +81,17 @@ const QuickCompare = () => {
           value={teamOneInput}
           onChange={(e) => handleInput(e)}
           name="teamOneInput"
+          className="outline-none pl-1 text-black"
         />
         <div>
           {resultsOne.map((res, index) => (
-            <div
+            <SearchResult
+              teamName={res.name}
               key={index}
-              onClick={() =>
+              ResultOnClick={() =>
                 ResultOnClick(res.name, setTeamOneInput, setResultsOne)
               }
-              className="hover:underline hover:cursor-pointer hover:font-bold"
-            >
-              {res.name}
-            </div>
+            />
           ))}
         </div>
         <h2 className="font-bold text-lg">Team 2: </h2>
@@ -100,18 +100,17 @@ const QuickCompare = () => {
           value={teamTwoInput}
           onChange={(e) => handleInput(e)}
           name="teamTwoInput"
+          className="outline-none pl-1 text-black"
         />
-        <div>
+        <div className="bg-white text-black  shadow-inner">
           {resultsTwo.map((res, index) => (
-            <div
+            <SearchResult
+              teamName={res.name}
               key={index}
-              onClick={() =>
+              ResultOnClick={() =>
                 ResultOnClick(res.name, setTeamTwoInput, setResultsTwo)
               }
-              className="hover:underline hover:cursor-pointer hover:font-bold"
-            >
-              {res.name}
-            </div>
+            />
           ))}
         </div>
         <button className="mt-4 bg-green-600 rounded-lg p-2 text-white hover:bg-green-800">
