@@ -9,7 +9,7 @@ import SearchResultContainer from './SearchResultContainer';
 const SingleTeamSearch = () => {
   const [teamName, setTeamName] = useState<string>('');
   const [teamResults, setTeamResults] = useState<TeamInfo[]>([]);
-  const [teams, setTeam] = useState(lolTeams);
+  const [teams, setTeams] = useState(lolTeams); // replace with real teams
   const [teamID, setTeamID] = useState('12139199912'); // Replace with actual ID
   const router = useRouter();
 
