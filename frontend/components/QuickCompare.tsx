@@ -89,7 +89,7 @@ const QuickCompare = () => {
           name="teamOneInput"
           className="outline-none pl-1 text-black"
         />
-        <div>
+        <div className="max-h-96 overflow-y-scroll bg-white text-black  shadow-inner">
           {resultsOne.map((res, index) => (
             <SearchResult
               teamName={res.team_name}
@@ -109,7 +109,7 @@ const QuickCompare = () => {
           name="teamTwoInput"
           className="outline-none pl-1 text-black"
         />
-        <div className="bg-white text-black  shadow-inner">
+        <div className="max-h-96 overflow-y-scroll bg-white text-black  shadow-inner">
           {resultsTwo.map((res, index) => (
             <SearchResult
               teamName={res.team_name}
