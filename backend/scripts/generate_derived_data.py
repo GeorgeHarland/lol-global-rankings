@@ -10,6 +10,10 @@ def generate_team_data(teams_data, tournaments_data, players_data):
     leagues_path = os.path.join(script_directory, '..', 'esports-data', 'leagues.json')
     with open(leagues_path, 'r', encoding='utf-8') as leagues_file:
         leagues_data = json.load(leagues_file)
+    
+    elo_path = os.path.join(script_directory, '..', 'ml-output', 'glicko_elo.json')
+    with open(elo_path, 'r', encoding='utf-8') as elo_file:
+        elo_data = json.load(elo_file)
         
     # \Region to tournament mapping
     region_to_tournaments = {}
@@ -36,9 +40,8 @@ def generate_team_data(teams_data, tournaments_data, players_data):
             for player in players_data if player["home_team_id"] == team_id
         ]
         
-        tournaments_participated_in = set()
-
         # Calculate wins, losses, and total games
+        tournaments_participated_in = set()
         for tournament in tournaments_data:
             for stage in tournament["stages"]:
                 for section in stage["sections"]:
@@ -64,6 +67,11 @@ def generate_team_data(teams_data, tournaments_data, players_data):
                     break
             if home_region:
                 break
+            
+        for index, elo_team in enumerate(elo_data):
+            if elo_team['team_id'] == team['team_id']:
+                team_rating = elo_team['rating']
+                team_ranking = index + 1
         
         team_details[team_id] = {
             "team_id": team_id,
@@ -75,7 +83,9 @@ def generate_team_data(teams_data, tournaments_data, players_data):
             "total_winrate": win_rate,
             "tournaments_participated_in": list(tournaments_participated_in),
             "home_region": home_region or "Unknown",
-            "current_roster": current_roster
+            "current_roster": current_roster,
+            "elo_rating": team_rating,
+            "rank": team_ranking
         }
     
     chalice_path = os.path.join(script_directory, '..', 'chalicelib', 'teams_data.json')
@@ -91,12 +101,12 @@ def generate_rankings_data():
         team_data = json.load(f)
 
     rankings = []
-    for idx, team in enumerate(team_data, start=1):
+    for index, team in enumerate(team_data, start=1):
         rankings.append({
             "team_id": team["team_id"],
             "team_code": team["team_code"],
             "team_name": team["team_name"],
-            "rank": idx
+            "rank": team["rank"],
         })
 
     chalice_path = os.path.join(script_directory, '..', 'chalicelib', 'rankings_data.json')

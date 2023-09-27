@@ -29,8 +29,6 @@ def get_global_rankings():
     number_of_teams = int(query_params.get('number_of_teams', 20))
     if query_params.get('detailed_data', 'false').lower() == 'true':
         data_source = teams_data
-        for index, team in enumerate(data_source):
-            team['rank'] = index + 1
     else:
         data_source = rankings_data
     
