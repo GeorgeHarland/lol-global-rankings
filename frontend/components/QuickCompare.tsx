@@ -1,19 +1,29 @@
 'use client';
-import { lolRegions, lolTeams, lolTournaments } from '@/constants/lolDummyData';
-import { useState } from 'react';
+import { lolRegions, lolTournaments } from '@/constants/lolDummyData';
+import { useEffect, useState } from 'react';
 import SearchResult from './SearchResult';
 import { teamFilter } from '@/utils';
-import { TeamInfo } from '@/types/types';
+import { RankingType, TeamInfo } from '@/types/types';
 import { useRouter } from 'next/navigation';
+import { getTeamData } from '@/services/teamServices';
 
 const QuickCompare = () => {
   const [teamOneInput, setTeamOneInput] = useState<string>('');
   const [teamTwoInput, setTeamTwoInput] = useState<string>('');
+  const [teams, setTeams] = useState([]);
   const [teamOneID, setTeamOneID] = useState<number>();
   const [teamTwoID, setTeamTwoID] = useState<number>();
-  const [resultsOne, setResultsOne] = useState<TeamInfo[]>([]);
-  const [resultsTwo, setResultsTwo] = useState<TeamInfo[]>([]);
+  const [resultsOne, setResultsOne] = useState<RankingType[]>([]);
+  const [resultsTwo, setResultsTwo] = useState<RankingType[]>([]);
   const router = useRouter();
+
+  useEffect(() => {
+    const getTeams = async () => {
+      const result = await getTeamData();
+      setTeams(result);
+    };
+    getTeams();
+  }, []);
 
   const handleInput = (e: React.ChangeEvent<HTMLInputElement>) => {
     const input = e.target.value.toLowerCase();
@@ -24,7 +34,7 @@ const QuickCompare = () => {
 
     setInputFunction(input);
 
-    const results = teamFilter(lolTeams, input);
+    const results = teamFilter(teams, input);
 
     if (input === '') {
       setResultsFunction([]);
@@ -82,10 +92,10 @@ const QuickCompare = () => {
         <div>
           {resultsOne.map((res, index) => (
             <SearchResult
-              teamName={res.name}
+              teamName={res.team_name}
               key={index}
               ResultOnClick={() =>
-                ResultOnClick(res.name, setTeamOneInput, setResultsOne)
+                ResultOnClick(res.team_name, setTeamOneInput, setResultsOne)
               }
             />
           ))}
@@ -102,10 +112,10 @@ const QuickCompare = () => {
         <div className="bg-white text-black  shadow-inner">
           {resultsTwo.map((res, index) => (
             <SearchResult
-              teamName={res.name}
+              teamName={res.team_name}
               key={index}
               ResultOnClick={() =>
-                ResultOnClick(res.name, setTeamTwoInput, setResultsTwo)
+                ResultOnClick(res.team_name, setTeamTwoInput, setResultsTwo)
               }
             />
           ))}
