@@ -1,6 +1,5 @@
 'use client';
 import { useEffect, useState } from 'react';
-import { lolTeams } from '@/constants/lolDummyData';
 import { teamFilter } from '@/utils';
 import { RankingType, TeamInfo } from '@/types/types';
 import { useRouter } from 'next/navigation';
@@ -10,8 +9,8 @@ import { getTeamData } from '@/services/teamServices';
 const SingleTeamSearch = () => {
   const [teamName, setTeamName] = useState<string>('');
   const [teamResults, setTeamResults] = useState<RankingType[]>([]);
-  const [teams, setTeams] = useState([]); // replace with real teams
-  const [teamID, setTeamID] = useState('12139199912'); // Replace with actual ID
+  const [teams, setTeams] = useState([]);
+  const [teamID, setTeamID] = useState('');
   const router = useRouter();
 
   useEffect(() => {

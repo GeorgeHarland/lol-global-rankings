@@ -3,7 +3,7 @@ import axios from 'axios';
 const TEAM_URL =
   'https://uh4olt2xr7.execute-api.us-west-2.amazonaws.com/api/teams';
 
-export const getTeamData = async (teamID: string = '') => {
+export const getTeamData = async (teamID?: string) => {
   // if no teamName, gets list of all teams
   try {
     const response = teamID

@@ -13,7 +13,7 @@ const SearchResultContainer = ({
   resultFunction,
 }: SearchResultProps) => {
   return (
-    <div className="bg-gray-400 shadow-inner text-white h-96 overflow-y-scroll">
+    <div className="bg-gray-400 shadow-inner text-white max-h-96 overflow-y-scroll">
       {results.map((result) => (
         <SearchResult
           teamName={result.team_name}
