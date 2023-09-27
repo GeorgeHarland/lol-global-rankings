@@ -1,5 +1,11 @@
+import QuickCompare from '@/components/QuickCompare';
+
 const compareTeams = () => {
-  return <div>compare teams page</div>;
+  return (
+    <div>
+      <QuickCompare />
+    </div>
+  );
 };
 
 export default compareTeams;
