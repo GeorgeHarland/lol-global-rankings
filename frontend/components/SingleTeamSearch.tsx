@@ -31,11 +31,12 @@ const SingleTeamSearch = () => {
     //router.push(`/teams/${teamID}`);
   };
   return (
-    <div>
+    <div className="flex flex-col items-center">
       <input
         type="search"
         value={teamName}
         onChange={(e) => handleOnChange(e)}
+        className="outline-none pl-1 py-2 text-black rounded-lg w-1/4 text-center bg-gray-400 "
       />
       {teamResults.map((result, index) => (
         <SearchResult

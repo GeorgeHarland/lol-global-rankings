@@ -2,13 +2,9 @@
 import { lolRegions, lolTeams, lolTournaments } from '@/constants/lolDummyData';
 import { useState } from 'react';
 import SearchResult from './SearchResult';
-import TeamSearch from './TeamSearch';
 import { teamFilter } from '@/utils';
-
-type TeamInfo = {
-  abbreviation: string;
-  name: string;
-};
+import { TeamInfo } from '@/types/types';
+import { useRouter } from 'next/navigation';
 
 const QuickCompare = () => {
   const [teamOneInput, setTeamOneInput] = useState<string>('');
@@ -17,6 +13,7 @@ const QuickCompare = () => {
   const [teamTwoID, setTeamTwoID] = useState<number>();
   const [resultsOne, setResultsOne] = useState<TeamInfo[]>([]);
   const [resultsTwo, setResultsTwo] = useState<TeamInfo[]>([]);
+  const router = useRouter();
 
   const handleInput = (e: React.ChangeEvent<HTMLInputElement>) => {
     const input = e.target.value.toLowerCase();
@@ -43,6 +40,10 @@ const QuickCompare = () => {
   ) => {
     setTeamInput(value);
     setResults([]);
+  };
+
+  const onCompare = () => {
+    //router.push(`/compare/${teamOneID}/${teamTwoID}`);
   };
 
   return (
@@ -109,7 +110,10 @@ const QuickCompare = () => {
             />
           ))}
         </div>
-        <button className="mt-4 bg-green-600 rounded-lg p-2 text-white hover:bg-green-800">
+        <button
+          className="mt-4 bg-green-600 rounded-lg p-2 text-white hover:bg-green-800"
+          onClick={() => onCompare()}
+        >
           Compare
         </button>
       </div>
