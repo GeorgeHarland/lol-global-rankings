@@ -1,4 +1,4 @@
-import { TeamInfo } from '@/types/types';
+import { RankingType, TeamInfo } from '@/types/types';
 
 export function snakeToCamel(obj: any): any {
   if (obj === null || typeof obj !== 'object') {
@@ -22,13 +22,13 @@ export function snakeToCamel(obj: any): any {
   return camelObj;
 }
 
-export function teamFilter(teams: TeamInfo[], input: string) {
+export function teamFilter(teams: RankingType[], input: string) {
   const results = teams.filter((team) => {
     return (
-      (input && team.name && team.name.toLowerCase().includes(input)) ||
       (input &&
-        team.abbreviation &&
-        team.abbreviation.toLowerCase().includes(input))
+        team.team_name &&
+        team.team_name.toLowerCase().includes(input)) ||
+      (input && team.team_code && team.team_code.toLowerCase().includes(input))
     );
   });
   return results;

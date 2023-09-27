@@ -2,20 +2,27 @@
 import { useEffect, useState } from 'react';
 import { lolTeams } from '@/constants/lolDummyData';
 import { teamFilter } from '@/utils';
-import { TeamInfo } from '@/types/types';
+import { RankingType, TeamInfo } from '@/types/types';
 import { useRouter } from 'next/navigation';
 import SearchResultContainer from './SearchResultContainer';
+import { getTeamData } from '@/services/teamServices';
 
 const SingleTeamSearch = () => {
   const [teamName, setTeamName] = useState<string>('');
-  const [teamResults, setTeamResults] = useState<TeamInfo[]>([]);
-  const [teams, setTeams] = useState(lolTeams); // replace with real teams
+  const [teamResults, setTeamResults] = useState<RankingType[]>([]);
+  const [teams, setTeams] = useState([]); // replace with real teams
   const [teamID, setTeamID] = useState('12139199912'); // Replace with actual ID
   const router = useRouter();
 
   useEffect(() => {
-    // Fetch team data here
+    const getTeams = async () => {
+      const result = await getTeamData();
+      setTeams(result);
+    };
+    getTeams();
   }, []);
+
+  console.log(teams);
 
   const handleOnChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const input = e.target.value.toLowerCase();
@@ -30,10 +37,11 @@ const SingleTeamSearch = () => {
     }
   };
 
-  const resultOnClick = (value: string) => {
+  const resultOnClick = (value: string, teamID: string) => {
     setTeamName(value);
     setTeamResults([]);
-    //router.push(`/teams/${teamID}`);
+    setTeamID(teamID);
+    router.push(`/teams/${teamID}`);
   };
   return (
     <div className="flex flex-col items-center">
