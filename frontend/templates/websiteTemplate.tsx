@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const WebsiteTemplate = ({ children }: { children: React.ReactNode }) => {
   return (
-    <div className=" mx-auto p-4">
+    <div className="p-4">
       <Navbar />
       {children}
     </div>

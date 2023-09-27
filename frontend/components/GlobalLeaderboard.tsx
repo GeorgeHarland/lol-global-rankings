@@ -4,6 +4,7 @@ import { useCallback, useEffect, useState } from 'react';
 import { RankingType } from '@/types/types';
 import { getGlobalRankingsData } from '@/services/rankingServices';
 import { lolRegions, lolTournaments, lolTeams } from '@/constants/lolDummyData';
+import QuickCompare from './QuickCompare';
 
 const GlobalLeaderboard = () => {
   const [data, setData] = useState<RankingType[]>([]);
@@ -38,16 +39,6 @@ const GlobalLeaderboard = () => {
     setData(data);
   };
 
-  const NextPage = () => {
-    setCurrentPage((prevState) => prevState + 1);
-    //Paginate();
-  };
-
-  const PreviousPage = () => {
-    setCurrentPage((prevState) => prevState - 1);
-    // Paginate();
-  };
-
   const mappedData = () => {
     return paginatedData.map((data, index) => (
       <div
@@ -61,26 +52,27 @@ const GlobalLeaderboard = () => {
         >
           {data.team_name}
         </Link>
-        <div className="ml-auto">
-          <div className="flex">
-            <div className="mx-4">
-              <h1> Wins: {data.total_wins}</h1>
-              <h1> Losses: {data.total_losses}</h1>
-              <h1> Winrate: {(data.total_winrate * 100).toFixed(0)}%</h1>
-            </div>
-            <div className="mr-4 w-max">
-              <h1> Region: {data.home_region}</h1>
-              <h1> Tournaments: {data.tournaments_participated_in.length}</h1>
-            </div>
+
+        <div className="flex ml-auto w-96">
+          <div className="mx-4">
+            <h1> Wins: {data.total_wins}</h1>
+            <h1> Losses: {data.total_losses}</h1>
+            <h1> Winrate: {(data.total_winrate * 100).toFixed(0)}%</h1>
+          </div>
+          <div className="mr-4">
+            <h1> Region: {data.home_region}</h1>
+            <h1> Tournaments: {data.tournaments_participated_in.length}</h1>
           </div>
         </div>
       </div>
     ));
   };
 
+  if (!paginatedData.length) return <div>Loading...</div>;
+
   return (
     <div className="flex w-screen">
-      <div className="w-max">
+      <div className="flex-1 p-4">
         <h2 className="mb-4 text-center font-bold text-3xl">
           Top {numberOfTeamsToFetch} Teams
         </h2>
@@ -89,7 +81,7 @@ const GlobalLeaderboard = () => {
           <button
             disabled={currentPage === 1}
             hidden={currentPage === 1}
-            onClick={() => PreviousPage()}
+            onClick={() => setCurrentPage((prevState) => prevState - 1)}
           >
             Previous
           </button>
@@ -101,52 +93,14 @@ const GlobalLeaderboard = () => {
               currentPage === Math.ceil(sortedData.length / itemsPerPage)
             }
             hidden={currentPage === Math.ceil(sortedData.length / itemsPerPage)}
-            onClick={() => NextPage()}
+            onClick={() => setCurrentPage((prevState) => prevState + 1)}
           >
             Next
           </button>
         </div>
       </div>
-      <div className="ml-20">
-        <div className="flex flex-col">
-          <h2 className="font-bold text-xl">Find past tournament Rankings:</h2>
-          <h2 className="font-bold text-lg">Region:</h2>
-          <select>
-            {Object.entries(lolRegions).map(([region, fullRegionName]) => (
-              <option key={region}>{fullRegionName}</option>
-            ))}
-          </select>
-          <h2 className="font-bold text-lg">Tournament:</h2>
-          <select>
-            {Object.entries(lolTournaments).map(
-              ([tournament, tournamentName]) => (
-                <option key={tournament}>{tournament}</option>
-              )
-            )}
-          </select>
-          <button className="mt-4 bg-green-600 rounded-lg p-2 text-white hover:bg-green-800">
-            Find Rankings
-          </button>
-        </div>
-        <div className="mt-6 flex flex-col">
-          <h2 className="font-bold text-2xl">Team Compare</h2>
-
-          <h2 className="font-bold text-lg">Team 1: </h2>
-          <select>
-            {Object.entries(lolTeams).map(([teamCode, teamName]) => (
-              <option key={teamCode}>{teamName}</option>
-            ))}
-          </select>
-          <h2 className="font-bold text-lg">Team 2: </h2>
-          <select>
-            {Object.entries(lolTeams).map(([teamCode, teamName]) => (
-              <option key={teamCode}>{teamName}</option>
-            ))}
-          </select>
-          <button className="mt-4 bg-green-600 rounded-lg p-2 text-white hover:bg-green-800">
-            Compare
-          </button>
-        </div>
+      <div className="mx-36 mt-20">
+        <QuickCompare />
       </div>
     </div>
   );
