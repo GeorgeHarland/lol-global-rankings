@@ -15,37 +15,36 @@ const QuickCompare = () => {
   const [resultsOne, setResultsOne] = useState<TeamInfo[]>([]);
   const [resultsTwo, setResultsTwo] = useState<TeamInfo[]>([]);
 
-  const handleInputOne = (input: string) => {
-    setTeamOneInput(input);
-    const res = lolTeams.filter((team) => {
+  const handleInput = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const input = e.target.value.toLowerCase();
+    const isTeamOneInput = e.target.name === 'teamOneInput';
+
+    const setInputFunction = isTeamOneInput ? setTeamOneInput : setTeamTwoInput;
+    const setResultsFunction = isTeamOneInput ? setResultsOne : setResultsTwo;
+
+    setInputFunction(input);
+
+    const results = lolTeams.filter((team) => {
       return (
         (input && team.name && team.name.toLowerCase().includes(input)) ||
         team.abbreviation.toLowerCase().includes(input)
       );
     });
-    if (input == '') return setResultsOne([]);
-    setResultsOne(res);
+
+    if (input === '') {
+      setResultsFunction([]);
+    } else {
+      setResultsFunction(results);
+    }
   };
 
-  const handleInputTwo = (input: string) => {
-    setTeamTwoInput(input);
-    const res = lolTeams.filter((team) => {
-      return (
-        (input && team.name && team.name.toLowerCase().includes(input)) ||
-        team.abbreviation.toLowerCase().includes(input)
-      );
-    });
-    if (input == '') return setResultsTwo([]);
-    setResultsTwo(res);
-  };
-
-  const onClickOne = (value: string) => {
-    setTeamOneInput(value);
-    setResultsOne([]);
-  };
-  const onClickTwo = (value: string) => {
-    setTeamTwoInput(value);
-    setResultsTwo([]);
+  const ResultOnClick = (
+    value: string,
+    setTeamInput: Function,
+    setResults: Function
+  ) => {
+    setTeamInput(value);
+    setResults([]);
   };
 
   return (
@@ -73,21 +72,20 @@ const QuickCompare = () => {
       <div className="mt-6 flex flex-col">
         <h2 className="font-bold text-2xl">Team Compare</h2>
         <h2 className="font-bold text-lg">Team 1: </h2>
-        {/* <select>
-          {Object.entries(lolTeams).map(([teamCode, teamName]) => (
-            <option key={teamCode}>{teamName}</option>
-          ))}
-        </select> */}
+
         <input
           type="search"
           value={teamOneInput}
-          onChange={(e) => handleInputOne(e.target.value.toLowerCase())}
+          onChange={(e) => handleInput(e)}
+          name="teamOneInput"
         />
         <div>
           {resultsOne.map((res, index) => (
             <div
               key={index}
-              onClick={() => onClickOne(res.name)}
+              onClick={() =>
+                ResultOnClick(res.name, setTeamOneInput, setResultsOne)
+              }
               className="hover:underline hover:cursor-pointer hover:font-bold"
             >
               {res.name}
@@ -95,21 +93,19 @@ const QuickCompare = () => {
           ))}
         </div>
         <h2 className="font-bold text-lg">Team 2: </h2>
-        {/* <select>
-          {Object.entries(lolTeams).map(([teamCode, teamName]) => (
-            <option key={teamCode}>{teamName}</option>
-          ))}
-        </select> */}
         <input
           type="search"
           value={teamTwoInput}
-          onChange={(e) => handleInputTwo(e.target.value)}
+          onChange={(e) => handleInput(e)}
+          name="teamTwoInput"
         />
         <div>
           {resultsTwo.map((res, index) => (
             <div
               key={index}
-              onClick={() => onClickTwo(res.name)}
+              onClick={() =>
+                ResultOnClick(res.name, setTeamTwoInput, setResultsTwo)
+              }
               className="hover:underline hover:cursor-pointer hover:font-bold"
             >
               {res.name}
