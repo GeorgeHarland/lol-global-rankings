@@ -2,7 +2,7 @@
 import { usePathname } from 'next/navigation';
 import TeamDropdown from './TeamDropdown';
 import TeamBasicStatsColumn from './TeamBasicStatsColumn';
-import TeamGraphColumn from './TeamGraphColumn'
+import TeamGraphColumn from './TeamGraphColumn';
 import { useEffect, useState } from 'react';
 import { getTeamData } from '@/services/teamServices';
 import { TeamType } from '@/types/types';
@@ -25,6 +25,8 @@ const TeamProfileContainer = () => {
     GetTeamData();
   }, [teamID]);
 
+  console.log(teamData);
+
   if (!teamData) return <div>Loading...</div>;
 
   return (
@@ -32,10 +34,10 @@ const TeamProfileContainer = () => {
       <div className="flex gap-6  ">
         <TeamBasicStatsColumn
           teamName={teamData.teamName}
-          globalRank={3}
-          championshipRating={1039}
-          playerRating={1599}
-          longevity={1900}
+          teamCode={teamData.teamCode}
+          rank={teamData.rank}
+          eloRating={Math.ceil(teamData.eloRating) ?? 'N/A'}
+          enhancedRating={Math.ceil(teamData.eloRating) ?? 'N/A'} // REPLACE WITH REAL ENHANCED RATING
           currentRoster={teamData?.currentRoster}
           teamIconUrl={teamData.teamIconUrl}
         />

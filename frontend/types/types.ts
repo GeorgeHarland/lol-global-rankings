@@ -1,10 +1,10 @@
 export type TeamType = {
   teamName: string;
+  teamCode: string;
   teamIconUrl?: string;
-  globalRank: number;
-  championshipRating: number;
-  playerRating: number;
-  longevity: number;
+  rank: number;
+  enhancedRating: number; // OPTIONAL FOR NOW SINCE DOESN'T EXIT
+  eloRating: number;
   currentRoster?: PlayerType[];
 };
 
