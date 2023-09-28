@@ -25,33 +25,44 @@ def generate_team_data(teams_data, tournaments_data, players_data):
                 if tournament['id'] not in region_to_tournaments[league['region']]:
                     region_to_tournaments[league['region']].append(tournament['id'])
 
+    sorted_tournaments = sorted(tournaments_data, key=lambda x: x['startDate'], reverse=False)
+    
+    for tournament in sorted_tournaments:
+        print(tournament['startDate'])
+    
     for team in teams_data:
         team_id = team["team_id"]
         wins = 0
         losses = 0
         total_games_played = 0
+        player_roles = {}
         
-        current_roster = [
-            {
-                "player_id": player["player_id"],
-                "summoner_name": player["handle"],
-                "role": "(Role placeholder)"
+        # map for tournaments
+        tournament_id_to_details = {
+            tournament["id"]: {
+                "name": tournament["name"],
+                "slug": tournament["slug"],
+                "startDate": tournament["startDate"],
+                "endDate": tournament["endDate"]
             }
-            for player in players_data if player["home_team_id"] == team_id
-        ]
+            for tournament in tournaments_data
+        }
         
         # Calculate wins, losses, and total games
-        tournaments_participated_in = set()
-        for tournament in tournaments_data:
+        tournaments_participated_in = {}
+        for tournament in sorted_tournaments:
             for stage in tournament["stages"]:
                 for section in stage["sections"]:
                     for match in section["matches"]:
                         for match_team in match["teams"]:
                             if match_team["id"] == team_id:
-                                tournaments_participated_in.add(tournament["id"])
+                                for player in match_team["players"]:
+                                    player_roles[player["id"]] = player["role"]
+                                if tournament["id"] not in tournaments_participated_in:
+                                    tournaments_participated_in[tournament["id"]] = tournament_id_to_details[tournament["id"]]
                                 wins += match_team["record"]["wins"]
                                 losses += match_team["record"]["losses"]
-                                total_games_played += match_team["record"]["wins"] + match_team["record"]["losses"]
+                                total_games_played += match_team["record"]["wins"] + match_team["record"]["losses"]  
 
         if total_games_played > 0:
             win_rate = wins / total_games_played
@@ -72,6 +83,15 @@ def generate_team_data(teams_data, tournaments_data, players_data):
             if elo_team['team_id'] == team['team_id']:
                 team_rating = elo_team['rating']
                 team_ranking = index + 1
+                
+        current_roster = [
+            {
+                "player_id": player["player_id"],
+                "summoner_name": player["handle"],
+                "role": player_roles.get(player["player_id"], "None")
+            }
+            for player in players_data if player["home_team_id"] == team_id
+        ]
         
         team_details[team_id] = {
             "team_id": team_id,
@@ -81,7 +101,7 @@ def generate_team_data(teams_data, tournaments_data, players_data):
             "total_wins": wins,
             "total_losses": losses,
             "total_winrate": win_rate,
-            "tournaments_participated_in": list(tournaments_participated_in),
+            "tournaments_participated_in": tournaments_participated_in,
             "home_region": home_region or "Unknown",
             "current_roster": current_roster,
             "elo_rating": team_rating,
