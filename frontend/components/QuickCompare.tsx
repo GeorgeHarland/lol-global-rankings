@@ -1,11 +1,11 @@
 'use client';
-import { lolRegions, lolTournaments } from '@/constants/lolDummyData';
 import { useEffect, useState } from 'react';
-import SearchResult from './SearchResult';
-import { teamFilter } from '@/utils';
-import { RankingType, TeamInfo } from '@/types/types';
 import { useRouter } from 'next/navigation';
+import SearchResult from './SearchResult';
 import { getTeamData } from '@/services/teamServices';
+import { lolRegions, lolTournaments } from '@/constants/lolDummyData';
+import { teamFilter } from '@/utils';
+import { RankingType } from '@/types/types';
 
 const QuickCompare = () => {
   const [teamOneInput, setTeamOneInput] = useState<string>('');
@@ -36,11 +36,7 @@ const QuickCompare = () => {
 
     const results = teamFilter(teams, input);
 
-    if (input === '') {
-      setResultsFunction([]);
-    } else {
-      setResultsFunction(results);
-    }
+    setResultsFunction(input ? results : []);
   };
 
   const ResultOnClick = (
