@@ -16,7 +16,6 @@ const GlobalLeaderboard = () => {
   const Paginate = useCallback(() => {
     const indexOfLastItem = currentPage * itemsPerPage;
     const indexOfFirstItem = indexOfLastItem - itemsPerPage;
-    console.log(indexOfFirstItem);
     setPaginatedData(sortedData.slice(indexOfFirstItem, indexOfLastItem));
   }, [currentPage, itemsPerPage, sortedData]);
 
@@ -29,6 +28,8 @@ const GlobalLeaderboard = () => {
     sortDataIntoRankings();
   }, [sortedData.length, currentPage, data, Paginate]);
 
+  console.log(paginatedData);
+
   useEffect(() => {
     const getGlobalRanking = async () => {
       const data = await getGlobalRankingsData(numberOfTeamsToFetch);
@@ -36,8 +37,6 @@ const GlobalLeaderboard = () => {
     };
     getGlobalRanking();
   }, [numberOfTeamsToFetch]);
-
-  console.log(data[0], 'this is the data from GL');
 
   const mappedData = () => {
     return paginatedData.map((data, index) => (
