@@ -37,6 +37,8 @@ const GlobalLeaderboard = () => {
     getGlobalRanking();
   }, [numberOfTeamsToFetch]);
 
+  console.log(data[0], 'this is the data from GL');
+
   const mappedData = () => {
     return paginatedData.map((data, index) => (
       <div
@@ -59,7 +61,10 @@ const GlobalLeaderboard = () => {
           </div>
           <div className="mr-4">
             <h1> Region: {data.home_region}</h1>
-            <h1> Tournaments: {data.tournaments_participated_in.length}</h1>
+            <h1>
+              Tournaments:
+              {Object.keys(data.tournaments_participated_in).length}
+            </h1>
           </div>
         </div>
       </div>

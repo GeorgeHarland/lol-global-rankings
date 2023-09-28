@@ -18,7 +18,7 @@ const TeamBasicStatsColumn = ({
     return currentRoster.map((player, idx) => (
       <li key={idx}>
         <Player
-          teamCode={teamCode}
+          playerID={player.playerId}
           playerName={player.summonerName}
           role={player.role}
         />

@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 const Player = ({
-  teamCode,
+  playerID,
   playerName,
   role,
 }: {
-  teamCode: string;
+  playerID: string;
   playerName: string;
   role: string;
 }) => {
   return (
-    <Link href={`${teamCode}/${playerName}`}>
+    <Link href={`/players/${playerID}`}>
       {playerName} - {role}
     </Link>
   );
