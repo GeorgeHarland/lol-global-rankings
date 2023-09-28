@@ -4,7 +4,7 @@ import Player from './Player';
 import Image from 'next/image';
 import defaultLogo from '@/images/defaultLogo.png';
 
-const Team = ({
+const TeamBasicStatsColumn = ({
   teamName,
   globalRank,
   championshipRating,
@@ -30,14 +30,15 @@ const Team = ({
     <div>
       <div className="border-2 rounded-lg border-black p-4 relative">
         {/* Doesnt look great I hate CSS */}
-        {teamIconUrl ?
+        {teamIconUrl ? (
           <Image
             src={teamIconUrl}
             alt={teamName}
             width={150}
             height={200}
             className="absolute inset-0 -z-10 opacity-50"
-          /> : 
+          />
+        ) : (
           <Image
             src={defaultLogo}
             alt={teamName}
@@ -45,7 +46,7 @@ const Team = ({
             height={400}
             className="absolute inset-0 -z-10 opacity-50 -top-10"
           />
-        }
+        )}
         <h2 className="text-center font-bold text-lg">{teamName}</h2>
         <h4>Global Rank: {globalRank}</h4>
         <h4>Championship Rating: {championshipRating}</h4>
@@ -64,4 +65,4 @@ const Team = ({
   );
 };
 
-export default Team;
+export default TeamBasicStatsColumn;

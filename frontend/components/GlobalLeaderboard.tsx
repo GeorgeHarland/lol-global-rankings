@@ -1,9 +1,9 @@
 'use client';
 import Link from 'next/link';
 import { useCallback, useEffect, useState } from 'react';
-import { RankingType } from '@/types/types';
 import { getGlobalRankingsData } from '@/services/rankingServices';
 import QuickCompare from './QuickCompare';
+import { RankingType } from '@/types/types';
 
 const GlobalLeaderboard = () => {
   const [data, setData] = useState<RankingType[]>([]);
@@ -30,13 +30,12 @@ const GlobalLeaderboard = () => {
   }, [sortedData.length, currentPage, data, Paginate]);
 
   useEffect(() => {
+    const getGlobalRanking = async () => {
+      const data = await getGlobalRankingsData(numberOfTeamsToFetch);
+      setData(data);
+    };
     getGlobalRanking();
-  }, []);
-
-  const getGlobalRanking = async () => {
-    const data = await getGlobalRankingsData(numberOfTeamsToFetch);
-    setData(data);
-  };
+  }, [numberOfTeamsToFetch]);
 
   const mappedData = () => {
     return paginatedData.map((data, index) => (

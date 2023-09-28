@@ -1,7 +1,8 @@
 'use client';
 import { usePathname } from 'next/navigation';
-import Dropdown from './Dropdown';
-import Team from './Team';
+import TeamDropdown from './TeamDropdown';
+import TeamBasicStatsColumn from './TeamBasicStatsColumn';
+import TeamGraphColumn from './TeamGraphColumn'
 import { useEffect, useState } from 'react';
 import { getTeamData } from '@/services/teamServices';
 import { TeamType } from '@/types/types';
@@ -29,7 +30,7 @@ const TeamProfileContainer = () => {
   return (
     <div className="m-4">
       <div className="flex gap-6  ">
-        <Team
+        <TeamBasicStatsColumn
           teamName={teamData.teamName}
           globalRank={3}
           championshipRating={1039}
@@ -38,7 +39,8 @@ const TeamProfileContainer = () => {
           currentRoster={teamData?.currentRoster}
           teamIconUrl={teamData.teamIconUrl}
         />
-        <Dropdown />
+        <TeamDropdown />
+        <TeamGraphColumn />
       </div>
     </div>
   );
