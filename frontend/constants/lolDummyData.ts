@@ -30,26 +30,3 @@ export const lolTournaments = {
   CBLOL: 'Campeonato Brasileiro de League of Legends (CBLOL)',
   LJL: 'League of Legends Japan League (LJL)',
 };
-
-export const lolTeams = [
-  { abbreviation: 'fnatic', name: 'Fnatic' },
-  { abbreviation: 'g2', name: 'G2 Esports' },
-  { abbreviation: 'skt', name: 'T1 (formerly SK Telecom T1)' },
-  { abbreviation: 'damwon', name: 'DAMWON Gaming' },
-  { abbreviation: 'cloud9', name: 'Cloud9' },
-  { abbreviation: 'tsm', name: 'Team SoloMid' },
-  { abbreviation: 'rng', name: 'Royal Never Give Up (RNG)' },
-  { abbreviation: 'fpx', name: 'FunPlus Phoenix (FPX)' },
-  { abbreviation: 'edg', name: 'Edward Gaming (EDG)' },
-  { abbreviation: 'gen_g', name: 'Gen.G Esports' },
-  { abbreviation: 'liquid', name: 'Team Liquid' },
-  { abbreviation: 'fnc', name: 'FunPlus Phoenix (FPX)' },
-  { abbreviation: 'ig', name: 'Invictus Gaming (IG)' },
-  { abbreviation: 'rogue', name: 'Rogue' },
-  { abbreviation: 'vitality', name: 'Team Vitality' },
-  { abbreviation: 'mad', name: 'MAD Lions' },
-  { abbreviation: 'drx', name: 'DRX (DragonX)' },
-  { abbreviation: 'immortals', name: 'Immortals' },
-  { abbreviation: '100t', name: '100 Thieves' },
-  { abbreviation: 'lgd', name: 'LGD Gaming' },
-];
