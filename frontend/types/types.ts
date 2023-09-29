@@ -6,6 +6,14 @@ export type TeamType = {
   enhancedRating: number; // OPTIONAL FOR NOW SINCE DOESN'T EXIT
   eloRating: number;
   currentRoster?: PlayerType[];
+  tournamentsParticipatedIn?: Array<TournamentInfo>;
+};
+
+export type TournamentInfo = {
+  endDate: string;
+  name: string;
+  slug: string;
+  startDate: string;
 };
 
 type PlayerType = {

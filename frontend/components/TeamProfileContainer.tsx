@@ -41,7 +41,7 @@ const TeamProfileContainer = () => {
           currentRoster={teamData?.currentRoster}
           teamIconUrl={teamData.teamIconUrl}
         />
-        <TeamDropdown />
+        <TeamDropdown content={teamData.tournamentsParticipatedIn} />
         <TeamGraphColumn />
       </div>
     </div>

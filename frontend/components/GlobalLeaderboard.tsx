@@ -62,7 +62,7 @@ const GlobalLeaderboard = () => {
             <h1> Region: {data.home_region}</h1>
             <h1>
               Tournaments:
-              {Object.keys(data.tournaments_participated_in).length}
+              {data.tournaments_participated_in.length}
             </h1>
           </div>
         </div>

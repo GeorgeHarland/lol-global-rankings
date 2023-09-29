@@ -9,9 +9,12 @@ const Player = ({
   playerName: string;
   role: string;
 }) => {
+  const capitalizeFirstLetter = (string: string) => {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+  };
   return (
     <Link href={`/players/${playerID}`}>
-      {playerName} - {role}
+      {playerName} - {capitalizeFirstLetter(role)}
     </Link>
   );
 };
