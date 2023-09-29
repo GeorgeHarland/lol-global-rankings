@@ -102,7 +102,7 @@ def generate_team_data(teams_data, tournaments_data, players_data):
             "total_losses": losses,
             "total_winrate": win_rate,
             # change from dict to object:
-            "tournaments_participated_in": list(tournaments_participated_in.values()), 
+            "tournaments_participated_in": [{"id": key, **value} for key, value in tournaments_participated_in.items()],
             "home_region": home_region or "Unknown",
             "current_roster": current_roster,
             "elo_rating": team_rating,
