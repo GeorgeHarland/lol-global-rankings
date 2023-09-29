@@ -18,7 +18,7 @@ def generate_team_data(teams_data, tournaments_data, players_data):
     # \Region to tournament mapping
     region_to_tournaments = {}
     for league in leagues_data:
-        if league['region'] != 'INTERNATIONAL':
+        if league['region'] != 'INTERNATIONAL': # also gets rid of tft league
             if league['region'] not in region_to_tournaments:
                 region_to_tournaments[league['region']] = []
             for tournament in league['tournaments']:
