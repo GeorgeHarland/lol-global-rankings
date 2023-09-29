@@ -1,4 +1,10 @@
-const CompareTeams = () => {
+const CompareTeamsTable = ({
+  teamOneName,
+  teamTwoName,
+}: {
+  teamOneName: string;
+  teamTwoName: string;
+}) => {
   const StatTableRow = ({
     statName,
     teamOne,
@@ -32,8 +38,8 @@ const CompareTeams = () => {
       <thead>
         <tr>
           <th></th>
-          <TeamTableHead teamName="Team 1" />
-          <TeamTableHead teamName="Team 2" />
+          <TeamTableHead teamName={teamOneName} />
+          <TeamTableHead teamName={teamTwoName} />
         </tr>
       </thead>
       <tbody className="bg-white divide-y divide-gray-200">
@@ -49,4 +55,4 @@ const CompareTeams = () => {
   );
 };
 
-export default CompareTeams;
+export default CompareTeamsTable;
