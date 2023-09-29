@@ -18,7 +18,7 @@ def generate_team_data(teams_data, tournaments_data, players_data):
     # \Region to tournament mapping
     region_to_tournaments = {}
     for league in leagues_data:
-        if league['region'] != 'INTERNATIONAL':
+        if league['region'] != 'INTERNATIONAL': # also gets rid of tft league
             if league['region'] not in region_to_tournaments:
                 region_to_tournaments[league['region']] = []
             for tournament in league['tournaments']:
@@ -101,7 +101,8 @@ def generate_team_data(teams_data, tournaments_data, players_data):
             "total_wins": wins,
             "total_losses": losses,
             "total_winrate": win_rate,
-            "tournaments_participated_in": tournaments_participated_in,
+            # change from dict to object:
+            "tournaments_participated_in": list(tournaments_participated_in.values()), 
             "home_region": home_region or "Unknown",
             "current_roster": current_roster,
             "elo_rating": team_rating,
