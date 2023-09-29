@@ -1,5 +1,5 @@
 const CompareTeams = () => {
-  const TableRow = ({
+  const StatTableRow = ({
     statName,
     teamOne,
     teamTwo,
@@ -10,7 +10,7 @@ const CompareTeams = () => {
   }) => {
     return (
       <tr>
-        <th className="px-6 py-4 text-sm leading-5 font-medium text-gray-900">
+        <th className="px-6 py-4 text-sm leading-5 font-bold text-gray-900">
           {statName}
         </th>
         <td className="px-6 py-4 text-sm leading-5 text-gray-900">{teamOne}</td>
@@ -19,27 +19,31 @@ const CompareTeams = () => {
     );
   };
 
+  const TeamTableHead = ({ teamName }: { teamName: string }) => {
+    return (
+      <th className="px-6 py-3 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
+        {teamName}
+      </th>
+    );
+  };
+
   return (
     <table className="min-w-full divide-y divide-gray-200">
       <thead>
         <tr>
           <th></th>
-          <th className="px-6 py-3 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
-            TEAM 1
-          </th>
-          <th className="px-6 py-3 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
-            TEAM 2
-          </th>
+          <TeamTableHead teamName="Team 1" />
+          <TeamTableHead teamName="Team 2" />
         </tr>
       </thead>
       <tbody className="bg-white divide-y divide-gray-200">
-        <TableRow statName="Average Kills" teamOne="5" teamTwo="6" />
-        <TableRow statName="Average Deaths" teamOne="5" teamTwo="6" />
-        <TableRow statName="Average Inhibs" teamOne="5" teamTwo="6" />
-        <TableRow statName="Total Wins" teamOne="5" teamTwo="6" />
-        <TableRow statName="Total Losses" teamOne="5" teamTwo="6" />
-        <TableRow statName="Tournaments Won" teamOne="5" teamTwo="6" />
-        <TableRow statName="Average Kills" teamOne="5" teamTwo="6" />
+        <StatTableRow statName="Average Kills" teamOne="5" teamTwo="6" />
+        <StatTableRow statName="Average Deaths" teamOne="5" teamTwo="6" />
+        <StatTableRow statName="Average Inhibs" teamOne="5" teamTwo="6" />
+        <StatTableRow statName="Total Wins" teamOne="5" teamTwo="6" />
+        <StatTableRow statName="Total Losses" teamOne="5" teamTwo="6" />
+        <StatTableRow statName="Tournaments Won" teamOne="5" teamTwo="6" />
+        <StatTableRow statName="Average Kills" teamOne="5" teamTwo="6" />
       </tbody>
     </table>
   );
