@@ -11,8 +11,8 @@ const QuickCompare = () => {
   const [teamOneInput, setTeamOneInput] = useState<string>('');
   const [teamTwoInput, setTeamTwoInput] = useState<string>('');
   const [teams, setTeams] = useState([]);
-  const [teamOneID, setTeamOneID] = useState<number>();
-  const [teamTwoID, setTeamTwoID] = useState<number>();
+  const [teamOneID, setTeamOneID] = useState<string>();
+  const [teamTwoID, setTeamTwoID] = useState<string>();
   const [resultsOne, setResultsOne] = useState<RankingType[]>([]);
   const [resultsTwo, setResultsTwo] = useState<RankingType[]>([]);
   const router = useRouter();
@@ -41,15 +41,18 @@ const QuickCompare = () => {
 
   const ResultOnClick = (
     value: string,
+    teamID: string,
     setTeamInput: Function,
-    setResults: Function
+    setResults: Function,
+    setTeamID: Function
   ) => {
     setTeamInput(value);
     setResults([]);
+    setTeamID(teamID);
   };
 
   const onCompare = () => {
-    //router.push(`/compare/${teamOneID}/${teamTwoID}`);
+    router.push(`/compare/${teamOneID}/${teamTwoID}`);
   };
 
   return (
@@ -91,7 +94,13 @@ const QuickCompare = () => {
               teamName={res.team_name}
               key={index}
               ResultOnClick={() =>
-                ResultOnClick(res.team_name, setTeamOneInput, setResultsOne)
+                ResultOnClick(
+                  res.team_name,
+                  res.team_id,
+                  setTeamOneInput,
+                  setResultsOne,
+                  setTeamOneID
+                )
               }
             />
           ))}
@@ -111,7 +120,13 @@ const QuickCompare = () => {
               teamName={res.team_name}
               key={index}
               ResultOnClick={() =>
-                ResultOnClick(res.team_name, setTeamTwoInput, setResultsTwo)
+                ResultOnClick(
+                  res.team_name,
+                  res.team_id,
+                  setTeamTwoInput,
+                  setResultsTwo,
+                  setTeamTwoID
+                )
               }
             />
           ))}
