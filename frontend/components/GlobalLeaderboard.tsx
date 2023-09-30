@@ -16,7 +16,6 @@ const GlobalLeaderboard = () => {
   const Paginate = useCallback(() => {
     const indexOfLastItem = currentPage * itemsPerPage;
     const indexOfFirstItem = indexOfLastItem - itemsPerPage;
-    console.log(indexOfFirstItem);
     setPaginatedData(sortedData.slice(indexOfFirstItem, indexOfLastItem));
   }, [currentPage, itemsPerPage, sortedData]);
 
@@ -28,6 +27,8 @@ const GlobalLeaderboard = () => {
     };
     sortDataIntoRankings();
   }, [sortedData.length, currentPage, data, Paginate]);
+
+  console.log(paginatedData);
 
   useEffect(() => {
     const getGlobalRanking = async () => {
@@ -59,7 +60,10 @@ const GlobalLeaderboard = () => {
           </div>
           <div className="mr-4">
             <h1> Region: {data.home_region}</h1>
-            <h1> Tournaments: {data.tournaments_participated_in.length}</h1>
+            <h1>
+              Tournaments:
+              {data.tournaments_participated_in.length}
+            </h1>
           </div>
         </div>
       </div>

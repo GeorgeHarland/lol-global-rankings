@@ -6,10 +6,10 @@ import defaultLogo from '@/images/defaultLogo.png';
 
 const TeamBasicStatsColumn = ({
   teamName,
-  globalRank,
-  championshipRating,
-  playerRating,
-  longevity,
+  teamCode,
+  rank,
+  eloRating,
+  enhancedRating,
   currentRoster,
   teamIconUrl,
 }: TeamType) => {
@@ -18,7 +18,7 @@ const TeamBasicStatsColumn = ({
     return currentRoster.map((player, idx) => (
       <li key={idx}>
         <Player
-          teamName={teamName}
+          playerID={player.playerId}
           playerName={player.summonerName}
           role={player.role}
         />
@@ -33,7 +33,7 @@ const TeamBasicStatsColumn = ({
         {teamIconUrl ? (
           <Image
             src={teamIconUrl}
-            alt={teamName}
+            alt={teamCode}
             width={150}
             height={200}
             className="absolute inset-0 -z-10 opacity-50"
@@ -41,17 +41,16 @@ const TeamBasicStatsColumn = ({
         ) : (
           <Image
             src={defaultLogo}
-            alt={teamName}
+            alt={teamCode}
             width={300}
             height={400}
             className="absolute inset-0 -z-10 opacity-50 -top-10"
           />
         )}
         <h2 className="text-center font-bold text-lg">{teamName}</h2>
-        <h4>Global Rank: {globalRank}</h4>
-        <h4>Championship Rating: {championshipRating}</h4>
-        <h4>Player Rating: {playerRating}</h4>
-        <h4>Longevity: {longevity}</h4>
+        <h4>Global Rank: {rank}</h4>
+        <h4>Enhanced Rating: {enhancedRating}</h4>
+        <h4>Elo Rating: {eloRating}</h4>
       </div>
       <div>
         <h2 className="text-center font-bold text-lg">Current Roster</h2>

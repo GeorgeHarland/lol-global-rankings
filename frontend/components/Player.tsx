@@ -1,17 +1,20 @@
 import Link from 'next/link';
 
 const Player = ({
-  teamName,
+  playerID,
   playerName,
   role,
 }: {
-  teamName: string;
+  playerID: string;
   playerName: string;
   role: string;
 }) => {
+  const capitalizeFirstLetter = (string: string) => {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+  };
   return (
-    <Link href={`${teamName}/${playerName}`}>
-      {playerName} - {role}
+    <Link href={`/players/${playerID}`}>
+      {playerName} - {capitalizeFirstLetter(role)}
     </Link>
   );
 };
