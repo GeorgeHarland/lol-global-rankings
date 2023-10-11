@@ -4,8 +4,6 @@ from glicko2 import Player
 
 INTERNATIONAL_WIN_SCALING = 1.3
 
-## Sort tournament data into a dataframe with winning team, losing team, and date (sorted by date).
-
 script_directory = os.path.dirname(os.path.abspath(__file__))
 tournaments_path = os.path.join(script_directory, '..', 'backend', 'esports-data', 'tournaments.json')
 leagues_path = os.path.join(script_directory, '..', 'backend', 'esports-data', 'leagues.json')
@@ -13,10 +11,10 @@ teams_path = os.path.join(script_directory, '..', 'backend', 'chalicelib', 'team
 
 with open(tournaments_path, 'r', encoding='utf-8') as f:
     tournaments = json.load(f)
-    
+
 with open(leagues_path, 'r', encoding='utf-8') as f:
     leagues = json.load(f)
-    
+
 with open(teams_path, 'r', encoding='utf-8') as f:
     teams = json.load(f)
 
@@ -58,25 +56,41 @@ for result in results:
 # .region initial ranking bias
 
 region_ratings = {
-  'KOREA': 1800,
-  'CHINA': 1750,
-  'EMEA': 1650,
-  'NORTH AMERICA': 1600,
-  'Unknown': 1500,
-  'default': 1500,
-  'no_games_played': 0
+    'KOREA': 1800,
+    'CHINA': 1750,
+    'EMEA': 1650,
+    'NORTH AMERICA': 1600,
+    'Unknown': 1500,
+    'default': 1500,
+    'no_games_played': 0
 }
 
-# team setup (get all unique teams)
+# Define a function to initialize ratings for a team
+def initialize_team_rating(team_id):
+    # If the team already has a rating, do nothing
+    if team_id in team_ratings:
+        return
 
-sorted_results = sorted(results, key=lambda x: x['startDate'])
-df = pd.DataFrame(sorted_results)
-df.head()
+    # Initialize the team with a default rating
+    initial_rating = region_ratings['default']
+    for team_data in teams:
+        if team_data['team_id'] == team_id:
+            home_region = team_data['home_region']
+            initial_rating = region_ratings.get(home_region, region_ratings['default'])
+            break
+    team_ratings[team_id] = Player(rating=initial_rating)
 
 team_ratings = {}
+
+# Initialize all unique teams
+sorted_results = sorted(results, key=lambda x: x['startDate'])
+df = pd.DataFrame(sorted_results)
 df_teams = pd.concat([df['winning_team_id'], df['losing_team_id']]).unique().tolist()
 team_data_ids = [team_data['team_id'] for team_data in teams]
 unique_teams = list(set(df_teams + team_data_ids))
+
+for team_id in unique_teams:
+    initialize_team_rating(team_id)
 
 # First, initialize all teams with default ratings
 for team_id in unique_teams:
@@ -91,36 +105,54 @@ for team_data in teams:
 
 # Work through the data
 
+historical_ratings = {team_id: [] for team_id in unique_teams}
+tournament_dict = {t['leagueId']: t for t in tournaments}
+
 for index, row in df.iterrows():
+    # Ensure teams are initialized before updating or retrieving ratings
+    initialize_team_rating(row['winning_team_id'])
+    initialize_team_rating(row['losing_team_id'])
+
+    # Store historical rating
+    historical_ratings[row['winning_team_id']].append(team_ratings[row['winning_team_id']].rating)
+    historical_ratings[row['losing_team_id']].append(team_ratings[row['losing_team_id']].rating)
+
     winning_team = team_ratings[row['winning_team_id']]
     losing_team = team_ratings[row['losing_team_id']]
+
+    # Get current tournament and stage
+    current_tournament = tournament_dict[row['league']]
+    stage_names = [s['slug'] for s in current_tournament['stages']]
+    if row['stage'] in stage_names:
+        stage_index = stage_names.index(row['stage'])
+    else:
+        stage_index = 0  # default value in case stage is not found
     
+    # Stage bias multiplier
+    stage_multiplier = 1 + 0.2 * (stage_index + 1)
+
     # Check if this game is international
     if row['region'] == 'INTERNATIONAL':
-        winning_team.update_player([losing_team.rating], [losing_team.rd], [1.0 * INTERNATIONAL_WIN_SCALING])
+        winning_team.update_player([losing_team.rating], [losing_team.rd], [1.0 * INTERNATIONAL_WIN_SCALING * stage_multiplier])
         losing_team.update_player([winning_team.rating], [winning_team.rd], [0.0])
     else:
-        winning_team.update_player([losing_team.rating], [losing_team.rd], [1.0])
+        winning_team.update_player([losing_team.rating], [losing_team.rd], [1.0 * stage_multiplier])
         losing_team.update_player([winning_team.rating], [winning_team.rd], [0.0])
-    
+
+    # Rating decay
+    for team in unique_teams:
+        initialize_team_rating(team)
+        team_ratings[team].setRating(team_ratings[team].rating * 0.999)
+
 # Display and save final results
-
-for team_id in unique_teams:
-    if team_id not in team_ratings:
-        team_ratings[team_id] = Player(rating=region_ratings['no_games_played']) 
-        
 sorted_teams = sorted(team_ratings.keys(), key=lambda x: team_ratings[x].rating, reverse=True)
-
 output_path = os.path.join(script_directory, '..', 'backend', 'ml-output', 'glicko_elo.json')
 
 if os.path.exists(output_path):
     os.remove(output_path)
-    
-# Create a list of dictionaries
-output_data = [{'team_id': team_id, 'rating': team_ratings[team_id].rating} for team_id in sorted_teams]
 
+output_data = [{'team_id': team_id, 'rating': team_ratings[team_id].rating} for team_id in sorted_teams]
 print('top team: ', output_data[0])
 
-# Dump this list to a JSON file
 with open(output_path, 'w') as outfile:
     json.dump(output_data, outfile, indent=2)
