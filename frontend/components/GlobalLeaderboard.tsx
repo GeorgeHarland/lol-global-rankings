@@ -73,7 +73,7 @@ const GlobalLeaderboard = () => {
   if (!paginatedData.length) return <div>Loading...</div>;
 
   return (
-    <div className="flex w-screen">
+    <div className="flex flex-col lg:flex-row w-screen">
       <div className="flex-1 p-4">
         <h2 className="mb-4 text-center font-bold text-3xl">
           Top {numberOfTeamsToFetch} Teams
