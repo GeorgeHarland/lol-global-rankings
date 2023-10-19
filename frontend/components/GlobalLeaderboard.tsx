@@ -1,6 +1,7 @@
 'use client';
-import Link from 'next/link';
+
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 import { useCallback, useEffect, useState } from 'react';
 import { getGlobalRankingsData } from '@/services/rankingServices';
 import QuickCompare from './QuickCompare';
@@ -14,6 +15,8 @@ const GlobalLeaderboard = () => {
   const [currentPage, setCurrentPage] = useState<number>(1);
   const [itemsPerPage, setItemsPerPage] = useState<number>(10);
   const [numberOfTeamsToFetch, setNumberOfTeamsToFetch] = useState<number>(50);
+
+  const router = useRouter();
 
   const Paginate = useCallback(() => {
     const indexOfLastItem = currentPage * itemsPerPage;
@@ -42,12 +45,13 @@ const GlobalLeaderboard = () => {
 
   const mappedData = () => {
     return paginatedData.map((data, index) => (
-      <div
+      <button
         key={index}
-        className="flex py-2 border-1 border-orange-800 rounded-3xl mb-4 bg-orange-800 items-center"
+        className="flex py-2 border-1 border-orange-800 rounded-3xl mb-4 bg-orange-800 items-center hover:bg-orange-700 hover:border-orange-700 w-full"
+        onClick={() => router.push(`/teams/${data.team_id}`)}
       >
         <h2 className="mx-4 self-center text-lg font-bold">{data.rank}.</h2>
-        <div className="w-12 h-12">
+        <div className="w-12 h-12 mx-2">
         {data.team_icon_url ? (
         <Image
             src={data.team_icon_url}
@@ -55,7 +59,6 @@ const GlobalLeaderboard = () => {
             width={40}
             height={30}
             layout='responsive'
-            className=""
         />
     ) : (
         <Image
@@ -63,32 +66,26 @@ const GlobalLeaderboard = () => {
             alt={data.team_code}
             width={60}
             height={90}
-            className="responsive"
-        />
-    )}</div>
-        <Link
-          className="hover:underline self-center mx-4"
-          href={`/teams/${data.team_id}`}
-        >
-          {data.team_name}
-        </Link>
-        <div className="flex ml-auto w-96">
-          <div className="mx-4">
-            <h1> Wins: {data.total_wins}</h1>
-            <h1> Losses: {data.total_losses}</h1>
-            <h1> Winrate: {(data.total_winrate * 100).toFixed(0)}%</h1>
+            layout="responsive"
+        />)}
+        </div>
+        <h1 className="self-center mx-4 flex-grow">{data.team_name}</h1>
+        <div className="flex w-96 justify-end">
+          <div className="w-1/2 text-right mr-8">
+            <h1>Enhanced Elo: {data.elo_rating.toFixed(0)}</h1>
+            <h1>Elo: {data.elo_rating.toFixed(0)}</h1>
+            <h1>Region: {data.home_region}</h1>
           </div>
-          <div className="mr-4">
-            <h1> Region: {data.home_region}</h1>
-            <h1>
-              Tournaments:
-              {data.tournaments_participated_in.length}
-            </h1>
+          <div className="w-1/2 text-right mr-8">
+            <h1>Winrate: {(data.total_winrate * 100).toFixed(0)}%</h1>
+            <h1>Total Wins: {data.total_wins}</h1>
+            <h1>Total Losses: {data.total_losses}</h1>
           </div>
         </div>
-      </div>
+      </button>
     ));
   };
+  
 
   if (!paginatedData.length) return <div>Loading...</div>;
 
@@ -96,7 +93,7 @@ const GlobalLeaderboard = () => {
     <div className="flex flex-col lg:flex-row w-screen">
       <div className="flex-1 p-4">
         <h2 className="mb-4 font-bold text-3xl">
-          Top {numberOfTeamsToFetch} Teams
+          Top Global Teams
         </h2>
         {mappedData()}
         <div className="flex gap-4">
@@ -121,7 +118,8 @@ const GlobalLeaderboard = () => {
           </button>
         </div>
       </div>
-      <div className="mx-36 mt-20">
+      <div className="mx-24 mt-12">
+      {/* <div className="flex flex-col w-full"> */}
         <QuickCompare />
       </div>
     </div>

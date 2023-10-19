@@ -34,6 +34,7 @@ export type RankingType = {
   tournaments_participated_in: Array<string>;
   home_region: string;
   current_roster: PlayerType[];
+  elo_rating: number;
   rank: number;
 };
 

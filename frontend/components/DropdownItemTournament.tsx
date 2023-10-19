@@ -12,7 +12,7 @@ const DropdownItemTournament = ({ title, content }: DropdownProps) => {
   return (
     <div className="mb-4">
       <h2
-        className="cursor-pointer hover:underline font-bold text-lg"
+        className="cursor-pointer hover:underline font-bold text-xl"
         onClick={() => setIsOpen(!isOpen)}
       >
         {title}

@@ -58,14 +58,14 @@ const QuickCompare = () => {
   return (
     <>
       <div className="flex flex-col">
-        <h2 className="font-bold text-xl">Find past tournament Rankings:</h2>
-        <h2 className="font-bold text-lg">Region:</h2>
+        <h2 className="font-bold text-2xl">Rankings by tournament: </h2>
+        <h2 className="font-bold text-lg">Filter Region:</h2>
         <select>
           {Object.entries(lolRegions).map(([region, fullRegionName]) => (
             <option key={region}>{fullRegionName}</option>
           ))}
         </select>
-        <h2 className="font-bold text-lg">Tournament:</h2>
+        <h2 className="font-bold text-lg">Filter Year:</h2>
         <select>
           {Object.entries(lolTournaments).map(
             ([tournament, tournamentName]) => (
@@ -73,12 +73,12 @@ const QuickCompare = () => {
             )
           )}
         </select>
-        <button className="mt-4 bg-orange-700 rounded-lg p-2 text-white hover:bg-orange-800">
+        <button className="mt-4 bg-orange-800 rounded-lg p-2 text-white hover:bg-orange-700">
           Find Rankings
         </button>
       </div>
       <div className="mt-6 flex flex-col">
-        <h2 className="font-bold text-2xl">Team Compare</h2>
+        <h2 className="font-bold text-2xl">Compare team stats:</h2>
         <h2 className="font-bold text-lg">Team 1: </h2>
 
         <input
@@ -132,7 +132,7 @@ const QuickCompare = () => {
           ))}
         </div>
         <button
-          className="mt-4 bg-orange-700 rounded-lg p-2 text-white hover:bg-orange-800"
+          className="mt-4 bg-orange-800 rounded-lg p-2 text-white hover:bg-orange-700"
           onClick={() => onCompare()}
         >
           Compare
