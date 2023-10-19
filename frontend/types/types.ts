@@ -27,6 +27,7 @@ export type RankingType = {
   team_code: string;
   team_name: string;
   team_icon_url: string;
+  team_thumbnail_url: string;
   total_wins: number;
   total_losses: number;
   total_winrate: number;

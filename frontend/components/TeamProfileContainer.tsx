@@ -31,7 +31,7 @@ const TeamProfileContainer = () => {
 
   return (
     <div className="m-4">
-      <div className="flex gap-6  ">
+      <div className="flex gap-48">
         <TeamBasicStatsColumn
           teamName={teamData.teamName}
           teamCode={teamData.teamCode}

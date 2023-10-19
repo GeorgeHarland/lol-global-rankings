@@ -98,6 +98,7 @@ def generate_team_data(teams_data, tournaments_data, players_data):
             "team_code": team["acronym"],
             "team_name": team["name"],
             "team_icon_url": get_team_logo_url(team["name"], team["acronym"]),
+            "team_thumbnail_url": get_team_thumbnail_url(team["name"], team["acronym"]),
             "total_wins": wins,
             "total_losses": losses,
             "total_winrate": win_rate,
@@ -143,6 +144,15 @@ def get_team_logo_url(team_name, team_code) -> str:
     for name in [team_name, team_code]:
         try:
             return leaguepedia_parser.get_team_logo(name)
+        except:
+            pass
+    return None
+
+def get_team_thumbnail_url(team_name, team_code) -> str:
+    # Attempt with team name -> team code -> set a string if both fail
+    for name in [team_name, team_code]:
+        try:
+            return leaguepedia_parser.get_team_thumbnail(name)
         except:
             pass
     return None

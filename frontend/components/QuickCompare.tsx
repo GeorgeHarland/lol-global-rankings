@@ -73,7 +73,7 @@ const QuickCompare = () => {
             )
           )}
         </select>
-        <button className="mt-4 bg-green-600 rounded-lg p-2 text-white hover:bg-green-800">
+        <button className="mt-4 bg-orange-700 rounded-lg p-2 text-white hover:bg-orange-800">
           Find Rankings
         </button>
       </div>
@@ -132,7 +132,7 @@ const QuickCompare = () => {
           ))}
         </div>
         <button
-          className="mt-4 bg-green-600 rounded-lg p-2 text-white hover:bg-green-800"
+          className="mt-4 bg-orange-700 rounded-lg p-2 text-white hover:bg-orange-800"
           onClick={() => onCompare()}
         >
           Compare

@@ -27,33 +27,32 @@ const TeamBasicStatsColumn = ({
   };
 
   return (
-    <div>
-      <div className="border-2 rounded-lg border-black p-4 relative">
-        {/* Doesnt look great I hate CSS */}
-        {teamIconUrl ? (
-          <Image
+    <div className="relative"> {/* Ensures children with absolute positioning are relative to this div */}
+    {teamIconUrl ? (
+        <Image
             src={teamIconUrl}
             alt={teamCode}
-            width={150}
-            height={200}
-            className="absolute inset-0 -z-10 opacity-50"
-          />
-        ) : (
-          <Image
+            width={300}
+            height={400}
+            className="absolute -z-10 opacity-50"
+        />
+    ) : (
+        <Image
             src={defaultLogo}
             alt={teamCode}
             width={300}
             height={400}
-            className="absolute inset-0 -z-10 opacity-50 -top-10"
-          />
-        )}
-        <h2 className="text-center font-bold text-lg">{teamName}</h2>
-        <h4>Global Rank: {rank}</h4>
-        <h4>Enhanced Rating: {enhancedRating}</h4>
-        <h4>Elo Rating: {eloRating}</h4>
+            className="absolute -z-10 opacity-50"
+        />
+    )}
+      <div className="relative">
+        <h2 className="font-bold text-xl pb-4">{teamName}</h2>
+        <h4 className="text-lg">Global Rank: {rank}</h4>
+        <h4 className="text-lg">Enhanced Rating: {enhancedRating}</h4>
+        <h4 className="text-lg">Elo Rating: {eloRating}</h4>
       </div>
       <div>
-        <h2 className="text-center font-bold text-lg">Current Roster</h2>
+        <h2 className="text-center font-bold text-lg pt-4">Current Roster</h2>
         {currentRoster?.length ? (
           <ul>{currentRosterMap()}</ul>
         ) : (
