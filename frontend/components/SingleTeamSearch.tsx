@@ -11,6 +11,7 @@ const SingleTeamSearch = () => {
   const [teamResults, setTeamResults] = useState<RankingType[]>([]);
   const [teams, setTeams] = useState([]);
   const [teamID, setTeamID] = useState('');
+  const [showLoading, setShowLoading] = useState(false)
   const router = useRouter();
 
   useEffect(() => {
@@ -40,20 +41,23 @@ const SingleTeamSearch = () => {
     setTeamName(value);
     setTeamResults([]);
     setTeamID(teamID);
+    setShowLoading(true);
     router.push(`/teams/${teamID}`);
   };
   return (
     <div className="flex flex-col items-center">
       <input
         type="search"
-        value={teamName}
+        value={teamName || undefined}
         onChange={(e) => handleOnChange(e)}
-        className="outline-none pl-1 py-2 text-black rounded-lg w-1/4 text-center bg-gray-400 "
+        className="outline-none pl-1 py-2 text-black rounded-lg w-1/4 text-center bg-orange-300"
+        placeholder="Search for a team"
       />
       <SearchResultContainer
         results={teamResults}
         resultFunction={resultOnClick}
       />
+      {showLoading ? <div className="mt-2 text-lg">Loading...</div> : null}
     </div>
   );
 };
