@@ -79,16 +79,39 @@ def generate_team_data(teams_data, tournaments_data, players_data):
             if home_region:
                 break
             
-        for index, elo_team in enumerate(elo_data):
-            if elo_team['team_id'] == team['team_id']:
-                team_rating = elo_team['rating']
-                team_ranking = index + 1
+        # Extract all team_ids from elo_data
+        elo_team_ids = [elo_team['team_id'] for elo_team in elo_data]
+
+        # Default values
+        team_rating = 1500
+        team_ranking = 0
+
+        if team_id in elo_team_ids:
+            elo_teams_sorted = sorted(elo_data, key=lambda x: x['rating'], reverse=True)
+            last_rating = None
+            rank_offset = 1
+            for elo_team in elo_teams_sorted:
+                if elo_team['rating'] == last_rating:
+                    rank_offset += 1
+                else:
+                    team_ranking += rank_offset
+                    rank_offset = 1
+                if elo_team['team_id'] == team['team_id']:
+                    team_rating = elo_team['rating']
+                    break
+                last_rating = elo_team['rating']
+        else:
+            # If the team is not in elo_teams, calculate its rank based on the default rating
+            team_ranking = sum(1 for elo_team in elo_teams_sorted if elo_team['rating'] > team_rating)
+
                 
         current_roster = [
             {
                 "player_id": player["player_id"],
                 "summoner_name": player["handle"],
-                "role": player_roles.get(player["player_id"], "None")
+                "role": player_roles.get(player["player_id"], "None"),
+                "first_name": player["first_name"],
+                "last_name": player["last_name"]
             }
             for player in players_data if player["home_team_id"] == team_id
         ]

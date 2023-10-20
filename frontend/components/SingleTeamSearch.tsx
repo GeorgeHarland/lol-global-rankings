@@ -11,7 +11,7 @@ const SingleTeamSearch = () => {
   const [teamResults, setTeamResults] = useState<RankingType[]>([]);
   const [teams, setTeams] = useState([]);
   const [teamID, setTeamID] = useState('');
-  const [showLoading, setShowLoading] = useState(false)
+  const [showLoading, setShowLoading] = useState(false);
   const router = useRouter();
 
   useEffect(() => {
@@ -50,7 +50,7 @@ const SingleTeamSearch = () => {
         type="search"
         value={teamName || undefined}
         onChange={(e) => handleOnChange(e)}
-        className="outline-none pl-1 py-2 text-black rounded-lg w-1/4 text-center bg-orange-300"
+        className="outline-none pl-1 py-2 text-black rounded-lg w-1/4 text-center bg-white"
         placeholder="Search for a team"
       />
       <SearchResultContainer

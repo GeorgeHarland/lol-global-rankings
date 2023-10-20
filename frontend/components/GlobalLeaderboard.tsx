@@ -52,22 +52,23 @@ const GlobalLeaderboard = () => {
       >
         <h2 className="mx-4 self-center text-lg font-bold">{data.rank}.</h2>
         <div className="w-12 h-12 mx-2">
-        {data.team_icon_url ? (
-        <Image
-            src={data.team_icon_url}
-            alt={data.team_code}
-            width={40}
-            height={30}
-            layout='responsive'
-        />
-    ) : (
-        <Image
-            src={defaultLogo}
-            alt={data.team_code}
-            width={60}
-            height={90}
-            layout="responsive"
-        />)}
+          {data.team_icon_url ? (
+            <Image
+              src={data.team_icon_url}
+              alt={data.team_code}
+              width={40}
+              height={30}
+              layout="responsive"
+            />
+          ) : (
+            <Image
+              src={defaultLogo}
+              alt={data.team_code}
+              width={60}
+              height={90}
+              layout="responsive"
+            />
+          )}
         </div>
         <h1 className="self-center mx-4 flex-grow">{data.team_name}</h1>
         <div className="flex w-96 justify-end">
@@ -85,16 +86,13 @@ const GlobalLeaderboard = () => {
       </button>
     ));
   };
-  
 
   if (!paginatedData.length) return <div>Loading...</div>;
 
   return (
     <div className="flex flex-col lg:flex-row w-screen">
       <div className="flex-1 p-4">
-        <h2 className="mb-4 font-bold text-3xl">
-          Top Global Teams
-        </h2>
+        <h2 className="mb-4 font-bold text-3xl">Top Global Teams</h2>
         {mappedData()}
         <div className="flex gap-4">
           <button
@@ -119,7 +117,7 @@ const GlobalLeaderboard = () => {
         </div>
       </div>
       <div className="mx-24 mt-12">
-      {/* <div className="flex flex-col w-full"> */}
+        {/* <div className="flex flex-col w-full"> */}
         <QuickCompare />
       </div>
     </div>

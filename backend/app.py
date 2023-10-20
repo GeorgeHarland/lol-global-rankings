@@ -6,12 +6,16 @@ app = Chalice(app_name='blue-buff-lambdas')
 script_directory = os.path.dirname(os.path.abspath(__file__))
 
 teams_data_path = os.path.join(script_directory, 'chalicelib', 'teams_data.json')
-with open(teams_data_path, 'r') as f:
+with open(teams_data_path, 'r', encoding="utf-8") as f:
     teams_data = json.load(f)
 
 rankings_data_path = os.path.join(script_directory, 'chalicelib', 'rankings_data.json')
-with open(rankings_data_path, 'r') as f:
+with open(rankings_data_path, 'r', encoding="utf-8") as f:
     rankings_data = json.load(f)
+    
+players_data_path = os.path.join(script_directory, 'chalicelib', 'players.json')
+with open(players_data_path, 'r', encoding="utf-8") as f:
+    players_data = json.load(f)
 
 @app.route('/teams', methods=['GET'], cors=True)
 @app.route('/teams/{team_id}', methods=['GET'], cors=True)
@@ -22,6 +26,16 @@ def get_team_data(team_id = ''):
         if team['team_id'] == team_id:
             return team
     return {"error": "Team not found"}
+
+@app.route('/players', methods=['GET'], cors=True)
+@app.route('/players/{player_id}', methods=['GET'], cors=True)
+def get_team_data(player_id = ''):
+    if not player_id:
+        return players_data
+    for player in players_data:
+        if player['player_id'] == player_id:
+            return player
+    return {"error": "Player not found"}
 
 @app.route('/global_rankings', methods=['GET'], cors=True)
 def get_global_rankings():

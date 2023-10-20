@@ -25,8 +25,6 @@ const TeamProfileContainer = () => {
     GetTeamData();
   }, [teamID]);
 
-  console.log(teamData);
-
   if (!teamData) return <div>Loading...</div>;
 
   return (

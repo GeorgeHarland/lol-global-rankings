@@ -4,14 +4,14 @@ import Player from './Player';
 import Image from 'next/image';
 import defaultLogo from '@/images/defaultLogo.png';
 
-const roleOrder: {[key: string]: number} = {
-  'top': 1,
-  'jungle': 2,
-  'mid': 3,
-  'bottom': 4,
-  'support': 5,
-  'None': 6,
-  'none': 7
+const roleOrder: { [key: string]: number } = {
+  top: 1,
+  jungle: 2,
+  mid: 3,
+  bottom: 4,
+  support: 5,
+  None: 6,
+  none: 7,
 };
 
 const TeamBasicStatsColumn = ({
@@ -32,7 +32,7 @@ const TeamBasicStatsColumn = ({
       }
       return roleOrder[a.role] - roleOrder[b.role];
     });
-    
+
     return currentRoster.map((player, idx) => (
       <li key={idx} className="mt-2">
         <Player
@@ -46,23 +46,23 @@ const TeamBasicStatsColumn = ({
 
   return (
     <>
-    {teamIconUrl ? (
-      <Image
+      {teamIconUrl ? (
+        <Image
           src={teamIconUrl}
           alt={teamCode}
           width={400}
           height={600}
           className="absolute -z-10 opacity-30"
-      />
-  ) : (
-      <Image
+        />
+      ) : (
+        <Image
           src={defaultLogo}
           alt={teamCode}
           width={400}
           height={600}
           className="absolute -z-10 opacity-50"
-      />
-  )}
+        />
+      )}
       <div className="relative">
         <h2 className="font-bold text-xl pb-4">{teamName}</h2>
         <h4 className="text-lg">Global Rank: {rank}</h4>
@@ -75,7 +75,7 @@ const TeamBasicStatsColumn = ({
           <div>No players found on roster</div>
         )}
       </div>
-      </>
+    </>
   );
 };
 

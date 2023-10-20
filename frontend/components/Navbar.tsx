@@ -8,19 +8,19 @@ const Navbar = () => {
           Global Leaderboard
         </p>
       </Link>
-      <Link href="/worlds">
+      {/* <Link href="/worlds">
         <p className="transition-transform transform-gpu hover:scale-105 hover:opacity-80 text-2xl font-semibold font-sans tracking-wide hover:text-gray-400 divider">
           Worlds 2023
         </p>
-      </Link>
+      </Link> */}
       <Link href="/teams">
         <p className="transition-transform transform-gpu hover:scale-105 hover:opacity-80 text-2xl font-semibold font-sans tracking-wide hover:text-gray-400 divider">
-          Teams
+          Search
         </p>
       </Link>
       <Link href="/compare">
         <p className="transition-transform transform-gpu hover:scale-105 hover:opacity-80 text-2xl font-semibold font-sans tracking-wide hover:text-gray-400 divider">
-          Compare Teams
+          Compare
         </p>
       </Link>
       <Link href="/about">
