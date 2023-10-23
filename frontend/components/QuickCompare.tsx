@@ -1,5 +1,6 @@
-'use client';
-import { useEffect, useState } from 'react';
+'use client'
+
+import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import SearchResult from './SearchResult';
 import { getTeamData } from '@/services/teamServices';
@@ -8,13 +9,10 @@ import { teamFilter } from '@/utils';
 import { RankingType } from '@/types/types';
 
 const QuickCompare = () => {
-  const [teamOneInput, setTeamOneInput] = useState<string>('');
-  const [teamTwoInput, setTeamTwoInput] = useState<string>('');
+  const [teamInputs, setTeamInputs] = useState<string[]>(['', '']);
   const [teams, setTeams] = useState([]);
-  const [teamOneID, setTeamOneID] = useState<string>();
-  const [teamTwoID, setTeamTwoID] = useState<string>();
-  const [resultsOne, setResultsOne] = useState<RankingType[]>([]);
-  const [resultsTwo, setResultsTwo] = useState<RankingType[]>([]);
+  const [teamIDs, setTeamIDs] = useState<string[]>([]);
+  const [results, setResults] = useState<RankingType[][]>([[], []]);
   const router = useRouter();
 
   useEffect(() => {
@@ -25,39 +23,47 @@ const QuickCompare = () => {
     getTeams();
   }, []);
 
-  const handleInput = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const input = e.target.value.toLowerCase();
-    const isTeamOneInput = e.target.name === 'teamOneInput';
+  const handleInput = (index: number, e: React.ChangeEvent<HTMLInputElement>) => {
+    const updatedInputs = [...teamInputs];
+    updatedInputs[index] = e.target.value.toLowerCase();
+    setTeamInputs(updatedInputs);
 
-    const setInputFunction = isTeamOneInput ? setTeamOneInput : setTeamTwoInput;
-    const setResultsFunction = isTeamOneInput ? setResultsOne : setResultsTwo;
-
-    setInputFunction(input);
-
-    const results = teamFilter(teams, input);
-
-    setResultsFunction(input ? results : []);
+    const filteredResults = teamFilter(teams, updatedInputs[index]);
+    const updatedResults = [...results];
+    updatedResults[index] = updatedInputs[index] ? filteredResults : [];
+    setResults(updatedResults);
   };
 
   const ResultOnClick = (
+    index: number,
     value: string,
-    teamID: string,
-    setTeamInput: Function,
-    setResults: Function,
-    setTeamID: Function
+    teamID: string
   ) => {
-    setTeamInput(value);
-    setResults([]);
-    setTeamID(teamID);
+    const updatedInputs = [...teamInputs];
+    updatedInputs[index] = value;
+    setTeamInputs(updatedInputs);
+
+    const updatedResults = [...results];
+    updatedResults[index] = [];
+    setResults(updatedResults);
+
+    const updatedTeamIDs = [...teamIDs];
+    updatedTeamIDs[index] = teamID;
+    setTeamIDs(updatedTeamIDs);
   };
 
   const onCompare = () => {
-    router.push(`/compare/${teamOneID}/${teamTwoID}`);
+    router.push(`/compare/${teamIDs.join('/')}`);
   };
 
-  return (
-    <>
-      <div className="flex flex-col">
+  const addTeam = () => {
+    setTeamInputs([...teamInputs, '']);
+    setTeamIDs([...teamIDs, '']);
+    setResults([...results, []]);
+  };
+
+  return (<>
+    <div className="flex flex-col">
         <h2 className="font-bold text-2xl">Rankings by tournament: </h2>
         <h2 className="font-bold text-lg">Filter Region:</h2>
         <select>
@@ -77,69 +83,37 @@ const QuickCompare = () => {
           Find Rankings
         </button>
       </div>
-      <div className="mt-6 flex flex-col">
-        <h2 className="font-bold text-2xl">Compare team stats:</h2>
-        <h2 className="font-bold text-lg">Team 1: </h2>
-
-        <input
-          type="search"
-          value={teamOneInput}
-          onChange={(e) => handleInput(e)}
-          name="teamOneInput"
-          className="outline-none pl-1 text-black"
-        />
-        <div className="max-h-96 overflow-y-scroll bg-white text-black  shadow-inner">
-          {resultsOne.map((res, index) => (
-            <SearchResult
-              teamName={res.team_name}
-              key={index}
-              ResultOnClick={() =>
-                ResultOnClick(
-                  res.team_name,
-                  res.team_id,
-                  setTeamOneInput,
-                  setResultsOne,
-                  setTeamOneID
-                )
-              }
-            />
-          ))}
+    <div className="mt-6 flex flex-col">
+      <h2 className="font-bold text-2xl">Compare team stats:</h2>
+      {teamInputs.map((teamInput, index) => (
+        <div key={index}>
+          <h2 className="font-bold text-lg">Team {index + 1}: </h2>
+          <input
+            type="search"
+            value={teamInput}
+            onChange={(e) => handleInput(index, e)}
+            className="outline-none pl-1 text-black"
+          />
+          <div className="max-h-96 overflow-y-scroll bg-white text-black  shadow-inner">
+            {results[index].map((res, idx) => (
+              <SearchResult
+                teamName={res.team_name}
+                key={idx}
+                ResultOnClick={() => ResultOnClick(index, res.team_name, res.team_id)}
+              />
+            ))}
+          </div>
         </div>
-        <h2 className="font-bold text-lg">Team 2: </h2>
-
-        <input
-          type="search"
-          value={teamTwoInput}
-          onChange={(e) => handleInput(e)}
-          name="teamTwoInput"
-          className="outline-none pl-1 text-black"
-        />
-        <div className="max-h-96 overflow-y-scroll bg-white text-black  shadow-inner">
-          {resultsTwo.map((res, index) => (
-            <SearchResult
-              teamName={res.team_name}
-              key={index}
-              ResultOnClick={() =>
-                ResultOnClick(
-                  res.team_name,
-                  res.team_id,
-                  setTeamTwoInput,
-                  setResultsTwo,
-                  setTeamTwoID
-                )
-              }
-            />
-          ))}
-        </div>
-        <button
-          className="mt-4 bg-orange-800 rounded-lg p-2 text-white hover:bg-orange-700"
-          onClick={() => onCompare()}
-        >
-          Compare
-        </button>
-      </div>
-    </>
+      ))}
+      <button className="mt-4 bg-orange-800 rounded-lg p-2 text-white hover:bg-orange-700" onClick={addTeam}>
+        + Add Team
+      </button>
+      <button className="mt-4 bg-orange-800 rounded-lg p-2 text-white hover:bg-orange-700" onClick={() => onCompare()}>
+        Compare
+      </button>
+    </div></>
   );
 };
 
 export default QuickCompare;
+
