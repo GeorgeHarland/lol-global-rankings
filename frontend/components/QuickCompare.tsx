@@ -62,6 +62,12 @@ const QuickCompare = () => {
     setResults([...results, []]);
   };
 
+  const removeTeam = (index: number) => {
+    setTeamInputs(teamInputs.filter((_, idx) => idx !== index));
+    setTeamIDs(teamIDs.filter((_, idx) => idx !== index));
+    setResults(results.filter((_, idx) => idx !== index));
+  }
+
   return (<>
     <div className="flex flex-col">
         <h2 className="font-bold text-2xl">Rankings by tournament: </h2>
@@ -88,13 +94,14 @@ const QuickCompare = () => {
       {teamInputs.map((teamInput, index) => (
         <div key={index}>
           <h2 className="font-bold text-lg">Team {index + 1}: </h2>
+          <div className="flex justify-between">
           <input
             type="search"
             value={teamInput}
             onChange={(e) => handleInput(index, e)}
-            className="outline-none pl-1 text-black"
-          />
-          <div className="max-h-96 overflow-y-scroll bg-white text-black  shadow-inner">
+            className="outline-none pl-8 text-black"
+          /><button className="max-h-12 w-6 h-6 bg-slate-500 text-white shadow-inner rounded-md" onClick={() => removeTeam(index)}>🗑</button></div>
+          <div className="max-h-12 overflow-y-scroll bg-white text-black shadow-inner">
             {results[index].map((res, idx) => (
               <SearchResult
                 teamName={res.team_name}
@@ -116,4 +123,3 @@ const QuickCompare = () => {
 };
 
 export default QuickCompare;
-
