@@ -53,7 +53,8 @@ const QuickCompare = () => {
   };
 
   const onCompare = () => {
-    router.push(`/compare/${teamIDs.join('/')}`);
+    const teamsQuery = teamIDs.map(id => `teams=${id}`).join('&');
+    router.push(`/compare?${teamsQuery}`);
   };
 
   const addTeam = () => {
